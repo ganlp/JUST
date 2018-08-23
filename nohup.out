@@ -1,0 +1,52 @@
+[31/May/2018 10:12:47] "GET /admin/ HTTP/1.1" 302 0
+[31/May/2018 10:12:47] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 10:12:47] "GET /static/suit/css/suit.css HTTP/1.1" 304 0
+[31/May/2018 10:12:47] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 304 0
+[31/May/2018 10:12:47] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[31/May/2018 10:12:47] "GET /static/suit/js/suit.js HTTP/1.1" 304 0
+[31/May/2018 10:13:08] "GET / HTTP/1.1" 200 1774
+Not Found: /favicon.ico
+[31/May/2018 10:13:08] "GET /favicon.ico HTTP/1.1" 404 1938
+[31/May/2018 10:13:12] "GET /admin/ HTTP/1.1" 302 0
+[31/May/2018 10:13:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 10:43:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+Not Found: /favicon.ico
+[31/May/2018 10:47:18] "GET /favicon.ico HTTP/1.1" 404 1938
+[31/May/2018 11:29:15] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4306
+[31/May/2018 15:36:47] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/May/2018 15:36:47] "GET /admin/ HTTP/1.1" 200 5873
+[31/May/2018 15:36:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[31/May/2018 15:37:18] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[31/May/2018 15:39:39] "GET /admin/logout/ HTTP/1.1" 200 3770
+[31/May/2018 16:01:46] "GET /admin/logout/ HTTP/1.1" 302 0
+[31/May/2018 16:01:46] "GET /admin/ HTTP/1.1" 302 0
+[31/May/2018 16:01:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 16:03:50] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 16:03:50] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 16:03:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+[31/May/2018 16:03:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4139
+Not Found: /
+[05/Jun/2018 16:34:56] "GET / HTTP/1.1" 404 1924
+Not Found: /favicon.ico
+[05/Jun/2018 16:34:56] "GET /favicon.ico HTTP/1.1" 404 1975
+[05/Jun/2018 16:35:00] "GET /admin/ HTTP/1.1" 200 9037
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:00] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:01] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:01] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[05/Jun/2018 16:35:02] "GET /admin/ HTTP/1.1" 200 9037
+[05/Jun/2018 16:35:02] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0

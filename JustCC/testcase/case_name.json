@@ -1,0 +1,98 @@
+[
+    {
+        "firstclass": "登录",
+        "secondclass": [
+            {
+                "name": "静态登录",
+                "id": "staticlogin",
+                "case": [
+                    {
+                        "id": "test_static_login",
+                        "name": "静态登录"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstclass": "组织机构",
+        "secondclass": [
+            {
+                "name": "部门管理",
+                "id": "depart",
+                "case": [
+                    {
+                        "id": "test_depart_add",
+                        "name": "添加部门"
+                    },
+                    {
+                        "id": "test_depart_del",
+                        "name": "删除部门"
+                    }
+                ]
+            },
+            {
+                "name": "用户管理",
+                "id": "user",
+                "case": [
+                    {
+                        "id": "test_user_add",
+                        "name": "添加用户"
+                    },
+                    {
+                        "id": "test_user_del",
+                        "name": "删除用户"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstclass": "组织机构",
+        "secondclass": [
+            {
+                "name": "部门管理",
+                "id": "depart",
+                "case": [
+                    {
+                        "id": "test_depart_add",
+                        "name": "添加部门"
+                    },
+                    {
+                        "id": "test_depart_del",
+                        "name": "删除部门"
+                    }
+                ]
+            },
+            {
+                "name": "用户管理",
+                "id": "user",
+                "case": [
+                    {
+                        "id": "test_user_add",
+                        "name": "添加用户"
+                    },
+                    {
+                        "id": "test_user_del",
+                        "name": "删除用户"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstclass": "话务管理",
+        "secondclass": [
+            {
+                "name": "话务条",
+                "id": "toolbar",
+                "case": [
+                    {
+                        "id": "test_quick_call",
+                        "name": "快速拨号"
+                    }
+                ]
+            }
+        ]
+    }
+]

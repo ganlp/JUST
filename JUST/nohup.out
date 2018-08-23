@@ -1,0 +1,22 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 02:13:34
+Django version 1.10.3, using settings 'JUST.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[24/May/2018 02:13:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1653
+[24/May/2018 02:13:55] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[24/May/2018 02:13:55] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[24/May/2018 02:13:55] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/May/2018 02:13:55] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/May/2018 02:13:55] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+Not Found: /favicon.ico
+[24/May/2018 02:13:55] "GET /favicon.ico HTTP/1.1" 404 1938
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 02:13:45
+Django version 1.10.3, using settings 'JUST.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.

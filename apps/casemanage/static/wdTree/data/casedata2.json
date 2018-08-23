@@ -1,0 +1,44 @@
+[
+    {
+        "case": [
+            {
+                "id": "test_static_login"
+            }
+        ],
+        "filename": "test_1_login_staticlogin",
+        "class": "Login"
+    },
+    {
+        "case": [
+            {
+                "id": "test_depart_add"
+            },
+            {
+                "id": "test_depart_del"
+            }
+        ],
+        "filename": "test_2_organize_depart",
+        "class": "TestDepart"
+    },
+    {
+        "case": [
+            {
+                "id": "test_user_add"
+            },
+            {
+                "id": "test_user_del"
+            }
+        ],
+        "filename": "test_3_organize_user",
+        "class": "TestUser"
+    },
+    {
+        "case": [
+            {
+                "id": "test_quick_call"
+            }
+        ],
+        "filename": "test_4_call_toolbar",
+        "class": "TestToolbar"
+    }
+]

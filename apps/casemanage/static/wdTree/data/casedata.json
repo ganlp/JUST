@@ -1,0 +1,23 @@
+[
+    {
+        "filename":"test_1_login_staticlogin",
+        "class":"Login",
+        "case":[
+            {
+                "id": "test_static_login"
+            }
+            ]
+    },
+    {
+        "filename":"test_2_organize_depart",
+        "class":"TestDepart",
+        "case":[
+            {
+                "id": "test_depart_add"
+            },
+              {
+                "id": "test_depart_del"
+            }
+            ]
+    }
+]
