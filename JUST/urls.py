@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^admin/',xadmin.site.urls),
     url(r'^docs/',get_schema_view()),
     url(r'^api/getjson',views.test_api,name='test_api'),
+    url(r'^api/read_log',views.read_log,name='read_log'),
 ]

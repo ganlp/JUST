@@ -9,7 +9,7 @@ from time import sleep
 
 class TestUser(mytest.MyTest):
     """用户测试"""
-    def atest_user_add(self):#添加用户##
+    def test_user_add(self):#添加用户##
         """添加用户"""
         self.login_with_cookie()
         user_page=userPage.UserPage(self.dr)

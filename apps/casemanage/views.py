@@ -32,7 +32,7 @@ def test_api(request):
                 i+=cnt
                 json_list.append(json_dict)
         json_str = json.dumps(json_list,ensure_ascii=False,indent=4)
-        print(globalparam.case_path+"\\"+"casedata2.json")
+  #      print(globalparam.case_path+"\\"+"casedata2.json")
         with open(globalparam.json_path+"\\"+"casedata2.json", 'w',encoding='utf-8') as json_file:
             json_file.write(json_str)
      #   print(json_str)
@@ -46,8 +46,22 @@ def test_api(request):
         print("not found data param")
     return JsonResponse({"result": 0, "msg": "执行成功"})
 
+@csrf_exempt
+def read_log(request):
+    dirs = os.listdir(globalparam.log_path)
+    dirs.sort()
+    logname = dirs[-1]
+    print(globalparam.log_path+"\\"+logname)
+    with open(globalparam.log_path+"\\"+logname,'r',encoding='utf-8') as f:
+         lines=f.readlines()[-5:]
+    print(lines)
+    context={"data":lines}
+    return JsonResponse(context)
 
 class testView(BaseAdminView):
     def get(self,request,*args,**kwargs):
         return render(request, 'case_view.html') #,{'data':data}
        # return HttpResponse("Hello Django!")
+
+if __name__=='__main__':
+    read_log()

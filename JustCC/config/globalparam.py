@@ -21,7 +21,7 @@ report_path = os.path.join(prj_path, 'JustCC','report', 'testreport')
 # 默认浏览器
 browser = 'Chrome'
 #默认服务器地址
-server_addr="http://192.168.18.171"
+server_addr="http://192.168.18.172"
 
 # 测试数据路径
 data_path = os.path.join(prj_path,'JustCC', 'data', 'testdata')
