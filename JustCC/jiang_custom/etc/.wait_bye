@@ -1,0 +1,18 @@
+
+    <recv request="BYE"/>
+
+    <send>
+        <![CDATA[
+            SIP/2.0 200 OK
+            [last_Via:]
+            [last_From:]
+            [last_To:]
+            [last_Call-ID:]
+            [last_CSeq:]
+            Server: I am 801
+            Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH
+            Supported: replaces, timer
+            Content-Length: [len]
+        ]]>
+    </send>
+

@@ -1,0 +1,236 @@
+2018-09-03 09:59:32,898 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.85933518409729 seconds
+2018-09-03 09:59:34,577 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.6790962219238281 seconds
+2018-09-03 09:59:35,720 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1400651931762695 seconds
+2018-09-03 09:59:35,723 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 09:59:36,029 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.30501723289489746 seconds
+2018-09-03 09:59:36,171 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.13800787925720215 seconds
+2018-09-03 09:59:36,174 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 09:59:36,275 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.1020057201385498 seconds
+2018-09-03 09:59:36,277 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 09:59:46,657 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3670210838317871 seconds
+2018-09-03 09:59:48,665 - root - INFO - ############################### START ###############################
+2018-09-03 09:59:54,107 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.442311525344849 seconds
+2018-09-03 09:59:55,425 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.317075252532959 seconds
+2018-09-03 09:59:55,431 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.006000041961669922 seconds
+2018-09-03 09:59:58,666 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2230699062347412 seconds
+2018-09-03 09:59:58,682 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 09:59:58,825 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.1410081386566162 seconds
+2018-09-03 09:59:58,982 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.15700912475585938 seconds
+2018-09-03 09:59:58,985 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 09:59:59,145 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.16200900077819824 seconds
+2018-09-03 09:59:59,150 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.00500035285949707 seconds
+2018-09-03 10:00:09,536 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.36002039909362793 seconds
+2018-09-03 10:00:11,546 - root - INFO - SUCCESS    Get current window title, Spend 0.008000612258911133 seconds
+2018-09-03 10:00:14,739 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1911826133728027 seconds
+2018-09-03 10:00:14,740 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:00:17,877 - root - INFO - 发送邮件成功
+2018-09-03 10:11:06,978 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.861278295516968 seconds
+2018-09-03 10:11:07,901 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 0.9210526943206787 seconds
+2018-09-03 10:11:09,018 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1140637397766113 seconds
+2018-09-03 10:11:09,019 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:11:09,111 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.09200525283813477 seconds
+2018-09-03 10:11:09,182 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.07100391387939453 seconds
+2018-09-03 10:11:09,183 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:11:09,251 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.06900405883789062 seconds
+2018-09-03 10:11:09,252 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:11:19,593 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3350193500518799 seconds
+2018-09-03 10:11:21,601 - root - INFO - ############################### START ###############################
+2018-09-03 10:11:26,635 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.034287929534912 seconds
+2018-09-03 10:11:28,475 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.8401055335998535 seconds
+2018-09-03 10:11:28,476 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0 seconds
+2018-09-03 10:11:31,596 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1190638542175293 seconds
+2018-09-03 10:11:31,605 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:11:31,699 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.09400510787963867 seconds
+2018-09-03 10:11:31,773 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.0740041732788086 seconds
+2018-09-03 10:11:31,775 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2018-09-03 10:11:31,880 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.10600614547729492 seconds
+2018-09-03 10:11:31,881 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:11:42,208 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3200185298919678 seconds
+2018-09-03 10:11:44,212 - root - INFO - SUCCESS    Get current window title, Spend 0.004000186920166016 seconds
+2018-09-03 10:11:47,243 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0301735401153564 seconds
+2018-09-03 10:11:47,243 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:11:50,312 - root - INFO - 发送邮件成功
+2018-09-03 10:28:27,722 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.843276739120483 seconds
+2018-09-03 10:28:28,972 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.2470712661743164 seconds
+2018-09-03 10:28:30,100 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1260643005371094 seconds
+2018-09-03 10:28:30,101 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:28:30,196 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.09500527381896973 seconds
+2018-09-03 10:28:30,283 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.08500504493713379 seconds
+2018-09-03 10:28:30,284 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2018-09-03 10:28:30,353 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07000398635864258 seconds
+2018-09-03 10:28:30,356 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:28:40,947 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.5860335826873779 seconds
+2018-09-03 10:28:42,952 - root - INFO - ############################### START ###############################
+2018-09-03 10:28:47,755 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.80127477645874 seconds
+2018-09-03 10:28:48,925 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1700665950775146 seconds
+2018-09-03 10:28:48,926 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:28:52,042 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1150639057159424 seconds
+2018-09-03 10:28:52,052 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:28:52,145 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.09300518035888672 seconds
+2018-09-03 10:28:52,220 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.07500410079956055 seconds
+2018-09-03 10:28:52,221 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2018-09-03 10:28:52,287 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.06700396537780762 seconds
+2018-09-03 10:28:52,289 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:29:02,622 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3300189971923828 seconds
+2018-09-03 10:29:04,627 - root - INFO - SUCCESS    Get current window title, Spend 0.004000425338745117 seconds
+2018-09-03 10:29:07,718 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.091176748275757 seconds
+2018-09-03 10:29:07,719 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:29:10,887 - root - INFO - 发送邮件成功
+2018-09-03 10:38:49,074 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.876278877258301 seconds
+2018-09-03 10:38:50,606 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.532087802886963 seconds
+2018-09-03 10:38:51,727 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1200640201568604 seconds
+2018-09-03 10:38:51,728 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:38:51,822 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.09300541877746582 seconds
+2018-09-03 10:38:51,899 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.0760042667388916 seconds
+2018-09-03 10:38:51,900 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:38:51,982 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.08300471305847168 seconds
+2018-09-03 10:38:51,983 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:39:02,314 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.32301831245422363 seconds
+2018-09-03 10:39:04,320 - root - INFO - ############################### START ###############################
+2018-09-03 10:39:09,125 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.805274724960327 seconds
+2018-09-03 10:39:11,987 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 2.862163782119751 seconds
+2018-09-03 10:39:11,989 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0 seconds
+2018-09-03 10:39:15,106 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1160640716552734 seconds
+2018-09-03 10:39:15,118 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:39:15,219 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.1000056266784668 seconds
+2018-09-03 10:39:15,302 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.08200454711914062 seconds
+2018-09-03 10:39:15,303 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:39:15,377 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07500433921813965 seconds
+2018-09-03 10:39:15,379 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0 seconds
+2018-09-03 10:39:25,710 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3260185718536377 seconds
+2018-09-03 10:39:27,714 - root - INFO - SUCCESS    Get current window title, Spend 0.004000186920166016 seconds
+2018-09-03 10:39:30,754 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0391740798950195 seconds
+2018-09-03 10:39:30,755 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:39:30,755 - root - INFO - ############################### START ###############################
+2018-09-03 10:39:35,864 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.107292175292969 seconds
+2018-09-03 10:39:36,663 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 0.7980456352233887 seconds
+2018-09-03 10:39:36,669 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0060002803802490234 seconds
+2018-09-03 10:39:39,856 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.186068058013916 seconds
+2018-09-03 10:39:41,529 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0 seconds
+2018-09-03 10:39:41,530 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:39:41,631 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="top_search"]> content: 13421344506, Spend 0.10100579261779785 seconds
+2018-09-03 10:39:41,633 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0019998550415039062 seconds
+2018-09-03 10:39:41,645 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.01000070571899414 seconds
+2018-09-03 10:39:44,981 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\toolbar\quickcall.png, Spend 0.33601903915405273 seconds
+2018-09-03 10:39:48,009 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0271732807159424 seconds
+2018-09-03 10:39:48,009 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:39:51,098 - root - INFO - 发送邮件成功
+2018-09-03 10:45:33,660 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.873335838317871 seconds
+2018-09-03 10:45:34,550 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 0.8890504837036133 seconds
+2018-09-03 10:45:35,754 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2030689716339111 seconds
+2018-09-03 10:45:35,756 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:45:35,902 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.14500856399536133 seconds
+2018-09-03 10:45:36,020 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.11800670623779297 seconds
+2018-09-03 10:45:36,023 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 10:45:36,133 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.11200642585754395 seconds
+2018-09-03 10:45:36,135 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0 seconds
+2018-09-03 10:45:46,533 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3650209903717041 seconds
+2018-09-03 10:45:48,542 - root - INFO - ############################### START ###############################
+2018-09-03 10:45:54,398 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.855334997177124 seconds
+2018-09-03 10:45:55,870 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.4710843563079834 seconds
+2018-09-03 10:45:55,886 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.016000986099243164 seconds
+2018-09-03 10:45:59,036 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1490659713745117 seconds
+2018-09-03 10:45:59,054 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:45:59,359 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.30301761627197266 seconds
+2018-09-03 10:45:59,492 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.13200759887695312 seconds
+2018-09-03 10:45:59,494 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2018-09-03 10:45:59,604 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.11100649833679199 seconds
+2018-09-03 10:45:59,607 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:46:09,971 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.35101985931396484 seconds
+2018-09-03 10:46:11,980 - root - INFO - SUCCESS    Get current window title, Spend 0.008000612258911133 seconds
+2018-09-03 10:46:15,323 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.341191291809082 seconds
+2018-09-03 10:46:15,324 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:46:15,325 - root - INFO - ############################### START ###############################
+2018-09-03 10:46:21,155 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.829333543777466 seconds
+2018-09-03 10:46:22,343 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.18806791305542 seconds
+2018-09-03 10:46:22,345 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010004043579101562 seconds
+2018-09-03 10:46:25,646 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2780730724334717 seconds
+2018-09-03 10:46:28,070 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 10:46:28,072 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-09-03 10:46:28,271 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="top_search"]> content: 13421344506, Spend 0.19901156425476074 seconds
+2018-09-03 10:46:28,273 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2018-09-03 10:46:28,304 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.03000164031982422 seconds
+2018-09-03 10:46:33,391 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\toolbar\quickcall.png, Spend 2.0871193408966064 seconds
+2018-09-03 10:46:36,613 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.220184326171875 seconds
+2018-09-03 10:46:36,613 - root - INFO - ###############################  End  ###############################
+2018-09-03 10:46:49,748 - root - INFO - 发送邮件成功
+2018-09-03 15:24:39,068 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.459312200546265 seconds
+2018-09-03 15:24:40,216 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1470656394958496 seconds
+2018-09-03 15:25:07,625 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.278301954269409 seconds
+2018-09-03 15:25:08,666 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.0380592346191406 seconds
+2018-09-03 15:25:09,810 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1440651416778564 seconds
+2018-09-03 15:25:09,812 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-09-03 15:25:09,969 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.15500903129577637 seconds
+2018-09-03 15:25:10,099 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.12900733947753906 seconds
+2018-09-03 15:25:10,101 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0019998550415039062 seconds
+2018-09-03 15:25:10,217 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.11700654029846191 seconds
+2018-09-03 15:25:10,229 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.006000041961669922 seconds
+2018-09-03 15:25:20,628 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.3890223503112793 seconds
+2018-09-03 15:25:22,638 - root - INFO - ############################### START ###############################
+2018-09-03 15:25:27,942 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.303303003311157 seconds
+2018-09-03 15:25:29,253 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.310075283050537 seconds
+2018-09-03 15:25:29,275 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.014000892639160156 seconds
+2018-09-03 15:25:32,444 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.167067050933838 seconds
+2018-09-03 15:25:32,470 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 15:25:33,606 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 1.1340649127960205 seconds
+2018-09-03 15:25:33,820 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.21201181411743164 seconds
+2018-09-03 15:25:33,823 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000497817993164 seconds
+2018-09-03 15:25:34,056 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.23601365089416504 seconds
+2018-09-03 15:25:34,060 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.003000020980834961 seconds
+2018-09-03 15:25:44,525 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.44002509117126465 seconds
+2018-09-03 15:25:46,674 - root - INFO - SUCCESS    Get current window title, Spend 0.14700841903686523 seconds
+2018-09-03 15:25:49,866 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.192182779312134 seconds
+2018-09-03 15:25:49,867 - root - INFO - ###############################  End  ###############################
+2018-09-03 15:25:49,868 - root - INFO - ############################### START ###############################
+2018-09-03 15:25:55,336 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.466312885284424 seconds
+2018-09-03 15:25:56,506 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1680667400360107 seconds
+2018-09-03 15:25:56,526 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.02000141143798828 seconds
+2018-09-03 15:25:59,663 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1370649337768555 seconds
+2018-09-03 15:26:02,324 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0 seconds
+2018-09-03 15:26:02,346 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.02000117301940918 seconds
+2018-09-03 15:26:02,700 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="top_search"]> content: 13421344506, Spend 0.37302160263061523 seconds
+2018-09-03 15:26:02,703 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 15:26:02,733 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.029001712799072266 seconds
+2018-09-03 15:26:06,688 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\toolbar\quickcall.png, Spend 0.9540548324584961 seconds
+2018-09-03 15:26:10,343 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.6542088985443115 seconds
+2018-09-03 15:26:10,344 - root - INFO - ###############################  End  ###############################
+2018-09-03 15:26:13,464 - root - INFO - 发送邮件成功
+2018-09-03 15:31:28,009 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.474313259124756 seconds
+2018-09-03 15:31:29,167 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1570663452148438 seconds
+2018-09-03 15:31:30,311 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1430652141571045 seconds
+2018-09-03 15:31:30,314 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2018-09-03 15:31:30,487 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1001, Spend 0.17300987243652344 seconds
+2018-09-03 15:31:30,623 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: 1001, Spend 0.13100743293762207 seconds
+2018-09-03 15:31:30,631 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00700068473815918 seconds
+2018-09-03 15:31:30,759 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.13300776481628418 seconds
+2018-09-03 15:31:30,764 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 15:31:41,196 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.41002368927001953 seconds
+2018-09-03 15:31:43,206 - root - INFO - ############################### START ###############################
+2018-09-03 15:31:49,017 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.810332298278809 seconds
+2018-09-03 15:31:49,939 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 0.9190523624420166 seconds
+2018-09-03 15:31:49,945 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.005000114440917969 seconds
+2018-09-03 15:31:53,124 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1770672798156738 seconds
+2018-09-03 15:31:53,141 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000186920166016 seconds
+2018-09-03 15:31:53,352 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.2110121250152588 seconds
+2018-09-03 15:31:53,510 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.15700888633728027 seconds
+2018-09-03 15:31:53,517 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00500035285949707 seconds
+2018-09-03 15:31:53,653 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.14300799369812012 seconds
+2018-09-03 15:31:53,658 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0030002593994140625 seconds
+2018-09-03 15:32:04,107 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.41802382469177246 seconds
+2018-09-03 15:32:06,122 - root - INFO - SUCCESS    Get current window title, Spend 0.014000892639160156 seconds
+2018-09-03 15:32:09,282 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1581807136535645 seconds
+2018-09-03 15:32:09,282 - root - INFO - ###############################  End  ###############################
+2018-09-03 15:32:09,283 - root - INFO - ############################### START ###############################
+2018-09-03 15:32:15,241 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.957340955734253 seconds
+2018-09-03 15:32:16,405 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1640665531158447 seconds
+2018-09-03 15:32:16,409 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.003000020980834961 seconds
+2018-09-03 15:32:19,733 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.322075366973877 seconds
+2018-09-03 15:32:21,579 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.003000020980834961 seconds
+2018-09-03 15:32:21,583 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.003000497817993164 seconds
+2018-09-03 15:32:21,783 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="top_search"]> content: 13421344506, Spend 0.2020118236541748 seconds
+2018-09-03 15:32:21,785 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2018-09-03 15:32:21,819 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.03300189971923828 seconds
+2018-09-03 15:32:26,258 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\toolbar\quickcall.png, Spend 1.438082218170166 seconds
+2018-09-03 15:32:29,417 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1571807861328125 seconds
+2018-09-03 15:32:29,418 - root - INFO - ###############################  End  ###############################
+2018-09-03 15:32:32,515 - root - INFO - 发送邮件成功

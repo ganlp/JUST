@@ -8,6 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json,sys,os,subprocess
 from JustCC.config import globalparam
 from django.http import JsonResponse
+import time
 
 
 @csrf_exempt
@@ -46,17 +47,45 @@ def test_api(request):
         print("not found data param")
     return JsonResponse({"result": 0, "msg": "执行成功"})
 
-@csrf_exempt
-def read_log(request):
+def  current_log_lines():
+    now_day=time.strftime("%Y-%m-%d")
     dirs = os.listdir(globalparam.log_path)
     dirs.sort()
     logname = dirs[-1]
-    print(globalparam.log_path+"\\"+logname)
-    with open(globalparam.log_path+"\\"+logname,'r',encoding='utf-8') as f:
-         lines=f.readlines()[-5:]
-    print(lines)
-    context={"data":lines}
-    return JsonResponse(context)
+    print(now_day)
+    # print(globalparam.log_path+"\\"+logname)
+    if logname.split('.')[0]==now_day:
+        with open(globalparam.log_path + "\\" + logname, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        return len(lines)
+    else:
+        return 0
+
+def static_vars(**kwargs):
+    def decorate(func):
+        for k in kwargs:
+            setattr(func, k, kwargs[k])
+        return func
+    return decorate
+
+@csrf_exempt
+@static_vars(counter=current_log_lines())
+def read_log(request):
+    if(read_log.counter==0):
+        return JsonResponse({"data":'.'})
+    else:
+        dirs = os.listdir(globalparam.log_path)
+        dirs.sort()
+        logname = dirs[-1]
+        #print(globalparam.log_path+"\\"+logname)
+        with open(globalparam.log_path + "\\" + logname, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        if len(lines)> read_log.counter:
+            context={"data":'\n'+lines[read_log.counter]}
+            read_log.counter+=1
+            return JsonResponse(context)
+        else:
+            return JsonResponse({"data":'.'})
 
 class testView(BaseAdminView):
     def get(self,request,*args,**kwargs):

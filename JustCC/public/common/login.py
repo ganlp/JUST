@@ -16,7 +16,7 @@ class Login():
         self.dr.open(globalparam.server_addr)
         self.dr.max_window()
         self.login_page=loginPage.LoginPage(self.dr)
-        self.login_page.static_login('1001','1001')
+        self.login_page.static_login('1112','1112')
         sleep(2)
         self.cookies=self.dr.origin_driver.get_cookies()
         with open(globalparam.cookie_path,'w') as f:

@@ -34,7 +34,8 @@
       vertical-align: middle;
       border: 1px solid transparent;
       font-weight: 200;
-      font-size:125%
+      font-size:125%;
+      cursor:pointer
     }
     </style>
     <meta charset="UTF-8" />
@@ -66,6 +67,7 @@
     font-family:"隶书";
     }
     </style>
+    
   <div style="padding:10px;"> 
   <div class="demo">
 
@@ -76,7 +78,7 @@
     </div>
     <div style="margin-bottom:20px;">
         <br />
-        <a class="button" stype="background:#1969A8"  id="showchecked">执行用例</a>
+        <a class="button" style="background:#1969A8"  id="showchecked" >执行用例</a>
 <!--        <a class="button" href="javascript:void(0);" id="showcurrent">Get Current Node</a>  -->
     </div>
   </div>
@@ -98,34 +100,40 @@
             $("#tree").treeview(o);
             $("#showchecked").click(function(e) {
                 var s = $("#tree").getCheckedNodes();    //getCheckedNodes
-                if (s != null) {
-                //    alert(s);
-                var casestr= s.join(',')
-                 $(document).ready(function(){
-                    var ele=document.getElementById("tt1");
-                    ele.value=ele.value+"执行中...................";
-                    function refresh(){
-                        $.getJSON("/api/read_log",function(ret){
-                            //$('#tt1').html(ret.data);
-                            ele.value=ele.value+ret.data;
-                            })
-                         }
-                     setInterval(refresh,1000)
-                });
-                $.ajax({
-                    type: "post",
-                    url: "/api/getjson",
-                    //contentType: "application/json; charset=utf-8",
-                    //dataType: "json",
-                    //data: {data:"HELLO",id:"12"},
-                    data:{data:casestr},
-                    success: function() {
-                        alert('请稍后...');
-                        }
-                });
+                if (s.length !=0) {
+                    document.getElementById("showchecked").style.backgroundColor="grey";
+                    document.getElementById("showchecked").disabled=true;
+	                var casestr= s.join(',');
+	                var timer;
+	                $(document).ready(function(){
+	                    var ele=document.getElementById("tt1");
+	                    var timer=setInterval(refresh,1000);
+	                    console.log(timer)
+	                    function refresh(){
+	                        $.getJSON("/api/read_log",function(ret){
+	                            //$('#tt1').html(ret.data);
+	                            ele.value=ele.value+ret.data;
+	                            })
+	                         }
+						});
+	                $.ajax({
+	                    type: "post",
+	                    url: "/api/getjson",
+	                    //contentType: "application/json; charset=utf-8",
+	                    //dataType: "json",
+	                    //data: {data:"HELLO",id:"12"},
+	                    data:{data:casestr},
+	                    success: function() {
+	                        alert('success...');
+		                    document.getElementById("showchecked").style.backgroundColor="#1969A8";
+	                        }
+	                });
+                    //btn.style.backgroundColor="#1969A8";
+	                clearInterval(timer);
+
             }
                 else
-                    alert("NULL");
+                    alert("请先选择要执行的用例！");
             });
              $("#showcurrent").click(function(e){
                 var s=$("#tree").getCurrentNode();
@@ -143,31 +151,18 @@
             $(document).ready(load1);
         }
     </script>
-<!--
-   <script src="/static/wdTree/src/jquery.js"></script>
-    <script>
-    $(document).ready(function(){
-        $("button1").click(function(){
-            $("#div1").load("JUST/JustCC/report/log/2018-08-03.log");
-            alert("bbb")
-        });
-    });
-    </script>
--->
+
+
     <script language="javascript">
+        var i=1;
         function cc(){  //设置光标始终跳到编辑框末尾
-            var e = event.srcElement;
-            var r =e.createTextRange();
-            r.moveStart('character',e.value.length);
-            r.collapse(true);
-            r.select();
+            var obj = document.getElementById("tt1");
+            obj.scrollTop=obj.scrollHeight;
         }
      </script>
     <div id="div1" style="left: 503px; height: 92px; display: block;">
         <h3>用例执行日志</h3>
         <textarea id=tt1 onfocus="cc()" style="overflow-x:hidden;width:1000px; height:540px; border:solid 1px #186; "></textarea>
     </div>
-
-
 </body>
 </html>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2018-08-28 18:06:19</p>
+<p class='attribute'><strong>Duration:</strong> 0:02:41.459235</p>
+<p class='attribute'><strong>Status:</strong> Pass 4 Failure 1 Error 1</p>
+
+<p class='description'>Test the import testcase</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>testcase.test_1_login_staticlogin.Login: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_static_login: 静态登录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 2018-08-28 18:06:19,193 - root - INFO - ############################### START ###############################
+2018-08-28 18:06:24,653 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.459312200546265 seconds
+2018-08-28 18:06:25,702 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.0470597743988037 seconds
+2018-08-28 18:06:25,717 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.01500082015991211 seconds
+2018-08-28 18:06:28,943 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2240700721740723 seconds
+[{'username': 1001.0, 'password': 1001.0, 'exten': ''}, {'username': 'admin', 'password': 'admin', 'exten': ''}]
+2018-08-28 18:06:28,960 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2018-08-28 18:06:29,264 - root - INFO - SUCCESS    Clear and type element: &lt;name-&gt;LoginForm[username]&gt; content: admin, Spend 0.30301761627197266 seconds
+2018-08-28 18:06:29,470 - root - INFO - SUCCESS    Clear and type element: &lt;name-&gt;LoginForm[password]&gt; content: admin, Spend 0.20501160621643066 seconds
+2018-08-28 18:06:29,473 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2018-08-28 18:06:29,645 - root - INFO - SUCCESS    Clicked element: &lt;id-&gt;login_btn&gt;, Spend 0.1740100383758545 seconds
+2018-08-28 18:06:29,658 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.013000726699829102 seconds
+2018-08-28 18:06:40,076 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\login\login.png, Spend 0.39402246475219727 seconds
+2018-08-28 18:06:42,081 - root - INFO - SUCCESS    Get current window title, Spend 0.005000114440917969 seconds
+2018-08-28 18:06:45,196 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.112178087234497 seconds
+2018-08-28 18:06:45,197 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>testcase.test_2_organize_depart.TestDepart: 部门测试</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_depart_add: 添加部门</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: 2018-08-28 18:06:45,198 - root - INFO - ############################### START ###############################
+2018-08-28 18:06:50,696 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.498314380645752 seconds
+2018-08-28 18:06:52,058 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.3600778579711914 seconds
+2018-08-28 18:06:52,068 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.008000612258911133 seconds
+2018-08-28 18:06:55,321 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2470712661743164 seconds
+2018-08-28 18:06:57,655 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010004043579101562 seconds
+2018-08-28 18:06:57,658 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:06:57,823 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;#sidebar &gt; ul &gt; li &gt; div &gt; a:nth-child(11) &gt; span&gt;, Spend 0.1670093536376953 seconds
+2018-08-28 18:06:57,832 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.008000612258911133 seconds
+2018-08-28 18:06:57,835 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2018-08-28 18:06:58,693 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;部门管理&gt;, Spend 0.8600492477416992 seconds
+2018-08-28 18:06:58,851 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_department&gt;, Spend 0.15700888633728027 seconds
+2018-08-28 18:07:00,911 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:01,396 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;新建&gt;, Spend 0.485027551651001 seconds
+2018-08-28 18:07:01,406 - root - INFO - SUCCESS    Switch to frame out, Spend 0.01000070571899414 seconds
+2018-08-28 18:07:01,577 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_department_POP&gt;, Spend 0.16800951957702637 seconds
+2018-08-28 18:07:01,579 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:02,582 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:07:02,822 - root - INFO - SUCCESS    Typed element: &lt;css-&gt;#department-dept_name&gt; content: 测试部1, Spend 0.241013765335083 seconds
+2018-08-28 18:07:02,829 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000186920166016 seconds
+2018-08-28 18:07:03,178 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="department-form"]/div[6]/button&gt;, Spend 0.35502028465270996 seconds
+2018-08-28 18:07:03,180 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:07:03,185 - root - INFO - SUCCESS    Switch to frame out, Spend 0.003000020980834961 seconds
+2018-08-28 18:07:03,346 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_department&gt;, Spend 0.15800905227661133 seconds
+2018-08-28 18:07:08,733 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\depart\add_depart.png, Spend 0.3610208034515381 seconds
+2018-08-28 18:07:11,841 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0861763954162598 seconds
+2018-08-28 18:07:11,843 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_depart_del: 删除部门</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: 2018-08-28 18:07:11,844 - root - INFO - ############################### START ###############################
+2018-08-28 18:07:17,272 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.427310466766357 seconds
+2018-08-28 18:07:18,480 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.206068992614746 seconds
+2018-08-28 18:07:18,486 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.00500035285949707 seconds
+2018-08-28 18:07:21,637 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1490654945373535 seconds
+2018-08-28 18:07:23,595 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.008000612258911133 seconds
+2018-08-28 18:07:23,600 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003999948501586914 seconds
+2018-08-28 18:07:23,814 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;#sidebar &gt; ul &gt; li &gt; div &gt; a:nth-child(11) &gt; span&gt;, Spend 0.21801233291625977 seconds
+2018-08-28 18:07:23,824 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.00500035285949707 seconds
+2018-08-28 18:07:23,829 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2018-08-28 18:07:24,413 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;部门管理&gt;, Spend 0.5870335102081299 seconds
+2018-08-28 18:07:24,739 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_department&gt;, Spend 0.32501864433288574 seconds
+2018-08-28 18:07:26,780 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:27,071 - root - INFO - SUCCESS    Switch to frame out, Spend 0.018001317977905273 seconds
+2018-08-28 18:07:27,082 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.010000228881835938 seconds
+2018-08-28 18:07:29,083 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:29,537 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;body &gt; div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus &gt; div &gt; table &gt; tbody &gt; tr:nth-child(3) &gt; td &gt; div.ui-dialog-button &gt; button.ui-dialog-autofocus&gt;, Spend 0.4540259838104248 seconds
+2018-08-28 18:07:29,539 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:29,590 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_department&gt;, Spend 0.05100297927856445 seconds
+2018-08-28 18:07:34,902 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\depart\del_depart.png, Spend 0.2980170249938965 seconds
+2018-08-28 18:07:38,036 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.106177806854248 seconds
+2018-08-28 18:07:38,037 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testcase.test_3_organize_user.TestUser: 用户测试</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c3',2)">Detail</a></td>
+</tr>
+
+<tr id='ft3.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_user_add: 添加用户</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        error</a>
+
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: 2018-08-28 18:07:38,038 - root - INFO - ############################### START ###############################
+2018-08-28 18:07:43,262 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.223299026489258 seconds
+2018-08-28 18:07:44,398 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1350648403167725 seconds
+2018-08-28 18:07:44,406 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.007000446319580078 seconds
+2018-08-28 18:07:47,770 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.3620777130126953 seconds
+2018-08-28 18:07:49,833 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.006000041961669922 seconds
+2018-08-28 18:07:49,840 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2018-08-28 18:07:54,996 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;#sidebar &gt; ul &gt; li &gt; div &gt; a:nth-child(11) &gt; span&gt;, Spend 5.159295320510864 seconds
+2018-08-28 18:07:54,998 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:07:54,999 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:07:55,231 - root - INFO - FAIL    Unable to click element: &lt;link_text-&gt;用户管理&gt;, Spend 0.23201298713684082 seconds
+2018-08-28 18:07:58,320 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.088176727294922 seconds
+2018-08-28 18:07:58,321 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "E:\python excercise\JUST\JustCC\testcase\test_3_organize_user.py", line 18, in test_user_add
+    l=user_page.add_user(str(data['work_no']).split('.')[0],data['work_name'],data['username'])
+  File "E:\python excercise\JUST\JustCC\public\pages\userPage.py", line 14, in add_user
+    self.dr.click("link_text-&gt;用户管理")
+  File "E:\python excercise\JUST\JustCC\public\common\pyselenium.py", line 219, in click
+    el.click()
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element &lt;a class="third_amenu no-children" href="/organize/user/index" data-id="organize_user" target="main"&gt;...&lt;/a&gt; is not clickable at point (111, 187). Other element would receive the click: &lt;div id="lavels" style=""&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft3.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_user_del: 删除用户</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.2')" >
+        fail</a>
+
+    <div id='div_ft3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.2: 2018-08-28 18:07:58,416 - root - INFO - ############################### START ###############################
+2018-08-28 18:08:03,697 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.281301975250244 seconds
+2018-08-28 18:08:05,030 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.3300762176513672 seconds
+2018-08-28 18:08:05,051 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.021001100540161133 seconds
+2018-08-28 18:08:08,264 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.211069107055664 seconds
+2018-08-28 18:08:11,156 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:08:11,160 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2018-08-28 18:08:11,310 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;#sidebar &gt; ul &gt; li &gt; div &gt; a:nth-child(11) &gt; span&gt;, Spend 0.1520087718963623 seconds
+2018-08-28 18:08:11,315 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.003000497817993164 seconds
+2018-08-28 18:08:11,323 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.006000041961669922 seconds
+2018-08-28 18:08:12,360 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;用户管理&gt;, Spend 1.0430595874786377 seconds
+2018-08-28 18:08:12,366 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.006000518798828125 seconds
+2018-08-28 18:08:12,478 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_user&gt;, Spend 0.11000609397888184 seconds
+2018-08-28 18:08:16,750 - root - INFO - SUCCESS    Switch to frame out, Spend 0.008000373840332031 seconds
+2018-08-28 18:08:16,759 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0070002079010009766 seconds
+2018-08-28 18:08:18,765 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00500035285949707 seconds
+2018-08-28 18:08:19,338 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;body &gt; div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus &gt; div &gt; table &gt; tbody &gt; tr:nth-child(3) &gt; td &gt; div.ui-dialog-button &gt; button.ui-dialog-autofocus&gt;, Spend 0.5770330429077148 seconds
+2018-08-28 18:08:19,433 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_user&gt;, Spend 0.09400534629821777 seconds
+2018-08-28 18:08:19,434 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:08:24,777 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0030002593994140625 seconds
+2018-08-28 18:08:24,780 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:08:26,782 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2018-08-28 18:08:27,485 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;body &gt; div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus &gt; div &gt; table &gt; tbody &gt; tr:nth-child(3) &gt; td &gt; div.ui-dialog-button &gt; button.ui-dialog-autofocus&gt;, Spend 0.70404052734375 seconds
+2018-08-28 18:08:27,584 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_user&gt;, Spend 0.09800553321838379 seconds
+2018-08-28 18:08:27,586 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:08:32,823 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0030002593994140625 seconds
+2018-08-28 18:08:32,825 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2018-08-28 18:08:34,827 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2018-08-28 18:08:35,450 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;body &gt; div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus &gt; div &gt; table &gt; tbody &gt; tr:nth-child(3) &gt; td &gt; div.ui-dialog-button &gt; button.ui-dialog-autofocus&gt;, Spend 0.6250357627868652 seconds
+2018-08-28 18:08:35,528 - root - INFO - SUCCESS    Switch to frame element: &lt;id-&gt;iframe_organize_user&gt;, Spend 0.07500410079956055 seconds
+2018-08-28 18:08:35,530 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:08:38,878 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\user\del_user.png, Spend 0.3300187587738037 seconds
+2018-08-28 18:08:42,044 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.144179582595825 seconds
+2018-08-28 18:08:42,046 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "E:\python excercise\JUST\JustCC\testcase\test_3_organize_user.py", line 28, in test_user_del
+    self.assertEqual(l[0]-1,l[1])
+AssertionError: 14 != 15
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>testcase.test_4_call_toolbar.TestToolbar: 话务条测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_quick_call: 快速拨号</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: 2018-08-28 18:08:42,049 - root - INFO - ############################### START ###############################
+2018-08-28 18:08:47,455 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.404309034347534 seconds
+2018-08-28 18:08:48,577 - root - INFO - SUCCESS    Navigated to http://192.168.18.172, Spend 1.1200637817382812 seconds
+2018-08-28 18:08:48,583 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2018-08-28 18:08:51,748 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1640665531158447 seconds
+2018-08-28 18:08:53,732 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.003000020980834961 seconds
+2018-08-28 18:08:53,734 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2018-08-28 18:08:54,180 - root - INFO - SUCCESS    Typed element: &lt;xpath-&gt;//*[@id="top_search"]&gt; content: 13421344506, Spend 0.4470255374908447 seconds
+2018-08-28 18:08:54,185 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000425338745117 seconds
+2018-08-28 18:08:54,207 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.020000934600830078 seconds
+2018-08-28 18:08:57,591 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python excercise\JUST\JustCC\report\image\toolbar\login.png, Spend 0.3820219039916992 seconds
+2018-08-28 18:09:00,651 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0591747760772705 seconds
+2018-08-28 18:09:00,652 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>6</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

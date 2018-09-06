@@ -1,0 +1,16 @@
+    <send>
+        <![CDATA[
+          BYE [$ip_port]  SIP/2.0
+          Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+          Max-Forwards: 70
+          Contact: <sip:[field0]@[local_ip]:[local_port]>
+          To:[$ACK_From]
+          From:[$ACK_To]
+          Call-ID[$ACK_Call-ID]
+          Cseq: [cseq] BYE
+          User-Agent: jiangtao
+          Reason: SIP;descripthion="User hung up"
+          Content-Length: [len]
+        ]]>
+    </send>
+    <recv response="200"/>

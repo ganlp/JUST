@@ -1,0 +1,140 @@
+---
+# 呼入-进IVR-未按键直接挂断
+in_ivr_no_button:
+  name: in_ivr_no_button
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+
+# 呼入-进IVR-直拨分机振铃后挂断/呼入-进IVR-直拨分机接听后挂断
+in_ivr_dirct_exten:
+  name: in_ivr_dirct_exten
+  call_info: 
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 1001
+    - time: 15000
+
+# 呼入-进IVR-按功能键转分机接听后挂断
+in_ivr_button_dst_exten:
+  name: in_ivr_button_direct_exten
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 1
+    - time: 15000
+
+# 呼入-进IVR-按功能键转队列接听后挂断
+in_ivr_button_dst_queue:
+  name: in_ivr_button_dst_queue
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 2
+    - time: 15000
+
+# 呼入-进IVR-按功能键转IVR接听后挂断
+in_ivr_button_dst_ivr:
+  name: in_ivr_button_dst_ivr
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 4
+    - time: 15000
+
+# 呼入-进IVR-按功能键转语音会议室后挂断
+in_ivr_button_dst_meet:
+  name: in_ivr_button_dst_meet
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 3
+    - time: 15000
+
+# 呼入-不按键-等待
+in_ivr_nobutton_wait:
+  name: in_ivr_button_dst_meet
+  call_info:
+    calltype: incoming
+    hangup: wait
+
+# 呼入-进记忆性循环队列-第一个分机接听后挂断
+in_rrmemory_queue_frist_exten:
+  name: in_rrmemory_queue_frist_exten
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 15000
+
+# 呼入-进记忆性循环队列-第一个分机振铃未接听、
+in_rrmemory_queue_frist_exten_noanswer:
+  name: in_rrmemory_queue_frist_exten_noanswer
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 10000
+
+# 呼入-分机接听、然后挂断电话、
+in_exten:
+  name: in_exten
+  call_info:
+    calltype: incoming
+    hangup: wait
+  call_options:
+    - time: 15000
+
+# 呼入-分机接听、然后等待挂断、
+in_exten_wait:
+  name: in_exten_wait
+  call_info:
+    calltype: incoming
+    hangup: wait
+  call_options:
+    - time: 1500
+
+# 呼入-分机振铃未接听、然后挂断电话、
+in_exten_noanswer:
+  name: in_exten_noanswer
+  call_info:
+    calltype: incoming
+    hangup: send
+  call_options:
+    - time: 15000
+
+# 分机A接听电话后将电话转给B、然后挂断电话、
+answer_extenA_trans_extenB:
+  name: answer_extenA_trans_extenB
+  call_info:
+    calltype: answer
+    hangup: send
+  call_options:
+    - time: 3000
+    - button: 88p1002p
+    - time: 10000
+
+# 分机A接听电话后将电话转给B、等待电话被挂断、
+answer_extenA_trans_extenB_wait:
+  name: answer_extenA_trans_extenB_wait
+  call_info:
+    calltype: answer
+    hangup: wait
+  call_options:
+    - time: 3000
+    - button: 88p1002p
+    - time: 10000
+
+

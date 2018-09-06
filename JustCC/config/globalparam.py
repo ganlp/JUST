@@ -38,6 +38,9 @@ cookie_path=os.path.join(prj_path,'JustCC','public','common','cookie.txt')
 #run.py路径
 run_path=os.path.join(prj_path,'JustCC','run.py')
 
+#run_sipp路径：
+sipp_path=os.path.join(prj_path,'JustCC','jiang_custom','run_sipp.py')
+
 if __name__=='__main__':
     print(json_path)
 
