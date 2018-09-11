@@ -107,7 +107,7 @@
 	                var timer;
 	                $(document).ready(function(){
 	                    var ele=document.getElementById("tt1");
-	                    var timer=setInterval(refresh,1000);
+	                    var timer=setInterval(refresh,500);
 	                    console.log(timer)
 	                    function refresh(){
 	                        $.getJSON("/api/read_log",function(ret){
@@ -126,11 +126,10 @@
 	                    success: function() {
 	                        alert('success...');
 		                    document.getElementById("showchecked").style.backgroundColor="#1969A8";
+		                    clearInterval(timer);
 	                        }
 	                });
                     //btn.style.backgroundColor="#1969A8";
-	                clearInterval(timer);
-
             }
                 else
                     alert("请先选择要执行的用例！");
