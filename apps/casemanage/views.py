@@ -77,6 +77,7 @@ def read_log(request):
         dirs = os.listdir(globalparam.log_path)
         dirs.sort()
         logname = dirs[-1]
+        print(logname)
         #print(globalparam.log_path+"\\"+logname)
         with open(globalparam.log_path + "\\" + logname, 'r', encoding='utf-8') as f:
             lines = f.readlines()

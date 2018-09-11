@@ -42,6 +42,7 @@ def run():
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
     reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'
     initialize.del_image_file(globalparam.img_path)
+    initialize.del_test_user_info()
     lg=login.Login()
     lg.login()
     with open(reportname,'wb') as f:

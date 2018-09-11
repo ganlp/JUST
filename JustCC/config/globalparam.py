@@ -41,8 +41,12 @@ run_path=os.path.join(prj_path,'JustCC','run.py')
 #run_sipp路径：
 sipp_path=os.path.join(prj_path,'JustCC','jiang_custom','run_sipp.py')
 
+#server_database数据库信息：
+db = {"ip": "192.168.18.172", "loginname": "justtest", "password": "test123", "basename": "organize"}
+
 if __name__=='__main__':
     print(json_path)
+    print(db["ip"])
 
 
 
