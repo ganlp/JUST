@@ -1,0 +1,77 @@
+---
+# 第一个呼叫场景的配置、
+# 带*的为必须
+# sipp_config区分一个sipp scanario的关键字、建议已场景实际用途命名、
+sipp_config:
+  # *服务器信息、包含*ip和*port
+  server_info:
+    ip: 192.168.1.1
+    port: 5061
+  # *本地信息、包含*ip和*port
+  local_info:
+    ip: 192.168.1.2
+    port: 5063
+  # *呼叫信息、包含:
+  # *calltype呼叫类型(incoming/outgoing/answer/noanswer)
+  # *info caller主叫、*callee被叫、其中的add_type,add_sep,add_num,用于定义主叫被叫递增的规则、
+  # caller 当calltype为incoming/outgoing时、为必填、
+  # callee 必填
+  # Note: 请注意呼入呼出的主叫和被叫、
+  # add_type(all/caller/callee),指定递增全部/仅递增主叫/仅递增被叫
+  # add_step,指定每次递增的步长
+  # add_num,指定要递增多少次、
+  call_info:
+    calltype: outgoing  
+    info:
+      -
+        caller: 13058505211
+        callee: 99900000
+        add_type: all
+        add_step: 2
+        add_num: 10
+      -
+        caller: 13324456789
+        callee: 88800000
+  # sipp 使用的xml和csv文件、必填、
+  sipp_file:
+    xml: F:\my_python3.6\my_working\yaml\sipp_test.xml
+    csv: F:\my_python3.6\my_working\yaml\sipp_test.csv
+  # 执行sipp是的选项、
+  sipp_options:
+    - -m: 1
+    - -user: 2
+    - -l: 1
+    - -r: 1
+    - -trace_message
+    - -trace_err
+
+# 第二个sipp 场景定义信息、
+sipp_config1:
+  server_info:
+    ip: 1.1.1.1
+    port: 5566
+  local_info:
+    ip: 192.168.1.2
+    port: 5063
+  call_info:
+    calltype: incoming
+    info:
+      -
+        caller: 13058505211
+        callee: 95554
+        add_type: caller
+        add_step: 1
+        add_num: 5
+      -
+        caller: 075533301919
+        callee: 95553
+  call_options:
+    - time: 3000
+    - button: 123p
+  sipp_file:
+    xml: F:\my_python3.6\my_working\yaml\sipp1_test.xml
+    csv: F:\my_python3.6\my_working\yaml\sipp1_test.csv
+  sipp_options:
+    - -m: 1
+    - -trace_message
+    - -trace_err
