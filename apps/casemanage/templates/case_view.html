@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-    <title>Big Tree</title>
+    <title>UI自动化</title>
     <link href="/static/wdTree/css/tree.css" rel="stylesheet" type="text/css" />
     <link href="/static/wdTree/sample-css/page.css" rel="stylesheet" type="text/css" />
     
     <style type="text/css">
     body {
-		color:#000; /* MAIN BODY TEXT COLOR */
 		font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; /* MAIN BODY FONTS */
+		background:url(/static/images/bg.jpg)  no-repeat bottom center;
+        background-size:cover;
+        background-attachment:fixed;
+        display:block;
+        margini:0 auto;
+        overflow-x:hidden;
+        background-color:#f5f5f5;
 		}
 		.demo{
       float:left;s
-      width:300px;
+      width:100%;
     }
     .docs{
       margin-left: 265px;
@@ -161,7 +167,7 @@
      </script>
     <div id="div1" style="left: 503px; height: 92px; display: block;">
         <h3>用例执行日志</h3>
-        <textarea id=tt1 onfocus="cc()" style="overflow-x:hidden;width:1000px; height:540px; border:solid 1px #186; "></textarea>
+        <textarea id=tt1 onfocus="cc()" style="overflow:auto;width:1000px; height:540px; border:solid 2px #186; "></textarea>
     </div>
 </body>
 </html>

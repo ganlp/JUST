@@ -19,6 +19,13 @@ class LoginPage(Page):
         sleep(10)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"login","login.png"))
 
+    def admin_login(self,username,password):
+        self.dr.wait(5)
+        self.dr.clear_type('name->username',username)
+        self.dr.clear_type('name->password',password)
+        self.dr.click('css->#loginform > div:nth-child(4) > button')
+        self.cookies = self.dr.origin_driver.get_cookies()
+
     def return_title(self):
         """返回该页面的title"""
         return self.dr.get_title()

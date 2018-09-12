@@ -7,7 +7,7 @@ from config import globalparam
 from public.common import sendmail
 from public.common import initialize
 from public.common import login
-from testcase import test_1_login_staticlogin,test_2_organize_depart,test_3_organize_user,test_4_call_toolbar
+from testcase import test_1_login_staticlogin,test_2_organize_depart,test_3_organize_user,test_4_call_toolbar,test_9_admin_exten
 import os
 
 file_list=os.listdir(globalparam.case_path)
@@ -45,6 +45,7 @@ def run():
     initialize.del_test_user_info()
     lg=login.Login()
     lg.login()
+    lg.login_admin()
     with open(reportname,'wb') as f:
         runner = HTMLTestRunner.HTMLTestRunner(
             stream=f,

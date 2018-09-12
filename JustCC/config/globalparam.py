@@ -33,13 +33,14 @@ case_path=os.path.join(prj_path,'JustCC','testcase')
 json_path=os.path.join(prj_path,'apps','casemanage','static','wdTree','data')
 
 #cookie存放路径
-cookie_path=os.path.join(prj_path,'JustCC','public','common','cookie.txt')
+cookie_path_userweb=os.path.join(prj_path,'JustCC','public','common','cookie_userweb.txt')
+cookie_path_admin=os.path.join(prj_path,'JustCC','public','common','cookie_admin.txt')
 
 #run.py路径
 run_path=os.path.join(prj_path,'JustCC','run.py')
 
 #run_sipp路径：
-sipp_path=os.path.join(prj_path,'JustCC','jiang_custom','run_sipp.py')
+sipp_path=os.path.join(prj_path,'JustCC','sip_cdr','run_sipp.py')
 
 #server_database数据库信息：
 db = {"ip": "192.168.9.247", "loginname": "justtest", "password": "test123", "basename": "organize"}

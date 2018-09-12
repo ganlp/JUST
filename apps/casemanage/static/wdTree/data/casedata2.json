@@ -40,5 +40,14 @@
         ],
         "filename": "test_4_call_toolbar",
         "class": "TestToolbar"
+    },
+    {
+        "case": [
+            {
+                "id": "test_add_exten"
+            }
+        ],
+        "filename": "test_9_admin_exten",
+        "class": "TestExten"
     }
 ]

@@ -10,7 +10,9 @@ menu={
     'user':'用户管理',
     'depart':'部门管理',
     'call':'话务管理',
-    'toolbar':'话务条'
+    'toolbar':'话务条',
+    'admin':'后台管理',
+    'exten':'分机管理'
 }
 
 class Case():

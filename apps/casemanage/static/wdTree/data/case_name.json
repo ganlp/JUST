@@ -61,5 +61,20 @@
                 ]
             }
         ]
+    },
+    {
+        "firstclass": "后台管理",
+        "secondclass": [
+            {
+                "file": "test_9_admin_exten(TestExten)",
+                "name": "分机管理",
+                "case": [
+                    {
+                        "id": "test_add_exten",
+                        "name": "添加分机"
+                    }
+                ]
+            }
+        ]
     }
 ]
