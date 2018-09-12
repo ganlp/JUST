@@ -16,6 +16,7 @@ function createNode(){
         cases_id[i][j]=[]
       }           
     }
+    $.ajaxSettings.async=false;   //设置同步执行的关键----否则必须弹窗后才能加载树形目录
     $.getJSON("/static/wdTree/data/case_name.json",function(data){
         $.each(data,function(i,item){ 
             first.push(item.firstclass)
@@ -31,7 +32,8 @@ function createNode(){
               }
             }
           }) 
-    }) 
+    })
+    $.ajaxSettings.async=true;  //设置同步执行的关键---恢复异步
     var root = {
       "id" : "1",
       "text" : "智能版测试",
@@ -42,7 +44,7 @@ function createNode(){
       "checkstate" : 0,
       "hasChildren" : true
     };    
-  alert("aaa")
+  //alert("aaa")
   var arr = [];
   for(var i= 0;i<first.length; i++){
     var subarr = [];
