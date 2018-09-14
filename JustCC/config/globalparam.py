@@ -21,7 +21,7 @@ report_path = os.path.join(prj_path, 'JustCC','report', 'testreport')
 # 默认浏览器
 browser = 'Chrome'
 #默认服务器地址
-server_addr="http://192.168.9.247"
+server_addr="http://192.168.9.248"
 
 # 测试数据路径
 data_path = os.path.join(prj_path,'JustCC', 'data', 'testdata')
@@ -43,11 +43,12 @@ run_path=os.path.join(prj_path,'JustCC','run.py')
 sipp_path=os.path.join(prj_path,'JustCC','sip_cdr','run_sipp.py')
 
 #server_database数据库信息：
-db = {"ip": "192.168.9.247", "loginname": "justtest", "password": "test123", "basename": "organize"}
+db = {"ip": "192.168.9.248", "loginname": "justtest", "password": "test123", "basename": "organize"}
 
 if __name__=='__main__':
     print(json_path)
     print(db["ip"])
+    print(config_file_path)
 
 
 

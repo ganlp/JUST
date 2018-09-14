@@ -30,4 +30,5 @@ urlpatterns = [
     url(r'^docs/',get_schema_view()),
     url(r'^api/getjson',views.test_api,name='test_api'),
     url(r'^api/read_log',views.read_log,name='read_log'),
+    url(r'^api/set_serverip',views.set_serverip,name='set_serverip')
 ]

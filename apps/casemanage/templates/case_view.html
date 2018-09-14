@@ -25,10 +25,10 @@
     }
     a.button{
       font-size: 1.2em;
-      margin-left:70px;
-      margin-right: 4px;
+      margin-left:30px;
+      margin-right: 3px;
       width: 200px;
-      padding:8px;
+      padding:5px;
       background-color: #428bca;
       border-color: #357ebd;
       color: #fff;
@@ -76,15 +76,9 @@
     
   <div style="padding:10px;"> 
   <div class="demo">
-
-    <div style="border-bottom: #c3daf9 5px solid;background-color:#f2dede; border-left: #c3daf9 5px solid; width: 280px; height: 600px; overflow: auto; border-top: #c3daf9 5px solid; border-right: #c3daf9 5px solid;">
+    <div style="border-bottom: #c3daf9 5px solid;background-color:#f2dede; border-left: #c3daf9 5px solid; width: 280px; height: 700px; overflow: auto; border-top: #c3daf9 5px solid; border-right: #c3daf9 5px solid;">
         <div id="tree">
         </div>
-    </div>
-    <div style="margin-bottom:20px;">
-        <br />
-        <a class="button" style="background:#1969A8"  id="showchecked" >执行用例</a>
-
     </div>
   </div>
 
@@ -105,39 +99,59 @@
             $("#tree").treeview(o);
             $("#showchecked").click(function(e) {
                 var s = $("#tree").getCheckedNodes();    //getCheckedNodes
-                if (s.length !=0) {
-                    document.getElementById("showchecked").style.backgroundColor="grey";
-                    document.getElementById("showchecked").disabled=true;
-	                var casestr= s.join(',');
-	                var timer;
-	                $(document).ready(function(){
-	                    var ele=document.getElementById("tt1");
-	                    var timer=setInterval(refresh,500);
-	                    console.log(timer)
-	                    function refresh(){
-	                        $.getJSON("/api/read_log",function(ret){
-	                            //$('#tt1').html(ret.data);
-	                            ele.value=ele.value+ret.data;
-	                            })
-	                         }
-						});
-	                $.ajax({
-	                    type: "post",
-	                    url: "/api/getjson",
-	                    //contentType: "application/json; charset=utf-8",
-	                    //dataType: "json",
-	                    //data: {data:"HELLO",id:"12"},
-	                    data:{data:casestr},
-	                    success: function() {
-	                        alert('success...');
-		                    document.getElementById("showchecked").style.backgroundColor="#1969A8";
-		                    clearInterval(timer);
-	                        }
-	                });
-                    //btn.style.backgroundColor="#1969A8";
+                var server_ip=document.getElementById("server_ip");
+                if (s.length !=0 && server_ip.value!='') {
+                    var re=/^(\d+)\.(\d+)\.(\d+)\.(\d+)$/;//正则表达式
+                    if(re.test(server_ip.value))
+                    {
+                       console.log(server_ip.value);
+                       if( RegExp.$1<256 && RegExp.$2<256 && RegExp.$3<256 && RegExp.$4<256){
+                        $.ajax({
+                            type: "post",
+                            url: "/api/set_serverip",
+                            data:{data:server_ip.value},
+                            success: function() {
+                           }
+                         });
+                        document.getElementById("showchecked").style.backgroundColor="grey";
+                        document.getElementById("showchecked").disabled=true;
+                        var casestr= s.join(',');
+                        var timer;
+                        $(document).ready(function(){
+                            var ele=document.getElementById("tt1");
+                            var timer=setInterval(refresh,500);
+                            console.log(timer)
+                            function refresh(){
+                                $.getJSON("/api/read_log",function(ret){
+                                    //$('#tt1').html(ret.data);
+                                    //console.log(ret["data"])
+                                    ele.value=ele.value+ret["data"];
+                                    })
+                                 }
+                            });
+                        $.ajax({
+                            type: "post",
+                            url: "/api/getjson",
+                            //contentType: "application/json; charset=utf-8",
+                            //dataType: "json",
+                            //data: {data:"HELLO",id:"12"},
+                            data:{data:casestr},
+                            success: function() {
+                                alert('success...');
+                                document.getElementById("showchecked").style.backgroundColor="#1969A8";
+                                clearInterval(timer);
+                                }
+                         });
+                        }
+                      }
+                      else
+                            alert("IP格式错误");
+
             }
-                else
+                else if(s.length ==0)
                     alert("请先选择要执行的用例！");
+                 else
+                     alert("请填写被测服务器IP！");
             });
              $("#showcurrent").click(function(e){
                 var s=$("#tree").getCurrentNode();
@@ -164,9 +178,12 @@
             obj.scrollTop=obj.scrollHeight;
         }
      </script>
+
     <div id="div1" style="left: 503px; height: 92px; display: block;">
+        <input placeholder="请填写被测服务器IP" id=server_ip></input>
+        <a class="button" style="background:#1969A8"  id="showchecked" >执行用例</a>
         <h3>用例执行日志</h3>
-        <textarea id=tt1 onfocus="cc()" style="overflow:auto;width:1000px; height:540px; border:solid 2px #186; "></textarea>
+        <textarea id=tt1 onfocus="cc()" style="overflow:auto;width:1000px; height:613px;  border: #c3daf9 5px solid "></textarea>
     </div>
 </body>
 </html>
