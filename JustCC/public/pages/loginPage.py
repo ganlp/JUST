@@ -15,7 +15,7 @@ class LoginPage(Page):
         self.dr.clear_type('name->LoginForm[password]',password)
         self.dr.click('id->login_btn')
         self.dr.wait(20)
-        self.cookies=self.dr.origin_driver.get_cookies()
+      #  self.cookies=self.dr.origin_driver.get_cookies()
         sleep(10)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"login","login.png"))
 
@@ -24,7 +24,7 @@ class LoginPage(Page):
         self.dr.clear_type('name->username',username)
         self.dr.clear_type('name->password',password)
         self.dr.click('css->#loginform > div:nth-child(4) > button')
-        self.cookies = self.dr.origin_driver.get_cookies()
+    #    self.cookies = self.dr.origin_driver.get_cookies()
 
     def return_title(self):
         """返回该页面的title"""
@@ -35,4 +35,5 @@ class LoginPage(Page):
         sleep(10)
         self.dr.click("xpath->/html/body/div[5]/div/table/tbody/tr[3]/td/div[2]/button[2]")
         sleep(5)
+
 

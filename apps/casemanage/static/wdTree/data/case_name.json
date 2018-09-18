@@ -72,6 +72,14 @@
                     {
                         "id": "test_add_exten",
                         "name": "添加分机"
+                    },
+                    {
+                        "id": "test_del_exten",
+                        "name": "删除分机"
+                    },
+                    {
+                        "id": "test_modify_exten",
+                        "name": "修改分机"
                     }
                 ]
             }

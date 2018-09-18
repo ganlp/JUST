@@ -6,13 +6,19 @@ from rest_framework.views import APIView
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 import json,sys,os,subprocess
-from JustCC.config import globalparam
 from django.http import JsonResponse
 import time
+from JustCC.config import globalparam
+
+
+@csrf_exempt
+def get_newest_cases(request):      #获取最新用例集合
+    print("python " + globalparam.case_path + "\case.py")
+    os.system("python " + globalparam.case_path + "\case.py")
+    return JsonResponse({"result": 0, "msg": "执行成功"})
 
 @csrf_exempt
 def set_serverip(request):      #传递设置的被测服务器IP值
-    print(request.POST)
     if 'data' in request.POST:
         serverip = request.POST['data']
         print(serverip)
@@ -110,4 +116,4 @@ class testView(BaseAdminView):
        # return HttpResponse("Hello Django!")
 
 if __name__=='__main__':
-     pass
+    pass

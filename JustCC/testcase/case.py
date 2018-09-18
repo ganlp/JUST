@@ -1,6 +1,12 @@
 import os,re,json
 import sys
-sys.path.append('../')
+
+######################解决cmd下执行该脚本提示import error的问题
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+#######################
+
 from config import globalparam
 
 menu={
@@ -57,7 +63,6 @@ class Case():
         with open(globalparam.json_path+"\\"+'case_name.json', 'w',encoding='utf-8') as json_file:
             json_file.write(json_str)
         return name_dict
-
 
 if __name__=='__main__':
     case=Case()

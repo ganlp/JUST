@@ -6,6 +6,7 @@ sys.path.append('..')
 #sys.path.append(rootPath+"public")
 from public.common.readconfig import ReadConfig
 
+
 # 读取配置文件
 config_file_path = os.path.split(os.path.realpath(__file__))[0]
 read_config = ReadConfig(os.path.join(config_file_path,'config.ini'))
@@ -49,6 +50,7 @@ if __name__=='__main__':
     print(json_path)
     print(db["ip"])
     print(config_file_path)
+
 
 
 

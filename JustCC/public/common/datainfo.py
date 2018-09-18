@@ -55,8 +55,8 @@ def get_xls_to_list(excelname, sheetname):
 	return result
 
 if __name__=='__main__':
-    res = get_xls_to_list('addressParse.xlsx','Sheet1')
-    res = get_xls_to_dict('data_info.xlsx','login_data')
-    print(res)
-
-
+ #   res = get_xls_to_list('addressParse.xlsx','Sheet1')
+#    res = get_xls_to_dict('data_info.xlsx','login_data')
+  #  print(res)
+    print("python " + globalparam.case_path + "\case.py")
+    os.system("python " + globalparam.case_path + "\case.py")

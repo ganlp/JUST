@@ -25,6 +25,20 @@ class ExtenPage(Page):
         db.close()
         return count
 
+    def del_exten(self):
+        self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/a")
+        sleep(1)
+        self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/ul/li[3]/a")
+        tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"pjsip_generic\"]/div[1]/div[2]")
+        rows1 = tables.find_elements_by_tag_name("tr")
+        rows1[0].find_element_by_xpath("//*[@id=\"table-pjsip\"]/tbody/tr[1]/td[5]/a[2]/i").click()
+        sleep(5)
+        tables = self.dr.origin_driver.find_element_by_xpath("//*[@id=\"pjsip_generic\"]/div[1]/div[2]")
+        self.dr.dismiss_alert()
+        sleep(15)
+        rows2 = tables.find_elements_by_tag_name("tr")
+        return [len(rows1), len(rows2)]
+
 if __name__=='__main__':
     db = pymysql.connect(globalparam.db["ip"], globalparam.db["loginname"], globalparam.db["password"], "asterisk")
     cursor = db.cursor()

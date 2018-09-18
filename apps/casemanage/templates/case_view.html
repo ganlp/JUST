@@ -95,6 +95,13 @@
             var o = { showcheck: true
             //onnodeclick:function(item){alert(item.text);},
             };
+            $.ajax({
+                        type: "post",
+                        url: "/api/get_newest_cases",
+                        data:{},
+                        success: function() {
+                       }
+                     });
             o.data = treedata;
             $("#tree").treeview(o);
             $("#showchecked").click(function(e) {

@@ -35,4 +35,4 @@ class Login():
 
 if __name__=='__main__':
     lg=Login()
-    lg.login()
+    lg.login_admin()
