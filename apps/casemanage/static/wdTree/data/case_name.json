@@ -3,7 +3,7 @@
         "firstclass": "登录",
         "secondclass": [
             {
-                "file": "test_1_login_staticlogin(Login)",
+                "file": "test_10_login_staticlogin(Login)",
                 "name": "静态登录",
                 "case": [
                     {
@@ -18,7 +18,7 @@
         "firstclass": "组织机构",
         "secondclass": [
             {
-                "file": "test_2_organize_depart(TestDepart)",
+                "file": "test_20_organize_depart(TestDepart)",
                 "name": "部门管理",
                 "case": [
                     {
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "file": "test_3_organize_user(TestUser)",
+                "file": "test_21_organize_user(TestUser)",
                 "name": "用户管理",
                 "case": [
                     {
@@ -51,7 +51,7 @@
         "firstclass": "话务管理",
         "secondclass": [
             {
-                "file": "test_4_call_toolbar(TestToolbar)",
+                "file": "test_30_call_toolbar(TestToolbar)",
                 "name": "话务条",
                 "case": [
                     {
@@ -66,7 +66,7 @@
         "firstclass": "后台管理",
         "secondclass": [
             {
-                "file": "test_9_admin_exten(TestExten)",
+                "file": "test_60_admin_exten(TestExten)",
                 "name": "分机管理",
                 "case": [
                     {
@@ -74,12 +74,22 @@
                         "name": "添加分机"
                     },
                     {
-                        "id": "test_del_exten",
-                        "name": "删除分机"
+                        "id": "test_modify_exten",
+                        "name": "修改分机-绑定外线"
                     },
                     {
-                        "id": "test_modify_exten",
-                        "name": "修改分机"
+                        "id": "test_del_exten",
+                        "name": "删除分机"
+                    }
+                ]
+            },
+            {
+                "file": "test_61_admin_queue(TestQueue)",
+                "name": "队列管理",
+                "case": [
+                    {
+                        "id": "test_add_queue",
+                        "name": "添加队列901-同时振铃"
                     }
                 ]
             }

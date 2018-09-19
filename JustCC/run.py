@@ -7,7 +7,7 @@ from config import globalparam
 from public.common import sendmail
 from public.common import initialize
 from public.common import login
-from testcase import test_1_login_staticlogin,test_2_organize_depart,test_3_organize_user,test_4_call_toolbar,test_9_admin_exten
+from testcase import test_10_login_staticlogin,test_20_organize_depart,test_21_organize_user,test_30_call_toolbar,test_60_admin_exten,test_61_admin_queue
 import os
 
 file_list=os.listdir(globalparam.case_path)

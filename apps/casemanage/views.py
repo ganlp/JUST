@@ -41,6 +41,7 @@ def test_api(request):    #调接口传选中的用例数据
     if 'data' in request.POST:
         data = request.POST['data']
         process_data=data.split(',')
+        print(process_data)
         for i in process_data:
             if i=='menu':
                 process_data.remove(i)

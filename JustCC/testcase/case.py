@@ -18,7 +18,8 @@ menu={
     'call':'话务管理',
     'toolbar':'话务条',
     'admin':'后台管理',
-    'exten':'分机管理'
+    'exten':'分机管理',
+	'queue':"队列管理"
 }
 
 class Case():
