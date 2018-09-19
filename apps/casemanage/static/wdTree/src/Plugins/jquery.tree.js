@@ -453,7 +453,7 @@
         }
         function getck(items, c, fn) {
             for (var i = 0, l = items.length; i < l; i++) {
-                (items[i].showcheck == true && items[i].checkstate == 1) && c.push(fn(items[i]));
+                (items[i].showcheck == true && (items[i].checkstate == 1 || items[i].checkstate ==2)) && c.push(fn(items[i]));  //补充items[i].checkstate ==2的类型，使三级菜单下未全部勾选时也能执行
                 if (items[i].ChildNodes != null && items[i].ChildNodes.length > 0) {
                     getck(items[i].ChildNodes, c, fn);
                 }
