@@ -4,6 +4,7 @@
 {% load crispy_forms_tags %}
 
 {% block extrastyle %}{{ block.super }}
+
 <style type="text/css">
   #panel-login {
     max-width: 350px;
@@ -22,6 +23,18 @@
   #panel-login .alert-block ul li{
     list-style-type: none;
   }
+
+  BODY {
+  -webkit-perspective: 40em;
+          perspective: 40em;
+  -webkit-perspective-origin: center center;
+          perspective-origin: center center;
+  font-size: 14px;
+  background: #000;
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.025) 50%, transparent 50%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.025) 50%, transparent 50%);
+  background-size: 2rem 100%;
+}
 </style>
 {% endblock %}
 
@@ -29,14 +42,14 @@
 
 {% block body %}
 <div class="container">
-
   <form action="" method="post" id="login-form">
     <div class="panel panel-default panel-single" id="panel-login">
     {% csrf_token %}
     {% block login_form %}
       <div class="panel-heading">
         {% block login_heading %}
-        <h2 class="form-signin-heading">{% if title %}{{title}}{% else %}{% trans "Please Login" %}{% endif %}</h2>
+    <!--      <h2 class="form-signin-heading">{% if title %}{{title}}{% else %}{% trans "Test management platform" %}{% endif %}</h2>  -->
+         <h2 class="form-signin-heading">{% trans "测试管理平台" %}</h2>
         {% endblock %}
       </div>
       <div class="panel-body">
@@ -85,4 +98,9 @@
 <script type="text/javascript">
 document.getElementById('id_username').focus()
 </script>
+
+<div>
+  <iframe frameborder="0" scrolling="no" src="/admin/login_cool_css" width="100%" height="400px"></iframe>
+</div>
 {% endblock %}
+

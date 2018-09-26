@@ -9,14 +9,14 @@ import os
 import pymysql
 
 class queuePage(Page):
-    def add_queue(self):
+    def add_queue(self,queueno):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/a")
         sleep(1)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/ul/li[10]/a")
         sleep(2)
         self.dr.click("xpath->//*[@id=\"toolbar-all\"]/a")
-        self.dr.type("xpath->//*[@id=\"account\"]","901")
-        self.dr.type("xpath->//*[@id=\"name\"]","901")
+        self.dr.type("xpath->//*[@id=\"account\"]",queueno)
+        self.dr.type("xpath->//*[@id=\"name\"]",queueno)
         self.dr.click("xpath->//*[@id=\"goto0\"]")
         self.dr.click("xpath->//*[@id=\"goto0\"]/option[9]")
         self.dr.click("xpath->//*[@id=\"submit\"]")
@@ -24,7 +24,7 @@ class queuePage(Page):
         self.dr.take_screenshot(os.path.join(globalparam.img_path, "queue", "addqueue.png"))
         db=pymysql.connect(globalparam.db["ip"], globalparam.db["loginname"], globalparam.db["password"], "asterisk")
         cursor = db.cursor()
-        count=cursor.execute("select * from queues_config where extension=901")
+        count=cursor.execute("select * from queues_config where extension="+queueno)
         db.close()
         return count
 

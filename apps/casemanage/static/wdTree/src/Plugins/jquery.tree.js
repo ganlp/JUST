@@ -499,6 +499,13 @@
         };
         return me;
     };
+    $.fn.expandall = function() {
+        if (this[0].t) {
+            this[0].t.nodeclick();
+        }
+        return null;
+    };
+
     //get all checked nodes, and put them into array. no hierarchy
     $.fn.getCheckedNodes = function() {
         if (this[0].t) {

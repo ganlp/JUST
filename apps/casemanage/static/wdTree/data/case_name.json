@@ -66,7 +66,17 @@
         "firstclass": "后台管理",
         "secondclass": [
             {
-                "file": "test_60_admin_exten(TestExten)",
+                "file": "test_60_admin_trunk(TestTrunk)",
+                "name": "中继线路",
+                "case": [
+                    {
+                        "id": "test_add_trunk",
+                        "name": "添加中继-外部注册"
+                    }
+                ]
+            },
+            {
+                "file": "test_61_admin_exten(TestExten)",
                 "name": "分机管理",
                 "case": [
                     {
@@ -84,7 +94,7 @@
                 ]
             },
             {
-                "file": "test_61_admin_queue(TestQueue)",
+                "file": "test_62_admin_queue(TestQueue)",
                 "name": "队列管理",
                 "case": [
                     {

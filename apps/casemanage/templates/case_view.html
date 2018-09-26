@@ -73,7 +73,13 @@
     font-family:"隶书";
     }
     </style>
-    
+  <a  href="javascript:void(0);"  id="expandall" onclick="expand()" style="text-align:center">展开全部</a>
+  <a  href="javascript:void(0);"  id="collapseall" >折叠全部</a>
+  <script language="javascript">
+    function expand(){
+         $("#tree").expandall();
+     }
+  </script>
   <div style="padding:10px;"> 
   <div class="demo">
     <div style="border-bottom: #c3daf9 5px solid;background-color:#f2dede; border-left: #c3daf9 5px solid; width: 280px; height: 700px; overflow: auto; border-top: #c3daf9 5px solid; border-right: #c3daf9 5px solid;">

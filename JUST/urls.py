@@ -31,5 +31,6 @@ urlpatterns = [
     url(r'^api/getjson',views.test_api,name='test_api'),
     url(r'^api/read_log',views.read_log,name='read_log'),
     url(r'^api/set_serverip',views.set_serverip,name='set_serverip'),
-    url(r'^api/get_newest_cases',views.get_newest_cases,name='get_newest_cases')
+    url(r'^api/get_newest_cases',views.get_newest_cases,name='get_newest_cases'),
+    url(r'^admin/login_cool_css',views.login_cool_css,name="login_cool_css")
 ]

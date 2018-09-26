@@ -116,5 +116,8 @@ class testView(BaseAdminView):
         return render(request, 'case_view.html') #,{'data':data}
        # return HttpResponse("Hello Django!")
 
+def login_cool_css(request):
+    return render(request, 'coolcss.html')
+
 if __name__=='__main__':
     pass

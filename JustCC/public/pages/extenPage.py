@@ -9,19 +9,19 @@ import os
 import pymysql
 
 class ExtenPage(Page):
-    def add_exten(self):
+    def add_exten(self,name,password):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/a")
         sleep(1)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/ul/li[3]/a")
         self.dr.click("xpath->//*[@id=\"toolbar-pjsip\"]/a[1]")
-        self.dr.type("xpath->//*[@id=\"extension\"]",'100')
-        self.dr.type("xpath->//*[@id=\"devinfo_secret\"]",'100')
+        self.dr.type("xpath->//*[@id=\"extension\"]",name)
+        self.dr.type("xpath->//*[@id=\"devinfo_secret\"]",password)
         self.dr.click("xpath->//*[@id=\"submit\"]")
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"exten","addexten.png"))
         sleep(2)
         db=pymysql.connect(globalparam.db["ip"], globalparam.db["loginname"], globalparam.db["password"], "asterisk")
         cursor = db.cursor()
-        count=cursor.execute("select * from users where extension=111")
+        count=cursor.execute("select * from users where extension="+name)
         db.close()
         return count
 

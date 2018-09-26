@@ -6,21 +6,9 @@
             },
             {
                 "id": "test_modify_exten"
-            },
-            {
-                "id": "test_del_exten"
             }
         ],
         "filename": "test_60_admin_exten",
         "class": "TestExten"
-    },
-    {
-        "case": [
-            {
-                "id": "test_add_queue"
-            }
-        ],
-        "filename": "test_61_admin_queue",
-        "class": "TestQueue"
     }
 ]
