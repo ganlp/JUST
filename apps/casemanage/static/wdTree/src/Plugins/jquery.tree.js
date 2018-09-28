@@ -252,6 +252,7 @@
                 }
             }
         }
+
         //iterate all children nodes
         function cascade(fn, item, args) {
             if (fn(item, args, 1) != false) {
@@ -495,15 +496,20 @@
                     id = itemOrItemId.id;
                 }
                 reflash(id);
+            },
+            expandallnodes:function(){
+                var item = getItem("0");
+                if (!item.expand) {
+                        item.expand = function() { expandnode.call(item); };
+                    }
             }
         };
         return me;
     };
     $.fn.expandall = function() {
         if (this[0].t) {
-            this[0].t.nodeclick();
+           this[0].t.expandallnodes();
         }
-        return null;
     };
 
     //get all checked nodes, and put them into array. no hierarchy

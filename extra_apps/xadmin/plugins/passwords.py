@@ -34,22 +34,24 @@ class ResetPasswordSendView(BaseAdminView):
         form = self.password_reset_form(request.POST)
 
         if form.is_valid():
-            opts = {
-                'use_https': request.is_secure(),
-                'token_generator': self.password_reset_token_generator,
-                'email_template_name': self.password_reset_email_template,
-                'request': request,
-                'domain_override': request.get_host()
-            }
+            email = form.cleaned_data['email']
+            from django.contrib.auth.models import User
+            if User.objects.filter(email=email):
+                opts = {
+                    'use_https': request.is_secure(),
+                    'token_generator': self.password_reset_token_generator,
+                    'email_template_name': self.password_reset_email_template,
+                    'request': request,
+                    'domain_override': request.get_host()
+                }
+                if self.password_reset_from_email:
+                    opts['from_email'] = self.password_reset_from_email
+                if self.password_reset_subject_template:
+                    opts['subject_template_name'] = self.password_reset_subject_template
 
-            if self.password_reset_from_email:
-                opts['from_email'] = self.password_reset_from_email
-            if self.password_reset_subject_template:
-                opts['subject_template_name'] = self.password_reset_subject_template
-
-            form.save(**opts)
-            context = super(ResetPasswordSendView, self).get_context()
-            return TemplateResponse(request, self.password_reset_done_template, context)
+                form.save(**opts)
+                context = super(ResetPasswordSendView, self).get_context()
+                return TemplateResponse(request, self.password_reset_done_template, context)
         else:
             return self.get(request, form=form)
 
@@ -79,7 +81,7 @@ class ResetPasswordComfirmView(BaseAdminView):
                    token_generator=self.password_reset_token_generator,
                    set_password_form=self.password_reset_set_form,
                    post_reset_redirect=self.get_admin_url('xadmin_password_reset_complete'),
-                   current_app=self.admin_site.name, extra_context=context)
+                   extra_context=context)
 
     def get(self, request, uidb36, token, *args, **kwargs):
         return self.do_view(request, uidb36, token)

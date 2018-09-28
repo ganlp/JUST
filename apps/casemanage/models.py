@@ -39,6 +39,18 @@ class UIAuto(models.Model):
         verbose_name=u'UI自动化'
         verbose_name_plural=u'UI自动化'
 
+class ApiAuto(models.Model):
+    project=models.ForeignKey(test_project, on_delete=models.CASCADE,verbose_name='项目名称')
+    name=models.CharField('自动化版本名称',max_length=64)
+    remark=models.TextField('备注',max_length=128,blank=True)
+
+    def __str__(self):
+        return self.name
+
+    class Meta():
+        verbose_name=u'接口自动化'
+        verbose_name_plural=u'接口自动化'
+
 
 class Case_catagory(models.Model):
     upper_case = models.IntegerField(blank=True, null=True, verbose_name=u'上级分类ID')
@@ -50,5 +62,5 @@ class Case_catagory(models.Model):
         return self.name
 
     class Meta():
-        verbose_name=u'用例分类'
-        verbose_name_plural=u'用例分类'
+        verbose_name=u'功能菜单'
+        verbose_name_plural=u'功能菜单'

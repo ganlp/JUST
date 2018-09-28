@@ -2,13 +2,76 @@
     {
         "case": [
             {
+                "id": "test_static_login"
+            }
+        ],
+        "filename": "test_10_login_staticlogin",
+        "class": "Login"
+    },
+    {
+        "case": [
+            {
+                "id": "test_depart_add"
+            },
+            {
+                "id": "test_depart_del"
+            }
+        ],
+        "filename": "test_20_organize_depart",
+        "class": "TestDepart"
+    },
+    {
+        "case": [
+            {
+                "id": "test_user_add"
+            },
+            {
+                "id": "test_user_del"
+            }
+        ],
+        "filename": "test_21_organize_user",
+        "class": "TestUser"
+    },
+    {
+        "case": [
+            {
+                "id": "test_quick_call"
+            }
+        ],
+        "filename": "test_30_call_toolbar",
+        "class": "TestToolbar"
+    },
+    {
+        "case": [
+            {
+                "id": "test_add_trunk"
+            }
+        ],
+        "filename": "test_60_admin_trunk",
+        "class": "TestTrunk"
+    },
+    {
+        "case": [
+            {
                 "id": "test_add_exten"
             },
             {
                 "id": "test_modify_exten"
+            },
+            {
+                "id": "test_del_exten"
             }
         ],
-        "filename": "test_60_admin_exten",
+        "filename": "test_61_admin_exten",
         "class": "TestExten"
+    },
+    {
+        "case": [
+            {
+                "id": "test_add_queue"
+            }
+        ],
+        "filename": "test_62_admin_queue",
+        "class": "TestQueue"
     }
 ]
