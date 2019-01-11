@@ -1,0 +1,13 @@
+Spend 0.0010001659393310547 seconds
+2018-12-29 17:45:27,636 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2018-12-29 17:45:27,826 - root - INFO - SUCCESS    Clicked element: <link_text->字段设置>, Spend 0.19001078605651855 seconds
+2018-12-29 17:45:27,831 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.004000186920166016 seconds
+2018-12-29 17:45:27,833 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2018-12-29 17:45:28,300 - root - INFO - SUCCESS    Clicked element: <link_text->工单字段>, Spend 0.4670267105102539 seconds
+2018-12-29 17:45:28,304 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.003000020980834961 seconds
+2018-12-29 17:45:28,373 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_standard_system_field_index_ticket>, Spend 0.0650033950805664 seconds
+2018-12-29 17:45:28,375 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2018-12-29 17:45:28,680 - root - INFO - SUCCESS    Clicked element: <css->body > div > div > div > div.sub_left_menu > ul > li:nth-child(2) > a>, Spend 0.3060176372528076 seconds
+2018-12-29 17:45:28,682 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0010001659393310547 seconds
+2018-12-29 17:45:28,684 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2018-12-29 17:45:29,062 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="ticket-type-add"]>, Spend 0.37902164459228516 se

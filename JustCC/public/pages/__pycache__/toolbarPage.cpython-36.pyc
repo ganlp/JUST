@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试报告</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/chosen/1.8.2/chosen.css" rel="stylesheet">
+    <base target="_blank">
+    <style type="text/css">
+        h1,h2,h3,h4,h5,h6 {
+	font-weight: 100
+}
+
+h1 {
+	font-size: 30px
+}
+
+h2 {
+	font-size: 24px
+}
+
+h3 {
+	font-size: 16px
+}
+
+h4 {
+	font-size: 14px
+}
+
+h5 {
+	font-size: 12px
+}
+
+h6 {
+	font-size: 10px
+}
+
+h3,h4,h5 {
+	margin-top: 5px;
+	font-weight: 600
+}
+
+a:focus {
+	outline: 0
+}
+
+.nav>li>a {
+	color: #a7b1c2;
+	font-weight: 600;
+	padding: 14px 20px 14px 25px
+}
+
+.nav li>a {
+	display: block
+}
+
+.nav.navbar-right>li>a {
+	color: #999c9e
+}
+
+.nav>li.active>a {
+	color: #fff
+}
+
+.navbar-default .nav>li>a:focus,.navbar-default .nav>

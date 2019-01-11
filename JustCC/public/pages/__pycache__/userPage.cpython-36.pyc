@@ -1,0 +1,24 @@
+s
+2018-10-29 17:57:22,501 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2018-10-29 17:57:22,508 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.006000518798828125 seconds
+2018-10-29 17:57:22,510 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 0.007000446319580078 seconds
+2018-10-29 17:57:26,155 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.6442084312438965 seconds
+2018-10-29 17:57:26,156 - root - INFO - ###############################  End  ###############################
+2018-10-29 17:57:26,157 - root - INFO - ############################### START ###############################
+2018-10-29 17:57:27,490 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.6030347347259521 seconds
+2018-10-29 17:57:31,481 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.324304580688477 seconds
+2018-10-29 17:57:35,560 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 6.011343955993652 seconds
+2018-10-29 17:57:38,835 - root - INFO - SUCCESS    Navigated to http://192.168.9.248/admin, Spend 7.3534204959869385 seconds
+2018-10-29 17:57:38,846 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.009000539779663086 seconds
+2018-10-29 17:57:42,090 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2430710792541504 seconds
+2018-10-29 17:57:42,130 - root - INFO - SUCCESS    Navigated to http://192.168.9.248/admin, Spend 6.56937575340271 seconds
+2018-10-29 17:57:43,093 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.003000020980834961 seconds
+2018-10-29 17:57:43,109 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2018-10-29 17:57:43,119 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 0.013000965118408203 seconds
+2018-10-29 17:57:43,374 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2390708923339844 seconds
+2018-10-29 17:57:43,381 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.006000518798828125 seconds
+2018-10-29 17:57:43,608 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.22101259231567383 seconds
+2018-10-29 17:57:43,824 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.21401214599609375 seconds
+2018-10-29 17:57:43,829 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2018-10-29 17:57:44,456 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 0.6310358047485352 seconds
+2018-10-29 17:57:46,471 - root - INFO - SUCCESS    Accept warning 
