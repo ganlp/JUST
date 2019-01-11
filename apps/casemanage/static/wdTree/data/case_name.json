@@ -63,6 +63,40 @@
         ]
     },
     {
+        "firstclass": "客户管理",
+        "secondclass": [
+            {
+                "file": "test_40_customerMag_customer(TestCustomer)",
+                "name": "客户资料",
+                "case": [
+                    {
+                        "id": "test_customer_add",
+                        "name": "添加客户资料"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstclass": "工单管理",
+        "secondclass": [
+            {
+                "file": "test_50_ticket_ticket(TestTicket)",
+                "name": "工单管理",
+                "case": [
+                    {
+                        "id": "test_1_add_ticket_type",
+                        "name": "添加工单类型"
+                    },
+                    {
+                        "id": "test_2_add_ticket",
+                        "name": "创建工单"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "firstclass": "后台管理",
         "secondclass": [
             {
@@ -100,6 +134,26 @@
                     {
                         "id": "test_add_queue",
                         "name": "添加队列901-同时振铃"
+                    }
+                ]
+            },
+            {
+                "file": "test_63_admin_callinrule(TestCallin)",
+                "name": "呼入规则",
+                "case": [
+                    {
+                        "id": "test_callinrule",
+                        "name": "添加呼入规则"
+                    }
+                ]
+            },
+            {
+                "file": "test_64_admin_calloutrule(TestCallout)",
+                "name": "呼出规则",
+                "case": [
+                    {
+                        "id": "test_calloutrule",
+                        "name": "添加呼出规则"
                     }
                 ]
             }

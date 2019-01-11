@@ -44,6 +44,27 @@
     {
         "case": [
             {
+                "id": "test_customer_add"
+            }
+        ],
+        "filename": "test_40_customerMag_customer",
+        "class": "TestCustomer"
+    },
+    {
+        "case": [
+            {
+                "id": "test_1_add_ticket_type"
+            },
+            {
+                "id": "test_2_add_ticket"
+            }
+        ],
+        "filename": "test_50_ticket_ticket",
+        "class": "TestTicket"
+    },
+    {
+        "case": [
+            {
                 "id": "test_add_trunk"
             }
         ],
@@ -73,5 +94,23 @@
         ],
         "filename": "test_62_admin_queue",
         "class": "TestQueue"
+    },
+    {
+        "case": [
+            {
+                "id": "test_callinrule"
+            }
+        ],
+        "filename": "test_63_admin_callinrule",
+        "class": "TestCallin"
+    },
+    {
+        "case": [
+            {
+                "id": "test_calloutrule"
+            }
+        ],
+        "filename": "test_64_admin_calloutrule",
+        "class": "TestCallout"
     }
 ]
