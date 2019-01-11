@@ -18,19 +18,23 @@ from rest_framework import routers
 from django.contrib.auth.models import User
 from rest_framework.schemas import get_schema_view
 from apps.casemanage import views
+from django.views.static import serve
+from JUST import settings
 
 import xadmin
 xadmin.autodiscover()
 
 router=routers.DefaultRouter()
 
-
 urlpatterns = [
-    url(r'^admin/',xadmin.site.urls),
-    url(r'^docs/',get_schema_view()),
-    url(r'^api/getjson',views.test_api,name='test_api'),
-    url(r'^api/read_log',views.read_log,name='read_log'),
-    url(r'^api/set_serverip',views.set_serverip,name='set_serverip'),
-    url(r'^api/get_newest_cases',views.get_newest_cases,name='get_newest_cases'),
-    url(r'^admin/login_cool_css',views.login_cool_css,name="login_cool_css")
+    url(r'^$/', views.test_api),
+    url(r'^admin/', xadmin.site.urls),
+    url(r'^docs/', get_schema_view()),
+    url(r'^api/getjson', views.test_api, name='test_api'),
+    url(r'^api/read_log', views.read_log, name='read_log'),
+    url(r'^api/set_serverip', views.set_serverip, name='set_serverip'),
+    url(r'^api/get_newest_cases', views.get_newest_cases, name='get_newest_cases'),
+    url(r'^admin/login_cool_css', views.login_cool_css, name="login_cool_css"),
+    url(r'^showreport', views.showreport, name="showreport"),
+    url(r'^reportfile/(?P<path>.*)$', serve, {'document_root': settings.REPORT_ROOT,'show_indexes': True}),
 ]

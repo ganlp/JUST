@@ -19,6 +19,7 @@ print(BASE_DIR)
 sys.path.insert(0,os.path.join(BASE_DIR,'extra_apps'))
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 sys.path.insert(0,os.path.join(BASE_DIR,'JustCC'))
+sys.path.insert(0,os.path.join(BASE_DIR,'JustCC','report','testreport'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -55,8 +56,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-
-
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -145,17 +144,23 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(os.path.dirname(__file__), '../apps/static')
-# STATICFILES_DIRS = (
+
+#STATICFILES_DIRS = (
 #     ('css',os.path.join(STATIC_ROOT,'css').replace('\\','/') ),
 #     ('js',os.path.join(STATIC_ROOT,'js').replace('\\','/') ),
 #     ('images',os.path.join(STATIC_ROOT,'images').replace('\\','/') ),
-# )
+#     'JustCC/report/testreport',
+#)
 
 #配置全局分页类型和每页数量
 REST_FRAMEWORK = {
 'DEFAULT_PAGINATION_CLASS': ('rest_framework.permissions.IsAdminUser',),
 'PAGE_SIZE': 10
 }
+
+###配置html报告地址
+REPORT_ROOT=os.path.join(BASE_DIR,'JustCC','report','testreport')
+
 
 #邮件配置
 

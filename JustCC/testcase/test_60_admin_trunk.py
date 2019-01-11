@@ -14,7 +14,7 @@ class TestTrunk(mytest_admin.MyTest):
         self.login_admin_with_cookie()
         trunk_page = trunkPage.TrunkPage(self.dr)
         datas = datainfo.get_xls_to_dict('data_info.xlsx', 'trunk_data')[0]
-        cnt = trunk_page.add_trunk(str(datas['trunkname']).split('.')[0], datas['zone'], str(datas['max_chans']).split('.')[0],datas["sip_ip"])
+        cnt = trunk_page.add_trunk( datas['name'],str(datas['trunkname']).split('.')[0], datas['zone'], str(datas['max_chans']).split('.')[0],datas["sip_ip"])
         self.assertEqual(cnt, 1)
 
 

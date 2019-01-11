@@ -30,6 +30,7 @@ class MyTest(unittest.TestCase):
             self.dr.origin_driver.add_cookie(c)
         self.dr.origin_driver.refresh()
         self.dr.wait(10)
+        self.dr.accept_alert()
 
     def tearDown(self):
         self.dr.quit()

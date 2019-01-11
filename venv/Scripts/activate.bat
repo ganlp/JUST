@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=E:\python excercise\JUST\venv"
+set "VIRTUAL_ENV=E:\python_excercise\JUST\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

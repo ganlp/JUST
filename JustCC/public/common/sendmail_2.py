@@ -31,13 +31,12 @@ class SendMail:
     def send(self):
         #发送邮件
         newreport=self.get_report()
-        # with open(os.path.join(reportPath,newreport), 'rb') as f:
-        #     mailbody = f.read()
-        #     print(mailbody)
-        mailbody="报告详情请见附件"
+        with open(os.path.join(reportPath,newreport), 'rb') as f:
+             mailbody = f.read()
+        #mailbody="报告详情请见附件"
         try:
             yag=yagmail.SMTP(user=sendaddr_name,password=sendaddr_pswd,host=mail_server)
-            yag.send(recvaddress,Subject,contents=[mailbody,os.path.join(reportPath,newreport)])
+            yag.send(recvaddress,Subject,contents=["报告请见附件！",os.path.join(reportPath,newreport)])
             logger.info("发送邮件成功")
         except Exception:
             logger.error('发送邮件失败')
@@ -46,5 +45,3 @@ class SendMail:
 if __name__ == '__main__':
 	sendMail = SendMail()
 	sendMail.send()
-
-        

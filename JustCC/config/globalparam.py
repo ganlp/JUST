@@ -44,11 +44,15 @@ run_path=os.path.join(prj_path,'JustCC','run.py')
 sipp_path=os.path.join(prj_path,'JustCC','sip_cdr','run_sipp.py')
 
 #server_database数据库信息：
-db = {"ip": "192.168.9.247", "loginname": "justtest", "password": "test123", "basename": "organize"}
+base={"ip": "192.168.9.247", "loginname": "justtest", "password": "test123"}
+db_organize,db_standard,db_asterisk=base.copy(),base.copy(),base.copy()   #字典浅拷贝
+db_organize["basename"]="organize"
+db_standard["basename"]="standard"
+db_asterisk["basename"]="asterisk"
 
 if __name__=='__main__':
     print(json_path)
-    print(db["ip"])
+    print(db_organize["basename"])
     print(config_file_path)
 
 

@@ -9,11 +9,11 @@ import json,sys,os,subprocess
 from django.http import JsonResponse
 import time
 from JustCC.config import globalparam
-
+#from JustCC.public.common import sendmail_2
+import os
 
 @csrf_exempt
 def get_newest_cases(request):      #获取最新用例集合
-    print("python " + globalparam.case_path + "\case.py")
     os.system("python " + globalparam.case_path + "\case.py")
     return JsonResponse({"result": 0, "msg": "执行成功"})
 
@@ -41,7 +41,6 @@ def test_api(request):    #调接口传选中的用例数据
     if 'data' in request.POST:
         data = request.POST['data']
         process_data=data.split(',')
-        print(process_data)
         for i in process_data:
             if i=='menu':
                 process_data.remove(i)
@@ -105,19 +104,24 @@ def read_log(request):
         with open(globalparam.log_path + "\\" + logname, 'r', encoding='utf-8') as f:
             lines = f.readlines()
         if len(lines)> read_log.counter:
-            context={"data":'\n'+lines[read_log.counter]}
-            read_log.counter+=1
+            cnt=read_log.counter
+            lines_str=['\n'+lines[i] for i in range(len(lines))]
+            context={"data":''.join(lines_str[cnt:cnt+50])}
+            read_log.counter+=len(lines_str[cnt:cnt+50])
             return JsonResponse(context)
         else:
             return JsonResponse({"data":'.'})
 
+@csrf_exempt
+def showreport(request):    #读取测试报告
+    file_list=os.listdir(globalparam.report_path)
+    recent_list=file_list[::-1]      #获取测试报告列表
+    return JsonResponse({"data":recent_list})
+
 class testView(BaseAdminView):
     def get(self,request,*args,**kwargs):
-        return render(request, 'case_view.html') #,{'data':data}
+        return render(request, 'case_view.html')
        # return HttpResponse("Hello Django!")
 
 def login_cool_css(request):
     return render(request, 'coolcss.html')
-
-if __name__=='__main__':
-    pass

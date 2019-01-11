@@ -20,7 +20,12 @@ menu={
     'admin':'后台管理',
     'exten':'分机管理',
 	'queue':"队列管理",
-    'trunk':"中继线路"
+    'trunk':"中继线路",
+    'customerMag':'客户管理',
+    'customer':'客户资料',
+    'callinrule':'呼入规则',
+    'calloutrule':'呼出规则',
+    'ticket':'工单管理'
 }
 
 class Case():
