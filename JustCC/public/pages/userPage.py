@@ -9,7 +9,8 @@ from config import globalparam
 
 class UserPage(Page):
     def add_user(self,work_no,work_name,username):
-        self.dr.click("css->#sidebar > ul > li > div > a:nth-child(11) > span")
+        #self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
+        self.dr.click("link_text->组织机构")
         self.dr.wait(1)
         self.dr.click("link_text->用户管理")
         self.dr.wait(5)
@@ -32,8 +33,8 @@ class UserPage(Page):
         self.dr.click("xpath->//*[@id=\"user-form\"]/div[7]/div[2]/div/div/button/span[1]")
         sleep(1)
         self.dr.click("xpath->//*[@id=\"user-form\"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]")
-        self.dr.clear_type("css->#user-password",'111111')
-        self.dr.clear_type("css->#user-confirm_password",'111111')
+        self.dr.clear_type("css->#user-password",'Aa111111')
+        self.dr.clear_type("css->#user-confirm_password",'Aa111111')
         self.dr.click("css->#user-form > div.btn_box > button")
         self.dr.wait(5)
         self.dr.switch_to_frame_out()
@@ -47,7 +48,8 @@ class UserPage(Page):
         return  [len(rows1),len(rows2)]
 
     def del_user(self,n):
-        self.dr.click("css->#sidebar > ul > li > div > a:nth-child(11) > span")
+        #self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
+        self.dr.click("link_text->组织机构")
         self.dr.wait(1)
         self.dr.click("link_text->用户管理")
         self.dr.wait(5)

@@ -17,8 +17,8 @@ class ToolbarPage(Page):
         self.dr.js_click(".makeCall")
         sleep(3)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"toolbar","quickcall.png"))
-        loader = subprocess.Popen(["C:\Python36\python.exe", globalparam.sipp_path ])
-        returncode = loader.wait()
-        print("returncode=%s" % (returncode))
+       # loader = subprocess.Popen(["C:\Python36\python.exe", globalparam.sipp_path ])
+       # returncode = loader.wait()
+       # print("returncode=%s" % (returncode))
 
 

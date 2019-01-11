@@ -9,7 +9,8 @@ import os
 class DepartPage(Page):
     def add_depart(self):
      #   self.dr.click("xpath->//*[@id=\"sidebar\"]/ul/li/div/a[12]/span")
-        self.dr.click("css->#sidebar > ul > li > div > a:nth-child(11) > span")
+     #   self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
+        self.dr.click("link_text->组织机构")
         self.dr.wait(1)
         self.dr.click("link_text->部门管理")
         self.dr.switch_to_frame("id->iframe_organize_department")
@@ -33,7 +34,8 @@ class DepartPage(Page):
         return [rows1,rows2]
 
     def del_depart(self):
-        self.dr.click("css->#sidebar > ul > li > div > a:nth-child(11) > span")
+       # self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
+        self.dr.click("link_text->组织机构")
         self.dr.wait(1)
         self.dr.click("link_text->部门管理")
         self.dr.switch_to_frame("id->iframe_organize_department")

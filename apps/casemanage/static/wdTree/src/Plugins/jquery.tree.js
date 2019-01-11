@@ -252,7 +252,6 @@
                 }
             }
         }
-
         //iterate all children nodes
         function cascade(fn, item, args) {
             if (fn(item, args, 1) != false) {
@@ -454,7 +453,7 @@
         }
         function getck(items, c, fn) {
             for (var i = 0, l = items.length; i < l; i++) {
-                (items[i].showcheck == true && (items[i].checkstate == 1 || items[i].checkstate ==2)) && c.push(fn(items[i]));  //补充items[i].checkstate ==2的类型，使三级菜单下未全部勾选时也能执行
+                (items[i].showcheck == true && items[i].checkstate == 1) && c.push(fn(items[i]));
                 if (items[i].ChildNodes != null && items[i].ChildNodes.length > 0) {
                     getck(items[i].ChildNodes, c, fn);
                 }
@@ -496,22 +495,10 @@
                     id = itemOrItemId.id;
                 }
                 reflash(id);
-            },
-            expandallnodes:function(){
-                var item = getItem("0");
-                if (!item.expand) {
-                        item.expand = function() { expandnode.call(item); };
-                    }
             }
         };
         return me;
     };
-    $.fn.expandall = function() {
-        if (this[0].t) {
-           this[0].t.expandallnodes();
-        }
-    };
-
     //get all checked nodes, and put them into array. no hierarchy
     $.fn.getCheckedNodes = function() {
         if (this[0].t) {
