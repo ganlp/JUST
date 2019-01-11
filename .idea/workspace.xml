@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad2aba9a-6366-4df2-8f1d-d6253980a76d" name="Default" comment="补充工单、呼入规则、呼出规则">
-      <change beforePath="$PROJECT_DIR$/JustCC/public/common/pyselenium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/loginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/userPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/userPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/case_view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/casedata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/datafeed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/LGPLv3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/page_white_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/page_white_copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/highlighter/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/lazy-load-tree-sample.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/lgpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/sample-css/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/Plugins/jquery.tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/Plugins/jquery.tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/jquery-1.2.6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/jquery.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/JustCC/public/common/pyselenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JustCC/public/pages/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/case_name.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/case_name.json" afterDir="false" />
     </list>
     <ignored path="JUST.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,7 +155,7 @@
           <entry key="log" value="1" />
           <entry key="php" value="1" />
           <entry key="png" value="7" />
-          <entry key="py" value="350" />
+          <entry key="py" value="352" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="5" />
         </counts>
@@ -198,7 +168,7 @@
           <entry key="JSON" value="25" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="350" />
+          <entry key="Python" value="352" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -245,11 +215,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JustCC/public/pages/extenPage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="47" column="102" lean-forward="true" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/common/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -359,7 +343,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JustCC/testcase/test_61_admin_exten.py" />
         <option value="$PROJECT_DIR$/JustCC/testcase/test_62_admin_queue.py" />
         <option value="$PROJECT_DIR$/apps/casemanage/templates/coolcss.html" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/login.html" />
@@ -410,6 +393,7 @@
         <option value="$PROJECT_DIR$/JustCC/public/pages/ticketPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/__init__.py" />
       </list>
     </option>
   </component>
@@ -426,8 +410,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="206" />
-    <option name="y" value="29" />
+    <option name="x" value="50" />
+    <option name="y" value="130" />
     <option name="width" value="1497" />
     <option name="height" value="1032" />
   </component>
@@ -497,6 +481,13 @@
               <item name="JUST" type="462c0819:PsiDirectoryNode" />
               <item name="JustCC" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUST" type="462c0819:PsiDirectoryNode" />
+              <item name="JustCC" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
@@ -576,11 +567,11 @@
       <recent name="E:\python excercise\JUST\JustCC\public\common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_excercise\JUST\JustCC\public\common" />
+      <recent name="E:\python_excercise\JUST\JustCC\public" />
+      <recent name="E:\python_excercise\JUST\JustCC\public\pages" />
       <recent name="E:\python_excercise\JUST\extra_apps\xadmin\templates\xadmin\views" />
       <recent name="E:\python excercise\JUST\apps\casemanage\templatetags" />
-      <recent name="E:\python excercise\JUST\apps\casemanage" />
-      <recent name="E:\python excercise\JUST\apps" />
-      <recent name="E:\python excercise\JUST" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -963,11 +954,11 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.3275488" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4915701" weight="0.5021692" />
       <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.61907274" weight="0.6616052" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5052687" side_tool="true" visible="true" weight="0.5347071" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.61854583" visible="true" weight="0.53579175" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38145417" side_tool="true" visible="true" weight="0.53579175" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.8074753" weight="0.61051214" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.4716981" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.4947313" visible="true" weight="0.5347071" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4947313" weight="0.47071582" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1068,13 +1059,6 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_20_organize_depart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="37" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_30_call_toolbar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1163,13 +1147,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/public/common/log.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/config/globalparam.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1403,6 +1380,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="47" column="102" lean-forward="true" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/common/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
         </state>
       </provider>
     </entry>
