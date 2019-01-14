@@ -9,16 +9,17 @@ import os
 import pymysql
 
 class queuePage(Page):
-    def add_queue(self):
+    def add_queue(self,name):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/a")
         sleep(1)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/ul/li[10]/a")
         sleep(2)
         self.dr.click("xpath->//*[@id=\"toolbar-all\"]/a")
-        self.dr.type("xpath->//*[@id=\"account\"]","901")
-        self.dr.type("xpath->//*[@id=\"name\"]","901")
+        self.dr.type("xpath->//*[@id=\"account\"]",name)
+        self.dr.type("xpath->//*[@id=\"name\"]",name)
         self.dr.click("xpath->//*[@id=\"goto0\"]")
         self.dr.click("xpath->//*[@id=\"goto0\"]/option[9]")
+        self.wait(2)
         self.dr.click("xpath->//*[@id=\"submit\"]")
         sleep(2)
         self.dr.take_screenshot(os.path.join(globalparam.img_path, "queue", "addqueue.png"))

@@ -2,89 +2,11 @@
     {
         "case": [
             {
-                "id": "test_static_login"
-            }
-        ],
-        "filename": "test_10_login_staticlogin",
-        "class": "Login"
-    },
-    {
-        "case": [
-            {
-                "id": "test_depart_add"
-            },
-            {
-                "id": "test_depart_del"
-            }
-        ],
-        "filename": "test_20_organize_depart",
-        "class": "TestDepart"
-    },
-    {
-        "case": [
-            {
-                "id": "test_user_add"
-            },
-            {
-                "id": "test_user_del"
-            }
-        ],
-        "filename": "test_21_organize_user",
-        "class": "TestUser"
-    },
-    {
-        "case": [
-            {
-                "id": "test_quick_call"
-            }
-        ],
-        "filename": "test_30_call_toolbar",
-        "class": "TestToolbar"
-    },
-    {
-        "case": [
-            {
-                "id": "test_customer_add"
-            }
-        ],
-        "filename": "test_40_customerMag_customer",
-        "class": "TestCustomer"
-    },
-    {
-        "case": [
-            {
-                "id": "test_1_add_ticket_type"
-            },
-            {
-                "id": "test_2_add_ticket"
-            }
-        ],
-        "filename": "test_50_ticket_ticket",
-        "class": "TestTicket"
-    },
-    {
-        "case": [
-            {
                 "id": "test_add_trunk"
             }
         ],
         "filename": "test_60_admin_trunk",
         "class": "TestTrunk"
-    },
-    {
-        "case": [
-            {
-                "id": "test_add_exten"
-            },
-            {
-                "id": "test_modify_exten"
-            },
-            {
-                "id": "test_del_exten"
-            }
-        ],
-        "filename": "test_61_admin_exten",
-        "class": "TestExten"
     },
     {
         "case": [
@@ -103,14 +25,5 @@
         ],
         "filename": "test_63_admin_callinrule",
         "class": "TestCallin"
-    },
-    {
-        "case": [
-            {
-                "id": "test_calloutrule"
-            }
-        ],
-        "filename": "test_64_admin_calloutrule",
-        "class": "TestCallout"
     }
 ]

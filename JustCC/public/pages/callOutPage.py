@@ -8,8 +8,8 @@ from time import sleep
 import os
 import pymysql
 
-class CallInPage(Page):
-    def add_callinrule(self):
+class CallOutPage(Page):
+    def add_calloutrule(self):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[4]/a")
         sleep(1)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[4]/ul/li[2]/a")
