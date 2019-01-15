@@ -5,8 +5,10 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from config import globalparam
 import os
+from BeautifulReport import BeautifulReport
 
 class DepartPage(Page):
+    @BeautifulReport.add_test_img('depart', 'add_depart')
     def add_depart(self):
      #   self.dr.click("xpath->//*[@id=\"sidebar\"]/ul/li/div/a[12]/span")
      #   self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
@@ -33,6 +35,7 @@ class DepartPage(Page):
         rows2=len(tables.find_elements_by_tag_name('tr'))
         return [rows1,rows2]
 
+    @BeautifulReport.add_test_img('depart', 'del_depart')
     def del_depart(self):
        # self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
         self.dr.click("link_text->组织机构")

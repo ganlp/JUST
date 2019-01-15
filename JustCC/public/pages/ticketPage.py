@@ -10,11 +10,7 @@ import pymysql
 from BeautifulReport import BeautifulReport
 
 class TicketPage(Page):
-    def save_img(self,img_name):
-        self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", img_name))
-    
-    
-    @BeautifulReport.add_test_img('add_ticket_type.png')
+    @BeautifulReport.add_test_img('ticket','add_ticket_type')
     def add_ticket_type(self):
       self.dr.click("link_text->系统设置")
       self.dr.wait(1)
@@ -39,23 +35,22 @@ class TicketPage(Page):
       cursor = db.cursor()
       count = cursor.execute("select * from conf_ticket_type where type_name = '请假'")
       db.close()
-      #self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_ticket_type.png"))
-      self.save_img("add_ticket_type.png")
+      self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_ticket_type.png"))
       return count
 
-    @BeautifulReport.add_test_img('add_ticket.png')
+    @BeautifulReport.add_test_img('ticket', 'add_ticket')
     def add_ticket(self):
      #   self.dr.click("xpath->//*[@id=\"sidebar\"]/ul/li/div/a[12]/span")
      #   self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
         self.dr.click("link_text->工单管理")
-        self.dr.wait(1)
+        self.dr.wait(3)
         self.dr.click("link_text->创建工单")
-        self.dr.wait(1)
+        self.dr.wait(3)
         self.dr.switch_to_frame("id->iframe_ticket-create")
         self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr/td/div/button/span[2]/span")
-        self.dr.wait(1)
+        self.dr.wait(3)
         self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr/td/div/div/ul/li[2]/a")
-        self.dr.wait(1)
+        self.dr.wait(3)
         self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[11]/td/div/button")
         self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[11]/td/div/div/ul/li[2]/a")
         self.dr.type("xpath->//*[@id=\"ticketmain-title\"]","请假3天")
@@ -68,9 +63,7 @@ class TicketPage(Page):
         cursor = db.cursor()
         count = cursor.execute("select * from ticket_main where title = '请假3天'")
         db.close()
-        print(count)
-        #self.dr.take_screenshot(os.path.join(globalparam.img_path,"ticket", "add_ticket.png"))
-        self.save_img("add_ticket.png")
+        self.dr.take_screenshot(os.path.join(globalparam.img_path,"ticket", "add_ticket.png"))
         return count
 
 

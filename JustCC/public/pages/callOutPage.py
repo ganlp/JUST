@@ -7,10 +7,13 @@ from config import globalparam
 from time import sleep
 import os
 import pymysql
+from BeautifulReport import BeautifulReport
 
 class CallOutPage(Page):
+    @BeautifulReport.add_test_img('calloutrule', 'add_calloutrule')
     def add_calloutrule(self):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[4]/a")
+        self.dr.wait(3)
         sleep(1)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[4]/ul/li[2]/a")
         self.dr.click("xpath->//*[@id=\"toolbar-all\"]/a[1]")

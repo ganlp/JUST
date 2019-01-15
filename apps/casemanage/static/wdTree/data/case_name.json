@@ -72,10 +72,6 @@
                     {
                         "id": "test_customer_add",
                         "name": "添加客户资料"
-                    },
-                    {
-                        "id": "test_depart_add(s",
-                        "name": " 添加部门"
                     }
                 ]
             }
@@ -95,10 +91,6 @@
                     {
                         "id": "test_2_add_ticket",
                         "name": "创建工单"
-                    },
-                    {
-                        "id": "test_customer_add",
-                        "name": "添加客户资料"
                     }
                 ]
             }
@@ -152,10 +144,6 @@
                     {
                         "id": "test_callinrule",
                         "name": "添加呼入规则"
-                    },
-                    {
-                        "id": "test_add_queue",
-                        "name": "添加队列901-同时振铃"
                     }
                 ]
             },
@@ -166,10 +154,6 @@
                     {
                         "id": "test_calloutrule",
                         "name": "添加呼出规则"
-                    },
-                    {
-                        "id": "test_add_queue",
-                        "name": "添加队列901-同时振铃"
                     }
                 ]
             }

@@ -6,9 +6,10 @@ from public.common.basepage import Page
 from config import globalparam
 from time import sleep
 import os
-
+from BeautifulReport import BeautifulReport
 
 class LoginPage(Page):
+    @BeautifulReport.add_test_img('login', 'login')
     def static_login(self,username,password):
         self.dr.wait(5)
         self.dr.clear_type('name->LoginForm[username]',username)
@@ -19,11 +20,13 @@ class LoginPage(Page):
         sleep(10)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"login","login.png"))
 
+    @BeautifulReport.add_test_img('login', 'login_admin')
     def admin_login(self,username,password):
         self.dr.wait(5)
         self.dr.clear_type('name->username',username)
         self.dr.clear_type('name->password',password)
         self.dr.click('css->#loginform > div:nth-child(4) > button')
+        sleep(2)
     #    self.cookies = self.dr.origin_driver.get_cookies()
 
     def return_title(self):

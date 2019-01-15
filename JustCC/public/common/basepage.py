@@ -1,4 +1,5 @@
 #coding=utf-8
+from config import globalparam
 
 class Page(object):
     """
@@ -6,6 +7,13 @@ class Page(object):
     """
     def __init__(self, selenium_driver):
         self.dr = selenium_driver
-
+    
+    def save_img(self,img_name):
+        """
+            传入一个img_name, 并存储到默认的文件路径下
+            :param img_name:
+            :return:
+        """
+        self.driver.get_screenshot_as_file('{}/{}.png'.format(globalparam.img_path+'/ERROR', img_name))
 
 

@@ -567,7 +567,8 @@ class PySelenium(object):
             self.my_print("{0} Unable to get the current window screenshot,path: {1}, Spend {2} seconds".format(fail,
                 file_path,time.time() - t1))
             raise
-
+        pass
+    
     def into_new_window(self):
         """
         Into the new window.

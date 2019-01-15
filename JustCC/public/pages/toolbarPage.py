@@ -9,8 +9,10 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from config import globalparam
 import os,subprocess
+from BeautifulReport import BeautifulReport
 
 class ToolbarPage(Page):
+    @BeautifulReport.add_test_img('toolbar', 'quickcall')
     def quick_call(self):
         self.dr.type("xpath->//*[@id=\"top_search\"]","13421344506")
         self.dr.wait(5)

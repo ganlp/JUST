@@ -6,8 +6,10 @@ from public.common.basepage import Page
 from time import sleep
 import os
 from config import globalparam
+from BeautifulReport import BeautifulReport
 
 class UserPage(Page):
+    @BeautifulReport.add_test_img('user', 'add_user')
     def add_user(self,work_no,work_name,username):
         #self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
         self.dr.click("link_text->组织机构")
@@ -47,6 +49,7 @@ class UserPage(Page):
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"user","add_user.png"))
         return  [len(rows1),len(rows2)]
 
+    @BeautifulReport.add_test_img('user', 'del_user')
     def del_user(self,n):
         #self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")
         self.dr.click("link_text->组织机构")

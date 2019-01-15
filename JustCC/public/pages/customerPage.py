@@ -7,8 +7,10 @@ from config import globalparam
 import os
 import random
 import pymysql
+from BeautifulReport import BeautifulReport
 
 class CustomerPage(Page):
+    @BeautifulReport.add_test_img('customer', 'add_customer')
     def add_customer(self):
      #   self.dr.click("xpath->//*[@id=\"sidebar\"]/ul/li/div/a[12]/span")
      #   self.dr.click("css->#sidebar > ul > li > div > a:nth-child(15) > span")

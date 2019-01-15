@@ -15,13 +15,5 @@ class TestCustomer(mytest.MyTest):
         cnt= customer_page.add_customer()
         self.assertEqual(cnt, 1)
         
-    def test_depart_add(self):  # 添加部门##
-        '''添加客户资料'''
-        self.login_with_cookie()
-        customer_page = customerPage.CustomerPage(self.dr)
-        l = customer_page.add_customer()
-        self.assertEqual(l[0] + 1, l[1])
-
-
 if __name__=='__main__':
     unittest.main()

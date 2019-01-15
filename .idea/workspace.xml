@@ -3,20 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="ad2aba9a-6366-4df2-8f1d-d6253980a76d" name="Default" comment="补充工单、呼入规则、呼出规则">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/data/testdata/data_info.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/data/testdata/data_info.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/common/basepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/public/common/cookie_admin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/common/cookie_admin.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/public/common/cookie_userweb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/common/cookie_userweb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/common/pyselenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/common/pyselenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/callInPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/callInPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/public/pages/callOutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/callOutPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/customerPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/customerPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/loginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/public/pages/queuePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/queuePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/ticketPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/ticketPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/report/image/exten/addexten.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/public/pages/userPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/public/pages/userPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/report/image/login/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/report/image/login/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/report/image/ticket/add_ticket" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/report/image/ticket/add_ticket_type" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JustCC/report/log/2019-01-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/report/log/2019-01-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/report/testreport/TestResult2019-01-11_09_36_41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/report/testreport/TestResult2019-01-11_14_43_07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustCC/report/testreport/TestResult2019-01-11_15_16_32.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/case_name.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/case_name.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/casedata2.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/casedata2.json" afterDir="false" />
     </list>
     <ignored path="JUST.iws" />
@@ -162,13 +173,13 @@
           <entry key="html" value="156" />
           <entry key="jpg" value="2" />
           <entry key="js" value="13" />
-          <entry key="json" value="25" />
+          <entry key="json" value="26" />
           <entry key="log" value="1" />
           <entry key="php" value="1" />
           <entry key="png" value="7" />
-          <entry key="py" value="366" />
+          <entry key="py" value="408" />
           <entry key="sqlite3" value="1" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -176,10 +187,10 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="157" />
           <entry key="Image" value="16" />
-          <entry key="JSON" value="25" />
+          <entry key="JSON" value="26" />
           <entry key="JavaScript" value="13" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="366" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -188,7 +199,7 @@
           <entry key="dummy" value="54" />
           <entry key="html" value="2349" />
           <entry key="js" value="310" />
-          <entry key="py" value="14605" />
+          <entry key="py" value="15502" />
           <entry key="txt" value="105" />
         </counts>
       </usages-collector>
@@ -197,7 +208,7 @@
           <entry key="HTML" value="2349" />
           <entry key="JavaScript" value="310" />
           <entry key="PLAIN_TEXT" value="159" />
-          <entry key="Python" value="14860" />
+          <entry key="Python" value="15757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -209,58 +220,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/customerPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="228">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/queuePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/ticketPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="37" column="63" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/queuePage.py">
+        <entry file="file://C:/Python36/Lib/site-packages/BeautifulReport/BeautifulReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_60_admin_trunk.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/trunkPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_61_admin_exten.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="110" lean-forward="true" selection-start-line="15" selection-start-column="110" selection-end-line="15" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_62_admin_queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="618">
+              <caret line="440" column="47" selection-start-line="440" selection-start-column="39" selection-end-line="440" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -268,38 +267,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callInPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="228">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/common/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JustCC/public/common/initialize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="304">
+              <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
               <folding>
-                <marker date="1547017136522" expanded="true" signature="405:407" ph="..." />
+                <marker date="1547534510259" expanded="true" signature="241:246" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/trunkPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/userPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callOutPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -315,8 +323,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>switch</find>
-      <find>report</find>
       <find>tt1</find>
       <find>get_newest_cases</find>
       <find>refresh</find>
@@ -339,12 +345,14 @@
       <find>refreshreport</find>
       <find>expand</find>
       <find>setInterval</find>
-      <find>img</find>
       <find>img2base</find>
       <find>print</find>
       <find>func</find>
       <find>save_img</find>
       <find>try</find>
+      <find>js</find>
+      <find>pargs</find>
+      <find>img</find>
     </findStrings>
     <dirStrings>
       <dir>E:\python excercise\JUST\JustCC\report\log</dir>
@@ -364,9 +372,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/casemanage/templates/coolcss.html" />
-        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/login.html" />
-        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/auth/user/change_password.html" />
         <option value="C:/Python36/Lib/site-packages/django/contrib/auth/models.py" />
         <option value="C:/Python36/Lib/site-packages/django/contrib/auth/apps.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" />
@@ -374,24 +379,19 @@
         <option value="$PROJECT_DIR$/apps/casemanage/static/wdTree/src/Plugins/jquery.tree.js" />
         <option value="$PROJECT_DIR$/apps/casemanage/models.py" />
         <option value="$PROJECT_DIR$/apps/casemanage/adminx.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/common/mytest_admin.py" />
         <option value="C:/Python36/Lib/site-packages/django/db/backends/utils.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/function_test.py" />
         <option value="$PROJECT_DIR$/JustCC/testcase/test_20_organize_depart.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/userPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/customer.py" />
         <option value="$PROJECT_DIR$/JustCC/testcase/test_40_customer.py" />
         <option value="$PROJECT_DIR$/apps/casemanage/static/wdTree/case_view.html" />
         <option value="$PROJECT_DIR$/JustCC/testcase/case_name.json" />
-        <option value="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/casedata2.json" />
         <option value="$PROJECT_DIR$/JustCC/public/common/mytest.py" />
         <option value="$PROJECT_DIR$/JustCC/config/globalparam.py" />
         <option value="$PROJECT_DIR$/JustCC/testcase/test_60_admin_trunk.py" />
         <option value="$PROJECT_DIR$/JustCC/testcase/case.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/customerPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/common/login.py" />
         <option value="$PROJECT_DIR$/JustCC/data/run.py" />
         <option value="$PROJECT_DIR$/JustCC/public/common/sendmail.py" />
@@ -402,19 +402,27 @@
         <option value="$PROJECT_DIR$/JustCC/public/common/initialize.py" />
         <option value="$PROJECT_DIR$/apps/casemanage/templates/case_view.html" />
         <option value="$PROJECT_DIR$/apps/casemanage/views.py" />
-        <option value="C:/Python36/Lib/site-packages/BeautifulReport/BeautifulReport.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/ticketPage.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/__init__.py" />
-        <option value="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/callInPage.py" />
-        <option value="$PROJECT_DIR$/JustCC/public/pages/callOutPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/calInPage.py" />
-        <option value="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" />
-        <option value="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" />
+        <option value="$PROJECT_DIR$/apps/casemanage/static/wdTree/data/casedata2.json" />
         <option value="$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py" />
+        <option value="$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py" />
+        <option value="$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/ticketPage.py" />
+        <option value="C:/Python36/Lib/site-packages/BeautifulReport/BeautifulReport.py" />
+        <option value="$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/callInPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/customerPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/departmentPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/extenPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/trunkPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/userPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/common/pyselenium.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/loginPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py" />
         <option value="$PROJECT_DIR$/JustCC/public/pages/queuePage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/pages/callOutPage.py" />
+        <option value="$PROJECT_DIR$/JustCC/public/common/basepage.py" />
       </list>
     </option>
   </component>
@@ -430,11 +438,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="4" />
-    <option name="y" value="8" />
-    <option name="width" value="1554" />
-    <option name="height" value="1035" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="130" />
+    <option name="width" value="1782" />
+    <option name="height" value="1067" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -503,34 +511,7 @@
               <item name="JUST" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="casemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUST" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="casemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="wdTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUST" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="casemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="wdTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUST" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="casemanage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="wdTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
@@ -546,6 +527,26 @@
               <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="JUST" type="462c0819:PsiDirectoryNode" />
               <item name="JustCC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUST" type="462c0819:PsiDirectoryNode" />
+              <item name="JustCC" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUST" type="462c0819:PsiDirectoryNode" />
+              <item name="JustCC" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUST" type="462c0819:PsiDirectoryNode" />
+              <item name="JustCC" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUST" type="b2602c69:ProjectViewProjectNode" />
@@ -623,7 +624,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.views">
+  <component name="RunManager" selected="Python.login">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -686,7 +687,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sendmail_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JUST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -698,28 +699,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JustCC/public/common/sendmail_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JUST" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUST/settings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JustCC/public/common/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -789,21 +769,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_50_ticket_ticket.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="JUST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JustCC/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_60_admin_trunk.TestTrunk" />
-      <item itemvalue="Python.sendmail_2" />
-      <item itemvalue="Python.initialize" />
       <item itemvalue="Python.views" />
-      <item itemvalue="Python.settings" />
       <item itemvalue="Python.BeautifulReport" />
+      <item itemvalue="Python tests.Unittests in test_50_ticket_ticket.py" />
+      <item itemvalue="Python.login" />
+      <item itemvalue="Python.initialize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.Unittests in test_50_ticket_ticket.py" />
+        <item itemvalue="Python.initialize" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.BeautifulReport" />
-        <item itemvalue="Python.settings" />
-        <item itemvalue="Python.initialize" />
-        <item itemvalue="Python.sendmail_2" />
       </list>
     </recent_temporary>
   </component>
@@ -935,18 +929,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2018.12.26 at 16h 48m 39s.xml">
-      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2018.12.26 at 16h 49m 24s.xml">
-      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2018.12.26 at 16h 55m 33s.xml">
-      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_50_ticket_ticket_TestTicket_test_add_ticket - 2018.12.26 at 17h 01m 02s.xml">
-      <configuration name="Unittests for test_50_ticket_ticket.TestTicket.test_add_ticket" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_50_ticket_ticket_TestTicket_test_add_ticket - 2018.12.26 at 17h 02m 14s.xml">
       <configuration name="Unittests for test_50_ticket_ticket.TestTicket.test_add_ticket" configurationId="tests" />
     </history-entry>
@@ -965,6 +947,18 @@
     <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2018.12.26 at 17h 39m 24s.xml">
       <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2019.01.14 at 17h 35m 32s.xml">
+      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2019.01.14 at 17h 36m 18s.xml">
+      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2019.01.14 at 17h 43m 44s.xml">
+      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_50_ticket_ticket_py - 2019.01.14 at 17h 47m 01s.xml">
+      <configuration name="Unittests in test_50_ticket_ticket.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,23 +973,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17755532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.1332982" />
       <window_info id="Structure" order="1" weight="0.24964234" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.500998" side_tool="true" weight="0.18618181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75811964" weight="0.45227766" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7987355" weight="0.59219086" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" weight="0.5665446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.3275488" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4915701" weight="0.5021692" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49051633" weight="0.30151844" />
       <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.618019" visible="true" weight="0.31019524" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38198105" side_tool="true" visible="true" weight="0.31019524" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.61538464" visible="true" weight="0.23427331" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3846154" side_tool="true" visible="true" weight="0.23427331" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.8074753" weight="0.61051214" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.4716981" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4947313" weight="0.47071582" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49420443" weight="0.47071582" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1096,37 +1090,6 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_21_organize_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/datainfo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/data/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/mytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/public/common/publicfunction.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1212,13 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/pyselenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10355">
-          <caret line="553" column="8" selection-start-line="553" selection-start-column="8" selection-end-line="553" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/casemanage/templates/case_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -1230,17 +1186,6 @@
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/casemanage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1547112780342" expanded="true" signature="4342:4498" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1260,135 +1205,13 @@
     <entry file="file://$PROJECT_DIR$/JustCC/report/testreport/TestResult2019-01-11_09_31_54.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/BeautifulReport/BeautifulReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="402" selection-start-line="402" selection-end-line="403" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/customerPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/departmentPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/loginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/ticketPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/userPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/extenPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="47" column="102" lean-forward="true" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/public/pages/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://C:/Python36/Lib/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="34" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callOutPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/common/initialize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <marker date="1547017136522" expanded="true" signature="405:407" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callInPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1416,17 +1239,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/casemanage/static/wdTree/data/casedata2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="322" column="35" selection-start-line="322" selection-start-column="35" selection-end-line="322" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_63_admin_callinrule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_64_admin_calloutrule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/common/initialize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="34" column="56" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <marker date="1547017136522" expanded="true" signature="405:407" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/common/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/casemanage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1547112780342" expanded="true" signature="4342:4498" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_40_customerMag_customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_20_organize_depart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/testcase/test_50_ticket_ticket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/common/pyselenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="570" column="4" selection-start-line="570" selection-start-column="4" selection-end-line="570" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/departmentPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/extenPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/public/pages/trunkPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/userPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callOutPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/customerPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/ticketPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JustCC/public/pages/queuePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="57">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/toolbarPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+          <folding>
+            <marker date="1547534510259" expanded="true" signature="241:246" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustCC/public/pages/callInPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/BeautifulReport/BeautifulReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="440" column="47" selection-start-line="440" selection-start-column="39" selection-end-line="440" selection-end-column="47" />
         </state>
       </provider>
     </entry>
