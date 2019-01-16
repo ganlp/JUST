@@ -26,6 +26,7 @@ server_addr="http://192.168.9.247"
 
 # 测试数据路径
 data_path = os.path.join(prj_path,'JustCC', 'data', 'testdata')
+test_file_path=os.path.join(prj_path,'JustCC', 'data', 'testdata')
 
 #用例路径
 case_path=os.path.join(prj_path,'JustCC','testcase')

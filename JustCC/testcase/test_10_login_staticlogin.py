@@ -10,7 +10,7 @@ from config import globalparam
 class Login(mytest.MyTest):
     """登录测试"""
     def test_static_login(self):#静态登录-用户名密码正确##
-        """静态登录"""
+        """静态登录-用户名密码正确"""
         self.login_page=loginPage.LoginPage(self.dr)
         datas = datainfo.get_xls_to_dict('data_info.xlsx','login_data')
         print(datas)

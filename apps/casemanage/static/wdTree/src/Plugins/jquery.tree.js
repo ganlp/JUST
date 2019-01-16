@@ -64,7 +64,7 @@
                  * text:"node 1", //node text for display.
                  * value:"1", //node value
                  * showcheck:false, //whether to show checkbox
-                 * checkstate:0, //Checkbox checking state. 0 for unchecked, 1 for partial checked, 2 for checked.
+                 * checkstate:0, //Checkbox checking state. 0 for unchecked, 2 for partial checked, 1 for checked.
                  * hasChildren:true, //If hasChildren and complete set to true, and ChildNodes is empty, tree will request server to get sub node.
                  * isexpand:false, //Expand or collapse.
                  * complete:false, //See hasChildren.
@@ -252,6 +252,7 @@
                 }
             }
         }
+
         //iterate all children nodes
         function cascade(fn, item, args) {
             if (fn(item, args, 1) != false) {
@@ -480,7 +481,8 @@
             },
             getSelectedValues: function() {
                 var s = [];
-                getck(treenodes, s, function(item) { return item.value; });
+                //getck(treenodes, s, function(item) { return item.value; });
+                getCkAndHalfCk(treenodes, s, function(item) { return item; });
                 return s;
             },
             getCurrentItem: function() {

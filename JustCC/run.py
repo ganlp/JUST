@@ -1,7 +1,7 @@
 #coding=utf-8
 
 import unittest
-#import HTMLTestRunner
+import HTMLTestRunner
 import time,json
 from config import globalparam
 from public.common import sendmail_2
@@ -42,7 +42,6 @@ def run():
   #  suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test*.py')  按格式匹配加入测试集的测试用例
     suite=getSuite(1)
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
- #   reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'
     initialize.del_image_file(globalparam.img_path)
     initialize.del_test_app_info()
     initialize.del_test_manage_info()
@@ -51,6 +50,7 @@ def run():
     lg.login_admin()
   
     #######################使用HTMLTestRunner模板#############
+    # reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'
     # with open(reportname,'wb') as f:
     #     runner = HTMLTestRunner.HTMLTestRunner(
     #         stream=f,

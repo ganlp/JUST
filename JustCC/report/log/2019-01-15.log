@@ -1794,3 +1794,852 @@
 2019-01-15 14:21:43,527 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.106177568435669 seconds
 2019-01-15 14:21:43,528 - root - INFO - ###############################  End  ###############################
 2019-01-15 14:21:48,839 - root - INFO - 发送邮件成功
+2019-01-15 15:28:10,944 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.59332013130188 seconds
+2019-01-15 15:28:12,480 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.5340876579284668 seconds
+2019-01-15 15:28:12,510 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.01500082015991211 seconds
+2019-01-15 15:28:15,896 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.3770785331726074 seconds
+2019-01-15 15:28:15,903 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:28:16,342 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1112, Spend 0.43802523612976074 seconds
+2019-01-15 15:28:16,542 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: Aa111111, Spend 0.19901156425476074 seconds
+2019-01-15 15:28:16,550 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.007000446319580078 seconds
+2019-01-15 15:28:16,700 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.15600872039794922 seconds
+2019-01-15 15:28:16,704 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:28:27,342 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.6360361576080322 seconds
+2019-01-15 15:28:35,411 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.8003318309783936 seconds
+2019-01-15 15:28:37,780 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 2.369135618209839 seconds
+2019-01-15 15:28:37,782 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:28:39,022 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2360706329345703 seconds
+2019-01-15 15:28:39,028 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:28:39,624 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.5840334892272949 seconds
+2019-01-15 15:28:40,516 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.8920509815216064 seconds
+2019-01-15 15:28:40,523 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:28:41,552 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 1.0290589332580566 seconds
+2019-01-15 15:28:45,651 - root - INFO - ############################### START ###############################
+2019-01-15 15:28:52,476 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 6.823390245437622 seconds
+2019-01-15 15:28:55,751 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 3.2721869945526123 seconds
+2019-01-15 15:28:55,767 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.01500082015991211 seconds
+2019-01-15 15:28:59,233 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.3010742664337158 seconds
+2019-01-15 15:29:02,602 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:29:02,843 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.24001359939575195 seconds
+2019-01-15 15:29:03,178 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.3330190181732178 seconds
+2019-01-15 15:29:03,216 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.03600192070007324 seconds
+2019-01-15 15:29:03,521 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.3430197238922119 seconds
+2019-01-15 15:29:03,550 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.02800154685974121 seconds
+2019-01-15 15:29:14,127 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.5770330429077148 seconds
+2019-01-15 15:29:16,170 - root - INFO - SUCCESS    Get current window title, Spend 0.04000234603881836 seconds
+2019-01-15 15:29:19,327 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1541802883148193 seconds
+2019-01-15 15:29:19,327 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:29:19,328 - root - INFO - ############################### START ###############################
+2019-01-15 15:29:24,846 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.517315626144409 seconds
+2019-01-15 15:29:25,475 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.6280360221862793 seconds
+2019-01-15 15:29:25,478 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:29:28,890 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.412081003189087 seconds
+2019-01-15 15:29:31,147 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 15:29:31,165 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.016000747680664062 seconds
+2019-01-15 15:29:31,476 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.32701873779296875 seconds
+2019-01-15 15:29:31,480 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:29:31,490 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:29:32,583 - root - INFO - SUCCESS    Clicked element: <link_text->部门管理>, Spend 1.1010627746582031 seconds
+2019-01-15 15:29:32,792 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.20801210403442383 seconds
+2019-01-15 15:29:34,913 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:29:35,508 - root - INFO - SUCCESS    Clicked element: <link_text->新建>, Spend 0.597034215927124 seconds
+2019-01-15 15:29:35,650 - root - INFO - SUCCESS    Switch to frame out, Spend 0.14200806617736816 seconds
+2019-01-15 15:29:36,217 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department_POP>, Spend 0.5620319843292236 seconds
+2019-01-15 15:29:36,231 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.014000892639160156 seconds
+2019-01-15 15:29:37,235 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:29:37,647 - root - INFO - SUCCESS    Typed element: <css->#department-dept_name> content: 测试部1, Spend 0.41202354431152344 seconds
+2019-01-15 15:29:37,650 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:29:38,347 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="department-form"]/div[6]/button>, Spend 0.7000401020050049 seconds
+2019-01-15 15:29:38,350 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 15:29:38,385 - root - INFO - SUCCESS    Switch to frame out, Spend 0.034001827239990234 seconds
+2019-01-15 15:29:39,029 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.6410367488861084 seconds
+2019-01-15 15:29:44,454 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\depart\add_depart.png, Spend 0.40502309799194336 seconds
+2019-01-15 15:29:48,433 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.949225902557373 seconds
+2019-01-15 15:29:48,434 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:29:48,437 - root - INFO - ############################### START ###############################
+2019-01-15 15:29:54,270 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.831333160400391 seconds
+2019-01-15 15:29:56,402 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 2.1321218013763428 seconds
+2019-01-15 15:29:56,405 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0019998550415039062 seconds
+2019-01-15 15:29:59,747 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.3400764465332031 seconds
+2019-01-15 15:30:02,648 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:30:02,662 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.009000539779663086 seconds
+2019-01-15 15:30:02,992 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.3430194854736328 seconds
+2019-01-15 15:30:02,999 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.006000518798828125 seconds
+2019-01-15 15:30:03,007 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:30:04,834 - root - INFO - SUCCESS    Clicked element: <link_text->部门管理>, Spend 1.8331048488616943 seconds
+2019-01-15 15:30:05,033 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.19901132583618164 seconds
+2019-01-15 15:30:07,070 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:30:07,406 - root - INFO - SUCCESS    Switch to frame out, Spend 0.03600192070007324 seconds
+2019-01-15 15:30:07,417 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.009000539779663086 seconds
+2019-01-15 15:30:09,420 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:30:09,986 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 0.5690324306488037 seconds
+2019-01-15 15:30:09,991 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:30:10,153 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.1610093116760254 seconds
+2019-01-15 15:30:16,437 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\depart\del_depart.png, Spend 0.9330534934997559 seconds
+2019-01-15 15:30:19,654 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1811816692352295 seconds
+2019-01-15 15:30:19,655 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:30:19,656 - root - INFO - ############################### START ###############################
+2019-01-15 15:30:25,590 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.9333391189575195 seconds
+2019-01-15 15:30:26,856 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.2650723457336426 seconds
+2019-01-15 15:30:26,872 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.014000892639160156 seconds
+2019-01-15 15:30:30,379 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.5020859241485596 seconds
+2019-01-15 15:30:32,725 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 15:30:32,732 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:30:33,103 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.3720211982727051 seconds
+2019-01-15 15:30:33,137 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.03200173377990723 seconds
+2019-01-15 15:30:33,174 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.034001827239990234 seconds
+2019-01-15 15:30:34,335 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 1.194068193435669 seconds
+2019-01-15 15:30:34,350 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.011000633239746094 seconds
+2019-01-15 15:30:34,459 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.10800623893737793 seconds
+2019-01-15 15:30:36,717 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.008000612258911133 seconds
+2019-01-15 15:30:42,852 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 6.142351388931274 seconds
+2019-01-15 15:30:44,861 - root - INFO - SUCCESS    Switch to frame out, Spend 0.008000612258911133 seconds
+2019-01-15 15:30:44,864 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:30:44,967 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.1020057201385498 seconds
+2019-01-15 15:30:44,970 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:30:44,971 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:30:45,200 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2111, Spend 0.23001313209533691 seconds
+2019-01-15 15:30:45,205 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:30:46,005 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user1, Spend 0.8030459880828857 seconds
+2019-01-15 15:30:46,010 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 15:30:46,284 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席1, Spend 0.2780160903930664 seconds
+2019-01-15 15:30:46,288 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:30:51,621 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 5.337305068969727 seconds
+2019-01-15 15:30:52,633 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:30:57,955 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 5.330304861068726 seconds
+2019-01-15 15:30:57,957 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:03,377 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 5.419309854507446 seconds
+2019-01-15 15:31:04,381 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:31:09,613 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 5.234299421310425 seconds
+2019-01-15 15:31:09,921 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.30701756477355957 seconds
+2019-01-15 15:31:10,187 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.2650151252746582 seconds
+2019-01-15 15:31:10,190 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:31:15,647 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 5.458312034606934 seconds
+2019-01-15 15:31:15,650 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:31:15,712 - root - INFO - SUCCESS    Switch to frame out, Spend 0.062003374099731445 seconds
+2019-01-15 15:31:17,458 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 1.7450997829437256 seconds
+2019-01-15 15:31:19,568 - root - INFO - SUCCESS    Switch to frame out, Spend 0.006000518798828125 seconds
+2019-01-15 15:31:24,035 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 1.4650840759277344 seconds
+2019-01-15 15:31:24,046 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 15:31:27,049 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:27,246 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.19801115989685059 seconds
+2019-01-15 15:31:27,249 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:27,252 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:27,511 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.2590146064758301 seconds
+2019-01-15 15:31:27,519 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:31:27,570 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.04900312423706055 seconds
+2019-01-15 15:31:29,635 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:30,330 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 0.6960396766662598 seconds
+2019-01-15 15:31:32,353 - root - INFO - SUCCESS    Switch to frame out, Spend 0.021001338958740234 seconds
+2019-01-15 15:31:32,355 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:32,449 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.09200525283813477 seconds
+2019-01-15 15:31:32,451 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:31:32,453 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:32,815 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2112, Spend 0.36202049255371094 seconds
+2019-01-15 15:31:32,823 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:31:33,315 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user2, Spend 0.4980282783508301 seconds
+2019-01-15 15:31:33,319 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:31:33,720 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席2, Spend 0.40302300453186035 seconds
+2019-01-15 15:31:33,723 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:34,121 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 0.40102291107177734 seconds
+2019-01-15 15:31:35,135 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.011000633239746094 seconds
+2019-01-15 15:31:35,599 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 0.47502708435058594 seconds
+2019-01-15 15:31:35,611 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.012000799179077148 seconds
+2019-01-15 15:31:36,175 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 0.5750329494476318 seconds
+2019-01-15 15:31:37,204 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.026001691818237305 seconds
+2019-01-15 15:31:37,887 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 0.709040641784668 seconds
+2019-01-15 15:31:38,335 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.4470252990722656 seconds
+2019-01-15 15:31:38,696 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.3590207099914551 seconds
+2019-01-15 15:31:38,704 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 15:31:38,988 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 0.2890162467956543 seconds
+2019-01-15 15:31:39,014 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.026001691818237305 seconds
+2019-01-15 15:31:39,039 - root - INFO - SUCCESS    Switch to frame out, Spend 0.024001359939575195 seconds
+2019-01-15 15:31:40,489 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 1.448082685470581 seconds
+2019-01-15 15:31:42,587 - root - INFO - SUCCESS    Switch to frame out, Spend 0.002000093460083008 seconds
+2019-01-15 15:31:46,080 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 0.49002814292907715 seconds
+2019-01-15 15:31:46,091 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.008000612258911133 seconds
+2019-01-15 15:31:49,095 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:31:49,283 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.1910111904144287 seconds
+2019-01-15 15:31:49,285 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:31:49,287 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:31:49,504 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.2170124053955078 seconds
+2019-01-15 15:31:49,506 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 15:31:49,614 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.10500597953796387 seconds
+2019-01-15 15:31:51,654 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:31:52,290 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 0.6380364894866943 seconds
+2019-01-15 15:31:54,299 - root - INFO - SUCCESS    Switch to frame out, Spend 0.005000114440917969 seconds
+2019-01-15 15:31:54,302 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:31:54,357 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.05300283432006836 seconds
+2019-01-15 15:31:54,359 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:31:54,367 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.007000446319580078 seconds
+2019-01-15 15:31:54,543 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2113, Spend 0.18401074409484863 seconds
+2019-01-15 15:31:54,550 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 15:31:54,743 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user3, Spend 0.19901132583618164 seconds
+2019-01-15 15:31:54,750 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 15:31:54,956 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席3, Spend 0.2110118865966797 seconds
+2019-01-15 15:31:54,959 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:31:55,288 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 0.33101892471313477 seconds
+2019-01-15 15:31:56,293 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:31:56,487 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 0.19701099395751953 seconds
+2019-01-15 15:31:56,492 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:31:56,673 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 0.18401026725769043 seconds
+2019-01-15 15:31:57,676 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:31:57,862 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 0.18801069259643555 seconds
+2019-01-15 15:31:58,064 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.19801092147827148 seconds
+2019-01-15 15:31:58,279 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.21401214599609375 seconds
+2019-01-15 15:31:58,285 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003999948501586914 seconds
+2019-01-15 15:31:58,516 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 0.23501324653625488 seconds
+2019-01-15 15:31:58,526 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.009000301361083984 seconds
+2019-01-15 15:31:58,572 - root - INFO - SUCCESS    Switch to frame out, Spend 0.04600262641906738 seconds
+2019-01-15 15:32:00,060 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 1.4870851039886475 seconds
+2019-01-15 15:32:02,113 - root - INFO - SUCCESS    Switch to frame out, Spend 0.00500035285949707 seconds
+2019-01-15 15:32:05,669 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 0.5550317764282227 seconds
+2019-01-15 15:32:05,676 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:32:11,840 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1641809940338135 seconds
+2019-01-15 15:32:11,841 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:32:11,844 - root - INFO - ############################### START ###############################
+2019-01-15 15:32:17,069 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.222298622131348 seconds
+2019-01-15 15:32:17,901 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.831047773361206 seconds
+2019-01-15 15:32:17,910 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:32:21,176 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2660725116729736 seconds
+2019-01-15 15:32:23,749 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:32:23,752 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:32:24,396 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.6450369358062744 seconds
+2019-01-15 15:32:24,400 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:32:24,403 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:32:25,627 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 1.2270700931549072 seconds
+2019-01-15 15:32:25,631 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:32:25,764 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.13100767135620117 seconds
+2019-01-15 15:32:30,263 - root - INFO - SUCCESS    Switch to frame out, Spend 0.09800577163696289 seconds
+2019-01-15 15:32:30,271 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0070002079010009766 seconds
+2019-01-15 15:32:32,284 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.01000070571899414 seconds
+2019-01-15 15:32:32,902 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 0.6280360221862793 seconds
+2019-01-15 15:32:32,972 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.06900405883789062 seconds
+2019-01-15 15:32:32,979 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 15:32:38,272 - root - INFO - SUCCESS    Switch to frame out, Spend 0.019001007080078125 seconds
+2019-01-15 15:32:38,286 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.013000726699829102 seconds
+2019-01-15 15:32:40,288 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:32:40,970 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 0.6840388774871826 seconds
+2019-01-15 15:32:41,081 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.10900640487670898 seconds
+2019-01-15 15:32:41,082 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:32:51,596 - root - INFO - SUCCESS    Switch to frame out, Spend 0.01000070571899414 seconds
+2019-01-15 15:32:51,602 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:32:53,604 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 15:32:59,329 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 5.726327657699585 seconds
+2019-01-15 15:32:59,430 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.09900546073913574 seconds
+2019-01-15 15:32:59,432 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0 seconds
+2019-01-15 15:33:03,074 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\del_user.png, Spend 0.6130352020263672 seconds
+2019-01-15 15:33:06,189 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0881764888763428 seconds
+2019-01-15 15:33:06,190 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:33:06,191 - root - INFO - ############################### START ###############################
+2019-01-15 15:33:11,911 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.719326972961426 seconds
+2019-01-15 15:33:12,609 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.6960396766662598 seconds
+2019-01-15 15:33:12,622 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.012000560760498047 seconds
+2019-01-15 15:33:15,869 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2460713386535645 seconds
+2019-01-15 15:33:18,345 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.012000560760498047 seconds
+2019-01-15 15:33:18,348 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:33:19,102 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="top_search"]> content: 13421344506, Spend 0.7560434341430664 seconds
+2019-01-15 15:33:19,108 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:33:19,132 - root - INFO - SUCCESS    Use javascript click element: $('.makeCall').click(), Spend 0.02200150489807129 seconds
+2019-01-15 15:33:22,670 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\toolbar\quickcall.png, Spend 0.5370306968688965 seconds
+2019-01-15 15:33:25,821 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1461799144744873 seconds
+2019-01-15 15:33:25,822 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:33:25,825 - root - INFO - ############################### START ###############################
+2019-01-15 15:33:31,161 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.334305047988892 seconds
+2019-01-15 15:33:31,740 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.5770330429077148 seconds
+2019-01-15 15:33:31,752 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.011000633239746094 seconds
+2019-01-15 15:33:35,030 - root - INFO - ############################### START ###############################
+2019-01-15 15:33:40,267 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.234299421310425 seconds
+2019-01-15 15:33:41,474 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.206068992614746 seconds
+2019-01-15 15:33:41,480 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.005000591278076172 seconds
+2019-01-15 15:33:44,761 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2800731658935547 seconds
+2019-01-15 15:33:47,276 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.021001100540161133 seconds
+2019-01-15 15:33:47,288 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.010000467300415039 seconds
+2019-01-15 15:33:47,686 - root - INFO - SUCCESS    Clicked element: <link_text->系统设置>, Spend 0.40702319145202637 seconds
+2019-01-15 15:33:47,691 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:33:47,709 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.01700115203857422 seconds
+2019-01-15 15:33:48,208 - root - INFO - SUCCESS    Clicked element: <link_text->字段设置>, Spend 0.5160295963287354 seconds
+2019-01-15 15:33:48,221 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.012000560760498047 seconds
+2019-01-15 15:33:48,228 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 15:33:49,402 - root - INFO - SUCCESS    Clicked element: <link_text->工单字段>, Spend 1.1800673007965088 seconds
+2019-01-15 15:33:49,406 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:33:49,551 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_standard_system_field_index_ticket>, Spend 0.14300823211669922 seconds
+2019-01-15 15:33:49,555 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:33:50,077 - root - INFO - SUCCESS    Clicked element: <css->body > div > div > div > div.sub_left_menu > ul > li:nth-child(2) > a>, Spend 0.5240299701690674 seconds
+2019-01-15 15:33:50,082 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:33:50,087 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 15:33:50,927 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="ticket-type-add"]>, Spend 0.842048168182373 seconds
+2019-01-15 15:33:50,974 - root - INFO - SUCCESS    Switch to frame out, Spend 0.04400277137756348 seconds
+2019-01-15 15:33:51,070 - root - INFO - SUCCESS    Switch to frame element: <id->create-ticket-type>, Spend 0.09400510787963867 seconds
+2019-01-15 15:33:51,072 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:33:51,230 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="tickettype-type_name"]> content: 请假, Spend 0.15900921821594238 seconds
+2019-01-15 15:33:51,236 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:33:51,605 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="ticket-type-form"]/div[3]/div/button>, Spend 0.3740212917327881 seconds
+2019-01-15 15:33:51,615 - root - INFO - SUCCESS    Switch to frame out, Spend 0.009000778198242188 seconds
+2019-01-15 15:33:52,292 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_standard_system_field_index_ticket>, Spend 0.6770386695861816 seconds
+2019-01-15 15:33:52,297 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 15:33:53,980 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\ticket\add_ticket_type.png, Spend 0.6620378494262695 seconds
+2019-01-15 15:33:57,282 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.3011887073516846 seconds
+2019-01-15 15:33:57,283 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:33:57,285 - root - INFO - ############################### START ###############################
+2019-01-15 15:34:02,664 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.378307580947876 seconds
+2019-01-15 15:34:03,844 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.179067611694336 seconds
+2019-01-15 15:34:03,853 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.009000301361083984 seconds
+2019-01-15 15:34:07,008 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1550662517547607 seconds
+2019-01-15 15:34:10,011 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:34:10,014 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0019998550415039062 seconds
+2019-01-15 15:34:10,116 - root - INFO - SUCCESS    Clicked element: <link_text->工单管理>, Spend 0.10500597953796387 seconds
+2019-01-15 15:34:10,117 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:34:10,119 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:34:15,716 - root - INFO - SUCCESS    Clicked element: <link_text->创建工单>, Spend 5.597320079803467 seconds
+2019-01-15 15:34:15,718 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:34:15,768 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_ticket-create>, Spend 0.0500030517578125 seconds
+2019-01-15 15:34:15,770 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:34:20,915 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="create_ticket_main"]/table/tbody/tr/td/div/button/span[2]/span>, Spend 5.146294355392456 seconds
+2019-01-15 15:34:20,916 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:34:20,917 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:34:26,485 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="create_ticket_main"]/table/tbody/tr/td/div/div/ul/li[2]/a>, Spend 5.5683183670043945 seconds
+2019-01-15 15:34:26,489 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:34:26,494 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:34:31,748 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="create_ticket_main"]/table/tbody/tr[11]/td/div/button>, Spend 5.258300542831421 seconds
+2019-01-15 15:34:31,752 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:34:37,101 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="create_ticket_main"]/table/tbody/tr[11]/td/div/div/ul/li[2]/a>, Spend 5.351306200027466 seconds
+2019-01-15 15:34:37,111 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.009000539779663086 seconds
+2019-01-15 15:34:37,296 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="ticketmain-title"]> content: 请假3天, Spend 0.19401121139526367 seconds
+2019-01-15 15:34:37,299 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:34:37,434 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="ticketmain-content"]> content: 请假回家过年, Spend 0.1370079517364502 seconds
+2019-01-15 15:34:37,437 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:34:42,617 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="save_ticket_main"]>, Spend 5.182296276092529 seconds
+2019-01-15 15:34:42,619 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:34:44,297 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\ticket\add_ticket.png, Spend 0.6580379009246826 seconds
+2019-01-15 15:34:47,455 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1571805477142334 seconds
+2019-01-15 15:34:47,455 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:34:47,456 - root - INFO - ############################### START ###############################
+2019-01-15 15:34:52,544 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.086291074752808 seconds
+2019-01-15 15:34:54,431 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.8871078491210938 seconds
+2019-01-15 15:34:54,444 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.012000799179077148 seconds
+2019-01-15 15:34:57,573 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1290645599365234 seconds
+2019-01-15 15:34:58,143 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.018001079559326172 seconds
+2019-01-15 15:34:58,154 - root - INFO - SUCCESS    Accept warning box, Spend 0.009000539779663086 seconds
+2019-01-15 15:34:58,167 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.007000446319580078 seconds
+2019-01-15 15:34:58,626 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/a>, Spend 0.4650266170501709 seconds
+2019-01-15 15:34:59,627 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:35:00,232 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/ul/li[3]/a>, Spend 0.605034351348877 seconds
+2019-01-15 15:35:01,233 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:35:01,726 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="toolbar-all"]/div[1]/a/div>, Spend 0.4930281639099121 seconds
+2019-01-15 15:35:01,727 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:35:01,943 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="trunk_name"]> content: trunk1, Spend 0.21601223945617676 seconds
+2019-01-15 15:35:01,945 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:35:02,062 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="zone"]> content: 0755, Spend 0.11900663375854492 seconds
+2019-01-15 15:35:02,064 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 15:35:02,181 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="phonest"]> content: 55559248, Spend 0.11800694465637207 seconds
+2019-01-15 15:35:02,183 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:35:02,314 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="maxchans"]> content: 10, Spend 0.13200759887695312 seconds
+2019-01-15 15:35:02,316 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:35:02,486 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="trunkEdit"]/ul/li[3]/a>, Spend 0.17100977897644043 seconds
+2019-01-15 15:35:02,493 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 15:35:02,650 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="username"]> content: 55559248, Spend 0.1630094051361084 seconds
+2019-01-15 15:35:03,654 - root - INFO - SUCCESS    Execute javascript scripts: document.getElementById("secret").readOnly=false, Spend 0.004000425338745117 seconds
+2019-01-15 15:35:03,656 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 15:35:03,767 - root - INFO - SUCCESS    Typed element: <css->#secret> content: 55559248, Spend 0.11200642585754395 seconds
+2019-01-15 15:35:05,769 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 15:35:05,962 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="sip_server"]> content: 192.168.18.191, Spend 0.19301080703735352 seconds
+2019-01-15 15:35:05,963 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:35:06,545 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.5820333957672119 seconds
+2019-01-15 15:35:06,551 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:35:06,911 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\trunk\addtrunk.png, Spend 0.3580203056335449 seconds
+2019-01-15 15:35:10,035 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.11317777633667 seconds
+2019-01-15 15:35:10,036 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:35:10,036 - root - INFO - ############################### START ###############################
+2019-01-15 15:35:14,965 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.929281949996948 seconds
+2019-01-15 15:35:16,569 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.6040918827056885 seconds
+2019-01-15 15:35:16,571 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:35:19,695 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1230640411376953 seconds
+2019-01-15 15:35:20,182 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0 seconds
+2019-01-15 15:35:20,190 - root - INFO - SUCCESS    Accept warning box, Spend 0.008000612258911133 seconds
+2019-01-15 15:35:20,202 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:35:21,479 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 1.2800731658935547 seconds
+2019-01-15 15:35:22,480 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:35:23,434 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/ul/li[3]/a>, Spend 0.954054594039917 seconds
+2019-01-15 15:35:23,436 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:35:23,915 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="toolbar-pjsip"]/a[1]>, Spend 0.4800271987915039 seconds
+2019-01-15 15:35:23,918 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:35:24,033 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="extension"]> content: 1001, Spend 0.11700654029846191 seconds
+2019-01-15 15:35:24,311 - root - INFO - SUCCESS    Clear and type element: <xpath->//*[@id="devinfo_secret"]> content: Aa111111, Spend 0.27701592445373535 seconds
+2019-01-15 15:35:24,317 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003999948501586914 seconds
+2019-01-15 15:35:25,008 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.6960396766662598 seconds
+2019-01-15 15:35:25,420 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\exten\addexten.png, Spend 0.41002368927001953 seconds
+2019-01-15 15:35:30,583 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.146179676055908 seconds
+2019-01-15 15:35:30,584 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:35:30,584 - root - INFO - ############################### START ###############################
+2019-01-15 15:35:35,592 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.007286071777344 seconds
+2019-01-15 15:35:37,154 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.560089111328125 seconds
+2019-01-15 15:35:37,156 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:35:40,282 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1260643005371094 seconds
+2019-01-15 15:35:40,818 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:35:40,843 - root - INFO - SUCCESS    Accept warning box, Spend 0.024001121520996094 seconds
+2019-01-15 15:35:40,845 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:35:41,622 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 0.7780447006225586 seconds
+2019-01-15 15:35:42,627 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:35:43,280 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/ul/li[3]/a>, Spend 0.6560375690460205 seconds
+2019-01-15 15:35:45,820 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:35:45,928 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="trunk"]>, Spend 0.10900616645812988 seconds
+2019-01-15 15:35:45,930 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:35:46,799 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.8700497150421143 seconds
+2019-01-15 15:35:49,138 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\exten\modifyexten.png, Spend 0.33801913261413574 seconds
+2019-01-15 15:35:52,214 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0761759281158447 seconds
+2019-01-15 15:35:52,215 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:35:52,215 - root - INFO - ############################### START ###############################
+2019-01-15 15:35:57,180 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.9642839431762695 seconds
+2019-01-15 15:35:59,589 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 2.408137559890747 seconds
+2019-01-15 15:35:59,591 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:02,723 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1310644149780273 seconds
+2019-01-15 15:36:03,191 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:36:03,206 - root - INFO - SUCCESS    Accept warning box, Spend 0.013000965118408203 seconds
+2019-01-15 15:36:03,213 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.006000518798828125 seconds
+2019-01-15 15:36:03,580 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 0.37302160263061523 seconds
+2019-01-15 15:36:04,581 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:36:05,128 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/ul/li[3]/a>, Spend 0.5480315685272217 seconds
+2019-01-15 15:36:05,351 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:36:05,355 - root - INFO - SUCCESS    Accept warning box, Spend 0.0030002593994140625 seconds
+2019-01-15 15:36:07,695 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\exten\delexten.png, Spend 0.31801843643188477 seconds
+2019-01-15 15:36:10,770 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0751757621765137 seconds
+2019-01-15 15:36:10,771 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:36:10,771 - root - INFO - ############################### START ###############################
+2019-01-15 15:36:15,737 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.96428370475769 seconds
+2019-01-15 15:36:17,589 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.8501055240631104 seconds
+2019-01-15 15:36:17,594 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:36:20,715 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1200640201568604 seconds
+2019-01-15 15:36:21,280 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:36:21,283 - root - INFO - SUCCESS    Accept warning box, Spend 0.0030002593994140625 seconds
+2019-01-15 15:36:21,290 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:36:21,629 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/a>, Spend 0.3410196304321289 seconds
+2019-01-15 15:36:22,631 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:23,357 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[3]/ul/li[10]/a>, Spend 0.7270419597625732 seconds
+2019-01-15 15:36:25,359 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:36:25,790 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="toolbar-all"]/a>, Spend 0.43102455139160156 seconds
+2019-01-15 15:36:25,795 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.003999948501586914 seconds
+2019-01-15 15:36:25,965 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="account"]> content: 701, Spend 0.17300987243652344 seconds
+2019-01-15 15:36:25,969 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 15:36:26,104 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="name"]> content: 701, Spend 0.13800787925720215 seconds
+2019-01-15 15:36:26,106 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:26,247 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="goto0"]>, Spend 0.14200830459594727 seconds
+2019-01-15 15:36:26,254 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 15:36:26,391 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="goto0"]/option[8]>, Spend 0.14300799369812012 seconds
+2019-01-15 15:36:26,393 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:36:28,395 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:36:28,795 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.4000232219696045 seconds
+2019-01-15 15:36:31,123 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\queue\addqueue.png, Spend 0.3260185718536377 seconds
+2019-01-15 15:36:34,218 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.086176633834839 seconds
+2019-01-15 15:36:34,219 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:36:34,219 - root - INFO - ############################### START ###############################
+2019-01-15 15:36:39,415 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.193296909332275 seconds
+2019-01-15 15:36:41,943 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 2.527144432067871 seconds
+2019-01-15 15:36:41,948 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:36:45,172 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2230699062347412 seconds
+2019-01-15 15:36:45,762 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:36:45,776 - root - INFO - SUCCESS    Accept warning box, Spend 0.01300048828125 seconds
+2019-01-15 15:36:45,780 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:36:46,397 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/a>, Spend 0.6210355758666992 seconds
+2019-01-15 15:36:47,398 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:36:48,087 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/ul/li[1]/a>, Spend 0.6890392303466797 seconds
+2019-01-15 15:36:48,093 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000425338745117 seconds
+2019-01-15 15:36:48,648 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="toolbar-all"]/a>, Spend 0.5600321292877197 seconds
+2019-01-15 15:36:48,650 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:48,652 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:36:48,911 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="description"]> content: callinrule, Spend 0.26001477241516113 seconds
+2019-01-15 15:36:48,912 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:49,064 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="didgeneral"]/div[2]/div[2]/div/div/div/div/div[2]/select>, Spend 0.1520087718963623 seconds
+2019-01-15 15:36:49,066 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:36:49,068 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 15:36:49,173 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="didgeneral"]/div[2]/div[2]/div/div/div/div/div[2]/select/option[2]>, Spend 0.10500621795654297 seconds
+2019-01-15 15:36:49,175 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:36:49,348 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="extension"]>, Spend 0.1740100383758545 seconds
+2019-01-15 15:36:49,351 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 15:36:49,508 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="extension"]/option[2]>, Spend 0.15900897979736328 seconds
+2019-01-15 15:36:49,510 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 15:36:50,125 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.6150352954864502 seconds
+2019-01-15 15:36:50,496 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\callinrule\add_callinrule.png, Spend 0.36802101135253906 seconds
+2019-01-15 15:36:55,705 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1911823749542236 seconds
+2019-01-15 15:36:55,706 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:36:55,707 - root - INFO - ############################### START ###############################
+2019-01-15 15:37:00,846 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.139294385910034 seconds
+2019-01-15 15:37:02,809 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.9611120223999023 seconds
+2019-01-15 15:37:02,815 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:37:05,946 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1310646533966064 seconds
+2019-01-15 15:37:06,591 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:37:06,638 - root - INFO - SUCCESS    Accept warning box, Spend 0.046002864837646484 seconds
+2019-01-15 15:37:06,651 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.012000799179077148 seconds
+2019-01-15 15:37:07,248 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/a>, Spend 0.6090350151062012 seconds
+2019-01-15 15:37:07,252 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:37:08,253 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:37:08,780 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="fpbx-menu-collapse"]/ul/li[4]/ul/li[2]/a>, Spend 0.5270302295684814 seconds
+2019-01-15 15:37:08,786 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 15:37:09,300 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="toolbar-all"]/a[1]>, Spend 0.5190296173095703 seconds
+2019-01-15 15:37:09,313 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.012000799179077148 seconds
+2019-01-15 15:37:10,054 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="routename"]> content: calloutrule, Spend 0.7510430812835693 seconds
+2019-01-15 15:37:10,056 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 15:37:10,188 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="trunkpri0"]>, Spend 0.13300776481628418 seconds
+2019-01-15 15:37:10,190 - root - INFO - SUCCESS    Set wait all element display in 2 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 15:37:10,199 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00800013542175293 seconds
+2019-01-15 15:37:10,326 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="trunkpri0"]/option[2]>, Spend 0.13600778579711914 seconds
+2019-01-15 15:37:10,330 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 15:37:10,458 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="routeEdit"]/ul/li[2]/a>, Spend 0.13100743293762207 seconds
+2019-01-15 15:37:10,473 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.014000892639160156 seconds
+2019-01-15 15:37:10,753 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="pattern_pass_0"]> content: X., Spend 0.29401683807373047 seconds
+2019-01-15 15:37:10,760 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.007000446319580078 seconds
+2019-01-15 15:37:11,352 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="submit"]>, Spend 0.598034143447876 seconds
+2019-01-15 15:37:11,704 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\calloutrule\add_calloutrule.png, Spend 0.352020263671875 seconds
+2019-01-15 15:37:16,922 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.2011828422546387 seconds
+2019-01-15 15:37:16,922 - root - INFO - ###############################  End  ###############################
+2019-01-15 15:37:22,194 - root - INFO - 发送邮件成功
+2019-01-15 17:13:36,579 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.644322872161865 seconds
+2019-01-15 17:13:38,950 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 2.369135618209839 seconds
+2019-01-15 17:13:38,953 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:13:42,079 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1240644454956055 seconds
+2019-01-15 17:13:42,088 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:13:42,195 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1112, Spend 0.10600614547729492 seconds
+2019-01-15 17:13:42,283 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: Aa111111, Spend 0.0870048999786377 seconds
+2019-01-15 17:13:42,285 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:13:42,355 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07100415229797363 seconds
+2019-01-15 17:13:42,358 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 17:13:52,965 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.6010341644287109 seconds
+2019-01-15 17:13:59,922 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.8352766036987305 seconds
+2019-01-15 17:14:01,124 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.198068380355835 seconds
+2019-01-15 17:14:01,126 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:14:02,267 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1400651931762695 seconds
+2019-01-15 17:14:02,271 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:14:02,362 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.09000492095947266 seconds
+2019-01-15 17:14:02,463 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.10100579261779785 seconds
+2019-01-15 17:14:02,467 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 17:14:02,840 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 0.3740215301513672 seconds
+2019-01-15 17:14:06,879 - root - INFO - SUCCESS    Accept warning box, Spend 0.03500175476074219 seconds
+2019-01-15 17:14:07,094 - root - INFO - ############################### START ###############################
+2019-01-15 17:14:12,200 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.105291843414307 seconds
+2019-01-15 17:14:15,201 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 2.999171257019043 seconds
+2019-01-15 17:14:15,207 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 17:14:18,446 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2380709648132324 seconds
+2019-01-15 17:14:21,541 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:14:21,669 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.1280074119567871 seconds
+2019-01-15 17:14:21,753 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.08400487899780273 seconds
+2019-01-15 17:14:21,757 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.003000020980834961 seconds
+2019-01-15 17:14:21,896 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.14200806617736816 seconds
+2019-01-15 17:14:21,910 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.014000892639160156 seconds
+2019-01-15 17:14:32,342 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.43102478981018066 seconds
+2019-01-15 17:14:34,348 - root - INFO - SUCCESS    Get current window title, Spend 0.0030002593994140625 seconds
+2019-01-15 17:14:37,591 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.243185520172119 seconds
+2019-01-15 17:14:37,592 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:14:41,796 - root - INFO - 发送邮件成功
+2019-01-15 17:19:32,499 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.8392767906188965 seconds
+2019-01-15 17:19:33,099 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.600034236907959 seconds
+2019-01-15 17:19:33,108 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:19:36,302 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.187067985534668 seconds
+2019-01-15 17:19:36,307 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0030002593994140625 seconds
+2019-01-15 17:19:36,419 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1112, Spend 0.11000657081604004 seconds
+2019-01-15 17:19:36,515 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: Aa111111, Spend 0.09600543975830078 seconds
+2019-01-15 17:19:36,517 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:19:36,594 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07700419425964355 seconds
+2019-01-15 17:19:36,597 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 17:19:47,018 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.42002391815185547 seconds
+2019-01-15 17:19:54,086 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.914280891418457 seconds
+2019-01-15 17:19:56,029 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.9431109428405762 seconds
+2019-01-15 17:19:56,031 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:19:57,166 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1340646743774414 seconds
+2019-01-15 17:19:57,167 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:19:57,274 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.10700631141662598 seconds
+2019-01-15 17:19:57,387 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.11200642585754395 seconds
+2019-01-15 17:19:57,388 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:19:57,725 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 0.3370194435119629 seconds
+2019-01-15 17:20:01,737 - root - INFO - SUCCESS    Accept warning box, Spend 0.00800013542175293 seconds
+2019-01-15 17:20:01,915 - root - INFO - ############################### START ###############################
+2019-01-15 17:20:07,035 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.120292901992798 seconds
+2019-01-15 17:20:08,072 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.0360591411590576 seconds
+2019-01-15 17:20:08,074 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:20:11,195 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1190640926361084 seconds
+2019-01-15 17:20:14,254 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:20:14,362 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.10800600051879883 seconds
+2019-01-15 17:20:14,444 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.08200478553771973 seconds
+2019-01-15 17:20:14,445 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:20:14,515 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07000398635864258 seconds
+2019-01-15 17:20:14,517 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:20:24,974 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.45502591133117676 seconds
+2019-01-15 17:20:26,981 - root - INFO - SUCCESS    Get current window title, Spend 0.003000020980834961 seconds
+2019-01-15 17:20:30,044 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0631754398345947 seconds
+2019-01-15 17:20:30,045 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:20:34,787 - root - INFO - 发送邮件成功
+2019-01-15 17:42:44,389 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.962284088134766 seconds
+2019-01-15 17:42:45,385 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.9950568675994873 seconds
+2019-01-15 17:42:45,393 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 17:42:48,526 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1320648193359375 seconds
+2019-01-15 17:42:48,533 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 17:42:48,654 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1112, Spend 0.12000679969787598 seconds
+2019-01-15 17:42:48,745 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: Aa111111, Spend 0.09000515937805176 seconds
+2019-01-15 17:42:48,746 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:42:48,821 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.0760042667388916 seconds
+2019-01-15 17:42:48,829 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:42:59,245 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.4150238037109375 seconds
+2019-01-15 17:43:06,180 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.809275150299072 seconds
+2019-01-15 17:43:08,858 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 2.6771531105041504 seconds
+2019-01-15 17:43:08,859 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:10,036 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1760673522949219 seconds
+2019-01-15 17:43:10,037 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:10,309 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.2720158100128174 seconds
+2019-01-15 17:43:10,570 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.2590148448944092 seconds
+2019-01-15 17:43:10,571 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:10,965 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 0.3950226306915283 seconds
+2019-01-15 17:43:14,992 - root - INFO - SUCCESS    Accept warning box, Spend 0.02000141143798828 seconds
+2019-01-15 17:43:15,148 - root - INFO - ############################### START ###############################
+2019-01-15 17:43:20,018 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.870278596878052 seconds
+2019-01-15 17:43:21,256 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.2360706329345703 seconds
+2019-01-15 17:43:21,266 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.01000070571899414 seconds
+2019-01-15 17:43:24,393 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1250643730163574 seconds
+2019-01-15 17:43:27,485 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:27,597 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.11200642585754395 seconds
+2019-01-15 17:43:27,677 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.08000469207763672 seconds
+2019-01-15 17:43:27,679 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:43:27,749 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07000398635864258 seconds
+2019-01-15 17:43:27,750 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:43:38,249 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.495028018951416 seconds
+2019-01-15 17:43:40,258 - root - INFO - SUCCESS    Get current window title, Spend 0.0060002803802490234 seconds
+2019-01-15 17:43:43,361 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.102177381515503 seconds
+2019-01-15 17:43:43,362 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:43:43,363 - root - INFO - ############################### START ###############################
+2019-01-15 17:43:48,385 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.022287368774414 seconds
+2019-01-15 17:43:49,167 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.7820446491241455 seconds
+2019-01-15 17:43:49,169 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:43:52,310 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1390652656555176 seconds
+2019-01-15 17:43:54,387 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:43:54,396 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.009000539779663086 seconds
+2019-01-15 17:43:54,551 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.1630094051361084 seconds
+2019-01-15 17:43:54,553 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:43:54,555 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:55,010 - root - INFO - SUCCESS    Clicked element: <link_text->部门管理>, Spend 0.45502614974975586 seconds
+2019-01-15 17:43:55,079 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.06800413131713867 seconds
+2019-01-15 17:43:57,119 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:43:57,442 - root - INFO - SUCCESS    Clicked element: <link_text->新建>, Spend 0.3240184783935547 seconds
+2019-01-15 17:43:57,446 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0030002593994140625 seconds
+2019-01-15 17:43:57,588 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department_POP>, Spend 0.1410081386566162 seconds
+2019-01-15 17:43:57,594 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 17:43:58,601 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:43:58,847 - root - INFO - SUCCESS    Typed element: <css->#department-dept_name> content: 测试部1, Spend 0.24701404571533203 seconds
+2019-01-15 17:43:58,855 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.00700068473815918 seconds
+2019-01-15 17:43:59,075 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="department-form"]/div[6]/button>, Spend 0.22701311111450195 seconds
+2019-01-15 17:43:59,080 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000591278076172 seconds
+2019-01-15 17:43:59,085 - root - INFO - SUCCESS    Switch to frame out, Spend 0.005000114440917969 seconds
+2019-01-15 17:43:59,158 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.07100391387939453 seconds
+2019-01-15 17:44:04,509 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\depart\add_depart.png, Spend 0.34201955795288086 seconds
+2019-01-15 17:44:07,602 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.079176187515259 seconds
+2019-01-15 17:44:07,602 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:44:07,604 - root - INFO - ############################### START ###############################
+2019-01-15 17:44:12,811 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.2062976360321045 seconds
+2019-01-15 17:44:13,991 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.1770672798156738 seconds
+2019-01-15 17:44:13,997 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 17:44:17,223 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2260701656341553 seconds
+2019-01-15 17:44:19,559 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 17:44:19,564 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.004000186920166016 seconds
+2019-01-15 17:44:19,732 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.17200994491577148 seconds
+2019-01-15 17:44:19,735 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:44:19,738 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:44:20,232 - root - INFO - SUCCESS    Clicked element: <link_text->部门管理>, Spend 0.49602842330932617 seconds
+2019-01-15 17:44:20,338 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.10400605201721191 seconds
+2019-01-15 17:44:22,355 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 17:44:22,524 - root - INFO - SUCCESS    Switch to frame out, Spend 0.006000518798828125 seconds
+2019-01-15 17:44:22,531 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.006000041961669922 seconds
+2019-01-15 17:44:24,532 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:44:24,933 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 0.4020230770111084 seconds
+2019-01-15 17:44:24,935 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:44:24,988 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_department>, Spend 0.052002906799316406 seconds
+2019-01-15 17:44:30,359 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\depart\del_depart.png, Spend 0.35502028465270996 seconds
+2019-01-15 17:44:33,444 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0721755027770996 seconds
+2019-01-15 17:44:33,445 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:44:33,446 - root - INFO - ############################### START ###############################
+2019-01-15 17:44:38,548 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 5.102291584014893 seconds
+2019-01-15 17:44:40,025 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.4770846366882324 seconds
+2019-01-15 17:44:40,032 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 17:44:43,167 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1350648403167725 seconds
+2019-01-15 17:44:45,814 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.008000373840332031 seconds
+2019-01-15 17:44:45,821 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:44:46,005 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.18601059913635254 seconds
+2019-01-15 17:44:46,009 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:44:46,017 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0060002803802490234 seconds
+2019-01-15 17:44:46,706 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.6950397491455078 seconds
+2019-01-15 17:44:46,714 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.008000612258911133 seconds
+2019-01-15 17:44:46,956 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.24201369285583496 seconds
+2019-01-15 17:44:48,983 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:44:49,401 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 0.41802382469177246 seconds
+2019-01-15 17:44:51,403 - root - INFO - SUCCESS    Switch to frame out, Spend 0.002000093460083008 seconds
+2019-01-15 17:44:51,405 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 17:44:51,443 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.0370020866394043 seconds
+2019-01-15 17:44:51,444 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:44:51,445 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:44:51,634 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2111, Spend 0.19001054763793945 seconds
+2019-01-15 17:44:51,640 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000591278076172 seconds
+2019-01-15 17:44:51,744 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user1, Spend 0.10900640487670898 seconds
+2019-01-15 17:44:51,749 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.00500035285949707 seconds
+2019-01-15 17:44:51,850 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席1, Spend 0.10500597953796387 seconds
+2019-01-15 17:44:51,852 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:44:52,065 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 0.21401214599609375 seconds
+2019-01-15 17:44:53,066 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:44:53,175 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 0.11000633239746094 seconds
+2019-01-15 17:44:53,176 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:44:53,293 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 0.11800670623779297 seconds
+2019-01-15 17:44:54,295 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:44:54,394 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 0.09900546073913574 seconds
+2019-01-15 17:44:54,505 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.11100649833679199 seconds
+2019-01-15 17:44:54,604 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.09900546073913574 seconds
+2019-01-15 17:44:54,605 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:44:54,757 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 0.15300869941711426 seconds
+2019-01-15 17:44:54,759 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 17:44:54,777 - root - INFO - SUCCESS    Switch to frame out, Spend 0.017000913619995117 seconds
+2019-01-15 17:44:56,077 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 1.2990741729736328 seconds
+2019-01-15 17:44:58,106 - root - INFO - SUCCESS    Switch to frame out, Spend 0.002000093460083008 seconds
+2019-01-15 17:45:01,444 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 0.3370194435119629 seconds
+2019-01-15 17:45:01,446 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:04,448 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:45:04,556 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.10900640487670898 seconds
+2019-01-15 17:45:04,557 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:04,558 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:04,704 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.14600849151611328 seconds
+2019-01-15 17:45:04,706 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0020003318786621094 seconds
+2019-01-15 17:45:04,735 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.029001712799072266 seconds
+2019-01-15 17:45:06,750 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:12,137 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 5.38830828666687 seconds
+2019-01-15 17:45:14,139 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0020003318786621094 seconds
+2019-01-15 17:45:14,140 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:14,182 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.04000234603881836 seconds
+2019-01-15 17:45:14,183 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:14,185 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:14,249 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2112, Spend 0.06600403785705566 seconds
+2019-01-15 17:45:14,250 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:14,348 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user2, Spend 0.09800553321838379 seconds
+2019-01-15 17:45:14,349 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:14,418 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席2, Spend 0.07000422477722168 seconds
+2019-01-15 17:45:14,419 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:19,543 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 5.125293016433716 seconds
+2019-01-15 17:45:20,545 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:45:25,648 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 5.102291822433472 seconds
+2019-01-15 17:45:25,649 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:30,747 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 5.099291801452637 seconds
+2019-01-15 17:45:31,749 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:45:36,845 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 5.097291469573975 seconds
+2019-01-15 17:45:36,938 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.09300541877746582 seconds
+2019-01-15 17:45:37,044 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.10500597953796387 seconds
+2019-01-15 17:45:37,045 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 17:45:42,188 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 5.142294406890869 seconds
+2019-01-15 17:45:42,190 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:45:42,192 - root - INFO - SUCCESS    Switch to frame out, Spend 0.002000093460083008 seconds
+2019-01-15 17:45:42,238 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.044002532958984375 seconds
+2019-01-15 17:45:44,266 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:47,764 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 0.4980285167694092 seconds
+2019-01-15 17:45:47,766 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:50,767 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:45:50,907 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.1410081386566162 seconds
+2019-01-15 17:45:50,909 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 17:45:50,911 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:51,088 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.17701005935668945 seconds
+2019-01-15 17:45:51,090 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0019998550415039062 seconds
+2019-01-15 17:45:51,123 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.03200197219848633 seconds
+2019-01-15 17:45:53,139 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:53,515 - root - INFO - SUCCESS    Clicked element: <css->#user-add>, Spend 0.3760213851928711 seconds
+2019-01-15 17:45:55,519 - root - INFO - SUCCESS    Switch to frame out, Spend 0.003000020980834961 seconds
+2019-01-15 17:45:55,520 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:55,568 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user_POP>, Spend 0.04800271987915039 seconds
+2019-01-15 17:45:55,569 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:55,571 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 17:45:55,678 - root - INFO - SUCCESS    Typed element: <xpath->//*[@id="user-agent_number"]> content: 2113, Spend 0.10700607299804688 seconds
+2019-01-15 17:45:55,681 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:55,824 - root - INFO - SUCCESS    Typed element: <css->#user-username> content: user3, Spend 0.14500808715820312 seconds
+2019-01-15 17:45:55,825 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:55,920 - root - INFO - SUCCESS    Typed element: <css->#user-realname> content: 测试座席3, Spend 0.09500551223754883 seconds
+2019-01-15 17:45:55,921 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:56,076 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/button/span[1]>, Spend 0.15600895881652832 seconds
+2019-01-15 17:45:57,078 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:45:57,229 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[6]/div[2]/div/div/div/ul/li[2]/a>, Spend 0.15100860595703125 seconds
+2019-01-15 17:45:57,232 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:57,361 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/button/span[1]>, Spend 0.13100719451904297 seconds
+2019-01-15 17:45:58,364 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:45:58,489 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="user-form"]/div[7]/div[2]/div/div/div/ul/li[2]/a/span[1]>, Spend 0.12500739097595215 seconds
+2019-01-15 17:45:58,601 - root - INFO - SUCCESS    Clear and type element: <css->#user-password> content: Aa111111, Spend 0.11200642585754395 seconds
+2019-01-15 17:45:58,718 - root - INFO - SUCCESS    Clear and type element: <css->#user-confirm_password> content: Aa111111, Spend 0.11700654029846191 seconds
+2019-01-15 17:45:58,720 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:45:58,871 - root - INFO - SUCCESS    Clicked element: <css->#user-form > div.btn_box > button>, Spend 0.1500084400177002 seconds
+2019-01-15 17:45:58,877 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 17:45:58,879 - root - INFO - SUCCESS    Switch to frame out, Spend 0.002000093460083008 seconds
+2019-01-15 17:45:58,950 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.07000398635864258 seconds
+2019-01-15 17:46:00,977 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0010001659393310547 seconds
+2019-01-15 17:46:04,341 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\add_user.png, Spend 0.36402082443237305 seconds
+2019-01-15 17:46:04,343 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:46:10,475 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.131179094314575 seconds
+2019-01-15 17:46:10,476 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:46:10,479 - root - INFO - ############################### START ###############################
+2019-01-15 17:46:15,296 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.815275430679321 seconds
+2019-01-15 17:46:15,964 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.6680381298065186 seconds
+2019-01-15 17:46:15,967 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:46:19,101 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1330649852752686 seconds
+2019-01-15 17:46:21,049 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.014000654220581055 seconds
+2019-01-15 17:46:21,051 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:46:21,253 - root - INFO - SUCCESS    Clicked element: <link_text->组织机构>, Spend 0.2040116786956787 seconds
+2019-01-15 17:46:21,263 - root - INFO - SUCCESS    Set wait all element display in 1 seconds, Spend 0.008000612258911133 seconds
+2019-01-15 17:46:21,265 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:46:21,867 - root - INFO - SUCCESS    Clicked element: <link_text->用户管理>, Spend 0.604034423828125 seconds
+2019-01-15 17:46:21,877 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.008000373840332031 seconds
+2019-01-15 17:46:21,955 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.07800436019897461 seconds
+2019-01-15 17:46:31,375 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0009999275207519531 seconds
+2019-01-15 17:46:31,377 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:46:33,379 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:46:38,955 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 5.576318979263306 seconds
+2019-01-15 17:46:39,058 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.10300612449645996 seconds
+2019-01-15 17:46:39,060 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:46:49,219 - root - INFO - SUCCESS    Switch to frame out, Spend 0.0019998550415039062 seconds
+2019-01-15 17:46:49,221 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:46:51,223 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:46:56,746 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 5.523315668106079 seconds
+2019-01-15 17:46:56,796 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.049002885818481445 seconds
+2019-01-15 17:46:56,797 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:47:02,625 - root - INFO - SUCCESS    Switch to frame out, Spend 0.01700115203857422 seconds
+2019-01-15 17:47:02,632 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.005000114440917969 seconds
+2019-01-15 17:47:04,633 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0 seconds
+2019-01-15 17:47:05,089 - root - INFO - SUCCESS    Clicked element: <css->body > div.ui-popup.ui-popup-modal.ui-popup-show.ui-popup-focus > div > table > tbody > tr:nth-child(3) > td > div.ui-dialog-button > button.ui-dialog-autofocus>, Spend 0.4560260772705078 seconds
+2019-01-15 17:47:05,123 - root - INFO - SUCCESS    Switch to frame element: <id->iframe_organize_user>, Spend 0.034002065658569336 seconds
+2019-01-15 17:47:05,125 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:47:08,517 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\user\del_user.png, Spend 0.371021032333374 seconds
+2019-01-15 17:47:11,654 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.123178482055664 seconds
+2019-01-15 17:47:11,655 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:47:16,383 - root - INFO - 发送邮件成功
+2019-01-15 17:51:22,291 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.830276250839233 seconds
+2019-01-15 17:51:22,939 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 0.6470370292663574 seconds
+2019-01-15 17:51:22,941 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:51:26,150 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.205068826675415 seconds
+2019-01-15 17:51:26,153 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:51:26,246 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: 1112, Spend 0.09200525283813477 seconds
+2019-01-15 17:51:26,332 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: Aa111111, Spend 0.08500480651855469 seconds
+2019-01-15 17:51:26,333 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:51:26,443 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.11000609397888184 seconds
+2019-01-15 17:51:26,445 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:51:36,864 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.4170238971710205 seconds
+2019-01-15 17:51:43,768 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.805274724960327 seconds
+2019-01-15 17:51:45,571 - root - INFO - SUCCESS    Navigated to http://192.168.9.247/admin, Spend 1.8021032810211182 seconds
+2019-01-15 17:51:45,574 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:51:46,704 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1280646324157715 seconds
+2019-01-15 17:51:46,705 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0010004043579101562 seconds
+2019-01-15 17:51:46,802 - root - INFO - SUCCESS    Clear and type element: <name->username> content: admin, Spend 0.09600520133972168 seconds
+2019-01-15 17:51:46,921 - root - INFO - SUCCESS    Clear and type element: <name->password> content: justpass, Spend 0.11800694465637207 seconds
+2019-01-15 17:51:46,922 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0009999275207519531 seconds
+2019-01-15 17:51:47,350 - root - INFO - SUCCESS    Clicked element: <css->#loginform > div:nth-child(4) > button>, Spend 0.42902445793151855 seconds
+2019-01-15 17:51:51,358 - root - INFO - SUCCESS    Accept warning box, Spend 0.003000020980834961 seconds
+2019-01-15 17:51:51,476 - root - INFO - ############################### START ###############################
+2019-01-15 17:51:56,288 - root - INFO - SUCCESS    Start a new browser: Chrome, Spend 4.812275171279907 seconds
+2019-01-15 17:51:57,629 - root - INFO - SUCCESS    Navigated to http://192.168.9.247, Spend 1.3400766849517822 seconds
+2019-01-15 17:51:57,632 - root - INFO - SUCCESS    Set wait all element display in 10 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:52:00,767 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1330649852752686 seconds
+2019-01-15 17:52:03,829 - root - INFO - SUCCESS    Set wait all element display in 5 seconds, Spend 0.0 seconds
+2019-01-15 17:52:03,954 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[username]> content: admin, Spend 0.12500739097595215 seconds
+2019-01-15 17:52:04,037 - root - INFO - SUCCESS    Clear and type element: <name->LoginForm[password]> content: admin, Spend 0.08300471305847168 seconds
+2019-01-15 17:52:04,039 - root - INFO - SUCCESS    Set wait all element display in 3 seconds, Spend 0.0010001659393310547 seconds
+2019-01-15 17:52:04,113 - root - INFO - SUCCESS    Clicked element: <id->login_btn>, Spend 0.07500433921813965 seconds
+2019-01-15 17:52:04,117 - root - INFO - SUCCESS    Set wait all element display in 20 seconds, Spend 0.002000093460083008 seconds
+2019-01-15 17:52:14,549 - root - INFO - SUCCESS    Get the current window screenshot,path: E:\python_excercise\JUST\JustCC\report\image\login\login.png, Spend 0.4300248622894287 seconds
+2019-01-15 17:52:16,555 - root - INFO - SUCCESS    Get current window title, Spend 0.003000020980834961 seconds
+2019-01-15 17:52:19,636 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0811760425567627 seconds
+2019-01-15 17:52:19,637 - root - INFO - ###############################  End  ###############################
+2019-01-15 17:52:23,780 - root - INFO - 发送邮件成功

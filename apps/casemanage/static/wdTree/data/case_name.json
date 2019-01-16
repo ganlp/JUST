@@ -85,12 +85,20 @@
                 "name": "工单管理",
                 "case": [
                     {
-                        "id": "test_1_add_ticket_type",
+                        "id": "test_add_ticket_type",
                         "name": "添加工单类型"
                     },
                     {
-                        "id": "test_2_add_ticket",
-                        "name": "创建工单"
+                        "id": "test_add_ticket_new",
+                        "name": "创建工单-新建状态"
+                    },
+                    {
+                        "id": "test_add_ticket_finish",
+                        "name": "创建工单-完结状态"
+                    },
+                    {
+                        "id": "test_add_ticket_attachment",
+                        "name": "创建新建状态工单-带附件"
                     }
                 ]
             }

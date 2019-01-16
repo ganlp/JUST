@@ -40,6 +40,7 @@ def set_serverip(request):      #传递设置的被测服务器IP值
 def test_api(request):    #调接口传选中的用例数据
     if 'data' in request.POST:
         data = request.POST['data']
+        print(data)
         process_data=data.split(',')
         for i in process_data:
             if i=='menu':
@@ -106,8 +107,8 @@ def read_log(request):
         if len(lines)> read_log.counter:
             cnt=read_log.counter
             lines_str=['\n'+lines[i] for i in range(len(lines))]
-            context={"data":''.join(lines_str[cnt:cnt+50])}
-            read_log.counter+=len(lines_str[cnt:cnt+50])
+            context={"data":''.join(lines_str[cnt:cnt+100])}
+            read_log.counter+=len(lines_str[cnt:cnt+100])
             return JsonResponse(context)
         else:
             return JsonResponse({"data":'.'})

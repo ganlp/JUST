@@ -20,7 +20,6 @@ class LoginPage(Page):
         sleep(10)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"login","login.png"))
 
-    @BeautifulReport.add_test_img('login', 'login_admin')
     def admin_login(self,username,password):
         self.dr.wait(5)
         self.dr.clear_type('name->username',username)

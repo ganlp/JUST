@@ -31,7 +31,7 @@ def del_test_app_info(): #清理前台测试数据
     cursor = db.cursor()
     cursor.execute("delete from crm_customer where customer_name like '客户%'")  # 删除客户资料测试数据
     cursor.execute("delete from crm_enterprise where enterprise_name like '企业%'")  #删除企业测试数据
-    cursor.execute("delete from ticket_main where title='请假3天'")  # 删除工单
+    cursor.execute("delete from ticket_main where title like '请假%'")  # 删除工单
     cursor.execute("delete from conf_ticket_type where type_name='请假'")  #删除工单类型
     db.commit()
     db.close()

@@ -114,7 +114,7 @@
                         var startTime = new Date().getTime();
                         $(document).ready(function(){
                             var ele=document.getElementById("tt1");
-                            timer1=window.setInterval(refreshlog,5000);
+                            timer1=window.setInterval(refreshlog,8000);
                             function refreshlog(){
                                 $.getJSON("/api/read_log",function(ret){
                                     //$('#tt1').html(ret.data);
@@ -132,6 +132,7 @@
                             data:{data:casestr},
                             success: function() {
                                 alert('success...');
+                                //alert(casestr);
                                 document.getElementById("showchecked").disabled=false;
                                 //window.clearInterval(timer);
                                 }

@@ -1,5 +1,6 @@
 #coding=utf-8
 from config import globalparam
+import os
 
 class Page(object):
     """
@@ -14,6 +15,6 @@ class Page(object):
             :param img_name:
             :return:
         """
-        self.driver.get_screenshot_as_file('{}/{}.png'.format(globalparam.img_path+'/ERROR', img_name))
+        self.dr.take_screenshot('{}/{}.png'.format(os.path.join(globalparam.img_path,'ERROR'), img_name))
 
 
