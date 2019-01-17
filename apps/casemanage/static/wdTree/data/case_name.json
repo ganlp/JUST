@@ -89,8 +89,20 @@
                         "name": "添加工单类型"
                     },
                     {
+                        "id": "test_add_ticket_workflow_conf",
+                        "name": "创建工作流"
+                    },
+                    {
                         "id": "test_add_ticket_new",
                         "name": "创建工单-新建状态"
+                    },
+                    {
+                        "id": "test_add_ticket_process",
+                        "name": "创建工单-处理中状态"
+                    },
+                    {
+                        "id": "test_add_ticket_solve",
+                        "name": "创建工单-已解决状态"
                     },
                     {
                         "id": "test_add_ticket_finish",

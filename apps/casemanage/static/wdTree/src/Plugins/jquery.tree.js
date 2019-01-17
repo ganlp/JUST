@@ -454,7 +454,7 @@
         }
         function getck(items, c, fn) {
             for (var i = 0, l = items.length; i < l; i++) {
-                (items[i].showcheck == true && items[i].checkstate == 1) && c.push(fn(items[i]));
+                (items[i].showcheck == true &&(items[i].checkstate == 1 || items[i].checkstate == 2)) && c.push(fn(items[i]));
                 if (items[i].ChildNodes != null && items[i].ChildNodes.length > 0) {
                     getck(items[i].ChildNodes, c, fn);
                 }
@@ -481,8 +481,8 @@
             },
             getSelectedValues: function() {
                 var s = [];
-                //getck(treenodes, s, function(item) { return item.value; });
-                getCkAndHalfCk(treenodes, s, function(item) { return item; });
+                getck(treenodes, s, function(item) { return item.value; });
+                //getCkAndHalfCk(treenodes, s, function(item) { return item; });
                 return s;
             },
             getCurrentItem: function() {
