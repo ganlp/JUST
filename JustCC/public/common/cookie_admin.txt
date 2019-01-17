@@ -1,1 +1,0 @@
-[{'domain': '192.168.9.247', 'httpOnly': False, 'name': 'lang', 'path': '/admin', 'secure': False, 'value': 'zh_CN'}, {'domain': '192.168.9.247', 'expiry': 1550223835.101861, 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': 'ifa7vt12o33eje9jhgj1tn3pl1'}]
