@@ -37,6 +37,46 @@ class TicketPage(Page):
       db.close()
       self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_ticket_type.png"))
       return count
+     
+    def set_workflow_condition(self,frame_id,start_node_id,end_node_svg_id):   #设置工作流流程
+        self.dr.get_elements("css->.jsnode")[start_node_id].click()
+        # self.dr.click("css->.jsnode")
+        sleep(2)
+        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/button")
+        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/div/ul/li[2]/a/span[1]")
+        self.dr.wait(2)
+        self.dr.click("xpath->//*[@id=\"user\"]/td[2]/div/button")
+        self.dr.click("xpath->//*[@id=\"user\"]/td[2]/div/div/ul/li[3]/a/span[1]")
+        self.dr.click("xpath->//*[@id=\"saveAttr\"]")
+        sleep(2)
+        self.dr.click("xpath->//*[@id=\"addstep\"]")  # 点击添加步骤
+        sleep(1)
+        self.dr.clear_type("xpath->//*[@id=\"property_name\"]", "测试步骤")
+        self.dr.click("xpath->//*[@id=\"user-search-form\"]/table/tbody/tr[2]/td[2]/div/button/span[1]")
+        self.dr.wait(1)
+        self.dr.click("xpath->//*[@id=\"user-search-form\"]/table/tbody/tr[2]/td[2]/div/div/ul/li[4]/a/span[1]")
+        self.dr.wait(3)
+        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/button")
+        self.dr.wait(2)
+        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/div/ul/li[2]/a/span[1]")
+        self.dr.click("xpath->//*[@id=\"user\"]/td[2]/div/button")
+        self.dr.click("xpath->// *[ @ id =\"user\"]/td[2]/div/div/ul/li[2]/a/span[1]")
+        self.dr.click("xpath->//*[@id=\"saveAttr\"]")
+        # 定位步骤1
+        self.dr.drag_and_drop_by_offset("css->.jsactive", 560, 140)
+        sleep(1)
+        # 连线开始-测试步骤
+        self.dr.click_and_hold("xpath->//*[@id=\"canvas\"]/div[6]/*[name()='svg']/*[name()='circle']")
+        self.dr.move_to_element("xpath->//*[@id=\"canvas\"]/div[15]/*[name()='svg']/*[name()='circle']")
+        self.dr.wait(3)
+        self.dr.switch_to_frame_out()
+        self.dr.click("xpath->//*[@id=\"active_box\"]/form/div[5]/button")
+        sleep(2)
+        # 连线测试步骤-结束
+        self.dr.switch_to_frame("id->" + frame_id)
+        sleep(2)
+        self.dr.click_and_hold("xpath->//*[@id=\"canvas\"]/div[12]/*[name()='svg']/*[name()='circle']")
+        self.dr.move_to_element("xpath->//*[@id=\"canvas\"]/div[{}]/*[name()='svg']/*[name()='circle']".format(end_node_svg_id))
     
     @BeautifulReport.add_test_img('ticket', 'add_workflow_conf')
     def add_ticket_workflow_conf(self):  #新建工作流
@@ -53,7 +93,7 @@ class TicketPage(Page):
         self.dr.switch_to_frame("id->createWorkflow")
         self.dr.click("xpath->//*[@id=\"workflow-form\"]/div[1]/div[2]/div/div/button/span[1]")
         self.dr.click("link_text->请假")
-        self.dr.type("xpath->//*[@id=\"workflow-title\"]","测试流程")
+        self.dr.clear_type("xpath->//*[@id=\"workflow-title\"]","测试流程")
         self.dr.click("xpath->//*[@id=\"workflow-form\"]/div[7]/button")
         self.dr.wait(2)
         sleep(2)
@@ -64,7 +104,7 @@ class TicketPage(Page):
         workflow_id =cursor.fetchall()[0][0]
         print("workflow_id=",workflow_id)
         db.close()
-        #self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_workflow_conf.png"))
+      
         #设计流程
         self.dr.switch_to_frame_out()
         self.dr.switch_to_frame("id->iframe_standard-system-workflow")
@@ -73,37 +113,27 @@ class TicketPage(Page):
         self.dr.switch_to_frame_out()
         frame_id="iframe_standard-system-sms-"+str(workflow_id)
         self.dr.switch_to_frame("id->"+frame_id)
-        self.dr.click("xpath->//*[@id=\"addstep\"]")    #点击添加步骤
-        self.dr.wait(2)
-        self.dr.type("xpath->//*[@id=\"property_name\"]","测试步骤")
-        self.dr.click("xpath->//*[@id=\"user-search-form\"]/table/tbody/tr[2]/td[2]/div/button/span[1]")
-        self.dr.wait(1)
-        self.dr.click("xpath->//*[@id=\"user-search-form\"]/table/tbody/tr[2]/td[2]/div/div/ul/li[4]/a/span[1]")
         self.dr.wait(3)
-        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/button")
-        self.dr.wait(2)
-        self.dr.click("xpath->//*[@id=\"department\"]/td[2]/div/div/ul/li[2]/a/span[1]")
-        self.dr.wait(2)
-        self.dr.click("xpath->//*[@id=\"user\"]/td[2]/div/button")
-        self.dr.click("xpath->// *[ @ id =\"user\"]/td[2]/div/div/ul/li[2]/a/span[1]")
-        self.dr.wait(3)
-        self.dr.click("xpath->//*[@id=\"saveAttr\"]")
-        process_node=self.dr.get_elements("css->.node.jsnode.jtk-endpoint-anchor.jtk-draggable.jsactive")
-        print(process_node)
-        self.dr.drag_and_drop_by_offset("xpath->// *[ @ id = \"node_3\"] / strong",560,140)
-        self.dr.drag_and_drop("xpath->//*[@id=\"canvas\"]/div[6]/svg/circle","xpath->//*[@id=\"canvas\"]/div[15]/svg/circle")
-        self.dr.wait(2)
-        self.dr.click("xpath->//*[@id=\"active_box\"]/form/div[5]/button")
-        self.dr.wait(2)
-        self.dr.drag_and_drop("xpath->//*[@id=\"canvas\"]/div[12]/svg/circle","xpath->//*[@id=\"canvas\"]/div[2]/svg/circle")
-        self.dr.click("xpath->//*[@id=\"active_box\"]/form/div[5]/button")
-        self.dr.click("xpath->//*[@id=\"saveAttr\"]")
-        self.dr.click("xpath->//*[@id=\"save-workflow-property\"]")
-        self.dr.wait(2)
+        print(self.dr.get_text("css->.jsnode"))
+        if(self.dr.get_text("css->.jsnode")=="开始流程"):
+            self.set_workflow_condition(frame_id,0,8)
+        else:
+            self.set_workflow_condition(frame_id,1,2)
         sleep(2)
+        self.dr.switch_to_frame_out()
+        self.dr.click("xpath->//*[@class=\"ui-dialog-content\"]/div/form/div[5]/button")
+        self.dr.switch_to_frame("id->" + frame_id)
+        self.dr.click("xpath->//*[@id=\"save-workflow-property\"]")
+        sleep(1)
         self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_workflow_conf.png"))
-        return 1
-
+        db = pymysql.connect(globalparam.db_standard["ip"], globalparam.db_standard["loginname"],
+                             globalparam.db_standard["password"], globalparam.db_standard["basename"],
+                             charset='utf8')
+        cursor = db.cursor()
+        count = cursor.execute("select * from workflow_condition where workflow_id ="+str(workflow_id))
+        db.close()
+        return count
+        
     @BeautifulReport.add_test_img('ticket', 'add_ticket_new')
     def add_ticket_new(self): #创建新建状态工单
      #   self.dr.click("xpath->//*[@id=\"sidebar\"]/ul/li/div/a[12]/span")
@@ -257,6 +287,81 @@ class TicketPage(Page):
         self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_ticket_attachment.png"))
         return count
 
+    @BeautifulReport.add_test_img('ticket', 'add_ticket_with_workflow')
+    def add_ticket_with_workflow(self):  # 创建工单-带工作流
+        self.dr.click("link_text->工单管理")
+        self.dr.wait(3)
+        self.dr.click("link_text->创建工单")
+        self.dr.wait(3)
+        self.dr.switch_to_frame("id->iframe_ticket-create")
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr/td/div/button/span[2]/span")
+        self.dr.wait(3)
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr/td/div/div/ul/li[5]/a/span[1]")
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[2]/td/div/button")
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[2]/td/div/div/ul/li[2]/a/span[1]")
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[11]/td/div/button/span[1]")
+        self.dr.click("xpath->//*[@id=\"create_ticket_main\"]/table/tbody/tr[11]/td/div/div/ul/li[2]/a")
+        self.dr.type("xpath->//*[@id=\"ticketmain-title\"]", "请假1天-新建-带工作流")
+        self.dr.type("xpath->//*[@id=\"ticketmain-content\"]", "病假")
+        self.dr.wait(2)
+        self.dr.click("xpath->//*[@id=\"save_ticket_main\"]")
+        self.dr.wait(2)
+        sleep(2)
+        db = pymysql.connect(globalparam.db_standard["ip"], globalparam.db_standard["loginname"],
+                             globalparam.db_standard["password"], globalparam.db_standard["basename"], charset='utf8')
+        cursor = db.cursor()
+        count = cursor.execute("select * from ticket_main where title = '请假1天-新建-带工作流'")
+        db.close()
+        self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "add_ticket_with_workflow.png"))
+        return count
 
-        
+    @BeautifulReport.add_test_img('ticket', 'del_ticket')
+    def del_ticket(self):  # 删除工单
+        self.dr.click("link_text->工单管理")
+        sleep(1)
+        self.dr.click("link_text->全部工单")
+        self.dr.wait(3)
+        self.dr.switch_to_frame("id->iframe_ticket-filter-0")
+        total1=self.dr.get_text("css->.total-num")
+        print(total1)
+        cnt1=int(total1.strip("条")[1:])
+        self.dr.click("xpath->//*[@id=\"grid\"]/div[1]/table/tbody/tr[1]/td[1]/label/i")
+        sleep(1)
+        self.dr.click("xpath->//*[@id=\"delete\"]")
+        sleep(2)
+        self.dr.switch_to_frame_out()
+        self.dr.click("xpath->/html/body/div[9]/div/table/tbody/tr[3]/td/div[2]/button[2]")
+        self.dr.switch_to_frame("id->iframe_ticket-filter-0")
+        sleep(2)
+        total2=self.dr.get_text("css->.total-num")
+        cnt2=int(total2.strip("条")[1:])
+        print(cnt2)
+        self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "del_ticket.png"))
+        return [cnt1,cnt2]
 
+    @BeautifulReport.add_test_img('ticket', 'handle_ticket')
+    def handle_ticket(self):  # 操作工单-处理成完结状态
+        self.dr.click("link_text->工单管理")
+        sleep(1)
+        self.dr.click("link_text->全部工单")
+        self.dr.wait(3)
+        self.dr.switch_to_frame("id->iframe_ticket-filter-0")
+        ticket_no = self.dr.get_text("xpath->//*[@id=\"grid\"]/div[1]/table/tbody/tr[1]/td[5]") #获取工单编号
+        self.dr.click("xpath->//*[@id=\"grid\"]/div[1]/table/tbody/tr[1]/td[3]/a/span")
+        handle_frame_id="iframe_ticket_main_detail_"+ticket_no
+        self.dr.switch_to_frame_out()
+        self.dr.switch_to_frame("id->"+handle_frame_id)
+        sleep(1)
+        self.dr.type("xpath->//*[@id=\"tickethandle-content\"]","ok")
+        self.dr.click("xpath->//*[@id=\"ticket_handle_form\"]/table/tbody/tr[3]/td/div/button/span[1]")
+        self.dr.click("xpath->//*[@id=\"ticket_handle_form\"]/table/tbody/tr[3]/td/div/div/ul/li[4]/a")
+        self.dr.click("xpath->//*[@id=\"save_ticket_main\"]")
+        sleep(2)
+        self.dr.switch_to_frame_out()
+        self.dr.click("link_text->全部工单")
+        self.dr.switch_to_frame("id->iframe_ticket-filter-0")
+        self.dr.click("xpath->//*[@id=\"btn-search\"]")
+        sleep(2)
+        status=self.dr.get_text("xpath->//*[@id=\"grid\"]/div[1]/table/tbody/tr[1]/td[11]/span")
+        self.dr.take_screenshot(os.path.join(globalparam.img_path, "ticket", "handle_ticket.png"))
+        return status

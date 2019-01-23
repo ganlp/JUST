@@ -15,7 +15,6 @@ class Page(object):
             :param img_name:
             :return:
         """
-        #self.dr.take_screenshot('{}/{}.png'.format(os.path.join(globalparam.img_path,'ERROR'), img_name))
         self.dr.take_screenshot(os.path.join(globalparam.img_path, "ERROR", img_name+".png"))
         
 

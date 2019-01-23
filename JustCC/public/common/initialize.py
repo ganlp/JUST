@@ -24,6 +24,7 @@ def del_test_app_info(): #清理前台测试数据
     cursor.execute("delete from org_user where username like 'user%'" )  #删除用户数据
     cursor.execute("delete from org_online where agent_number=1112")   #删除在线表的数据
     cursor.execute("delete from org_department where dept_name like '测试%'")  #删除部门数据
+    cursor.execute("delete from org_auth_item where description like 'test%'")
     db.commit()
     db.close()
 

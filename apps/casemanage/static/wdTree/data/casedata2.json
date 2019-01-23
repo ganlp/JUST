@@ -2,16 +2,22 @@
     {
         "case": [
             {
-                "id": "test_add_ticket_type"
-            },
-            {
-                "id": "test_add_ticket_workflow_conf"
-            },
-            {
-                "id": "test_add_workflow_condition"
+                "id": "test_user_add"
             }
         ],
-        "filename": "test_50_ticket_ticket",
-        "class": "TestTicket"
+        "filename": "test_21_organize_role",
+        "class": "TestRole"
+    },
+    {
+        "case": [
+            {
+                "id": "test_user_add"
+            },
+            {
+                "id": "test_user_del"
+            }
+        ],
+        "filename": "test_22_organize_user",
+        "class": "TestUser"
     }
 ]

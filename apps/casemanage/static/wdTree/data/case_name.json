@@ -32,7 +32,17 @@
                 ]
             },
             {
-                "file": "test_21_organize_user(TestUser)",
+                "file": "test_21_organize_role(TestRole)",
+                "name": "角色管理",
+                "case": [
+                    {
+                        "id": "test_user_add",
+                        "name": "添加角色"
+                    }
+                ]
+            },
+            {
+                "file": "test_22_organize_user(TestUser)",
                 "name": "用户管理",
                 "case": [
                     {
@@ -72,6 +82,18 @@
                     {
                         "id": "test_customer_add",
                         "name": "添加客户资料"
+                    },
+                    {
+                        "id": "test_customer_modify(s",
+                        "name": "修改客户资料-设置为私有"
+                    },
+                    {
+                        "id": "test_customer_del(s",
+                        "name": "删除客户资料"
+                    },
+                    {
+                        "id": "test_customer_del_from_recycle(s",
+                        "name": "从回收站删除客户资料"
                     }
                 ]
             }
@@ -111,6 +133,18 @@
                     {
                         "id": "test_add_ticket_attachment",
                         "name": "创建新建状态工单-带附件"
+                    },
+                    {
+                        "id": "test_handle_ticket",
+                        "name": "处理工单-处理成完结状态"
+                    },
+                    {
+                        "id": "test_add_ticket_with_workflow",
+                        "name": "创建新建状态工单-带工作流"
+                    },
+                    {
+                        "id": "test_del_ticket",
+                        "name": "删除工单"
                     }
                 ]
             }

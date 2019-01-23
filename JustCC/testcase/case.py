@@ -25,7 +25,8 @@ menu={
     'customer':'客户资料',
     'callinrule':'呼入规则',
     'calloutrule':'呼出规则',
-    'ticket':'工单管理'
+    'ticket':'工单管理',
+    'role':"角色管理"
 }
 
 class Case():
