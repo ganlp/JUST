@@ -3,12 +3,75 @@
         "firstclass": "登录",
         "secondclass": [
             {
-                "file": "test_10_login_staticlogin(Login)",
+                "file": "test_00_login_staticlogin(Login)",
                 "name": "静态登录",
                 "case": [
                     {
                         "id": "test_static_login",
                         "name": "静态登录-用户名密码正确"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstclass": "后台管理",
+        "secondclass": [
+            {
+                "file": "test_10_admin_trunk(TestTrunk)",
+                "name": "中继线路",
+                "case": [
+                    {
+                        "id": "test_add_trunk",
+                        "name": "添加中继-外部注册"
+                    }
+                ]
+            },
+            {
+                "file": "test_11_admin_exten(TestExten)",
+                "name": "分机管理",
+                "case": [
+                    {
+                        "id": "test_add_exten",
+                        "name": "添加分机"
+                    },
+                    {
+                        "id": "test_modify_exten",
+                        "name": "修改分机-绑定外线"
+                    },
+                    {
+                        "id": "test_del_exten",
+                        "name": "删除分机"
+                    }
+                ]
+            },
+            {
+                "file": "test_12_admin_queue(TestQueue)",
+                "name": "队列管理",
+                "case": [
+                    {
+                        "id": "test_add_queue",
+                        "name": "添加队列701-同时振铃"
+                    }
+                ]
+            },
+            {
+                "file": "test_13_admin_callinrule(TestCallin)",
+                "name": "呼入规则",
+                "case": [
+                    {
+                        "id": "test_callinrule",
+                        "name": "添加呼入规则"
+                    }
+                ]
+            },
+            {
+                "file": "test_14_admin_calloutrule(TestCallout)",
+                "name": "呼出规则",
+                "case": [
+                    {
+                        "id": "test_calloutrule",
+                        "name": "添加呼出规则"
                     }
                 ]
             }
@@ -38,6 +101,14 @@
                     {
                         "id": "test_user_add",
                         "name": "添加角色"
+                    },
+                    {
+                        "id": "test_user_modify",
+                        "name": "修改角色-开启号码隐藏且修改数据范围"
+                    },
+                    {
+                        "id": "test_role_del",
+                        "name": "删除角色"
                     }
                 ]
             },
@@ -51,7 +122,21 @@
                     },
                     {
                         "id": "test_user_del",
-                        "name": "删除用户"
+                        "name": "用户加入离职库"
+                    }
+                ]
+            },
+            {
+                "file": "test_23_organize_dimission(TestDimission)",
+                "name": "离职库",
+                "case": [
+                    {
+                        "id": "test_del_dimission",
+                        "name": "从离职库中删除用户"
+                    },
+                    {
+                        "id": "test_revover_dimission",
+                        "name": "从离职库中还原用户"
                     }
                 ]
             }
@@ -151,63 +236,29 @@
         ]
     },
     {
-        "firstclass": "后台管理",
+        "firstclass": "人工外呼",
         "secondclass": [
             {
-                "file": "test_60_admin_trunk(TestTrunk)",
-                "name": "中继线路",
+                "file": "test_60_manualoutcall_classify(ManualoutcallClassify)",
+                "name": "电销分类",
                 "case": [
                     {
-                        "id": "test_add_trunk",
-                        "name": "添加中继-外部注册"
-                    }
-                ]
-            },
-            {
-                "file": "test_61_admin_exten(TestExten)",
-                "name": "分机管理",
-                "case": [
-                    {
-                        "id": "test_add_exten",
-                        "name": "添加分机"
+                        "id": "test_add_classify",
+                        "name": "添加电销分类"
                     },
                     {
-                        "id": "test_modify_exten",
-                        "name": "修改分机-绑定外线"
-                    },
-                    {
-                        "id": "test_del_exten",
-                        "name": "删除分机"
+                        "id": "test_classify_disable",
+                        "name": "禁用电销分类"
                     }
                 ]
             },
             {
-                "file": "test_62_admin_queue(TestQueue)",
-                "name": "队列管理",
+                "file": "test_61_manualoutcall_task(ManualoutcallClassify)",
+                "name": "项目管理",
                 "case": [
                     {
-                        "id": "test_add_queue",
-                        "name": "添加队列901-同时振铃"
-                    }
-                ]
-            },
-            {
-                "file": "test_63_admin_callinrule(TestCallin)",
-                "name": "呼入规则",
-                "case": [
-                    {
-                        "id": "test_callinrule",
-                        "name": "添加呼入规则"
-                    }
-                ]
-            },
-            {
-                "file": "test_64_admin_calloutrule(TestCallout)",
-                "name": "呼出规则",
-                "case": [
-                    {
-                        "id": "test_calloutrule",
-                        "name": "添加呼出规则"
+                        "id": "test_add_task",
+                        "name": "添加项目"
                     }
                 ]
             }

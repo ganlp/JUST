@@ -18,8 +18,7 @@ class UserPage(Page):
         self.dr.wait(5)
         self.dr.switch_to_frame("id->iframe_organize_user")
         sleep(2)
-        tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"user-grid\"]/div[1]/table")
-        rows1=tables.find_elements_by_tag_name("tr")
+        cnt1=int(self.dr.get_text("xpath->//*[@id=\"user-grid\"]/div[2]/div/div[1]/div[1]").strip("条")[1:])
         self.dr.click("css->#user-add")  #点击新建按钮
         sleep(2)
         self.dr.switch_to_frame_out()
@@ -42,12 +41,11 @@ class UserPage(Page):
         self.dr.switch_to_frame_out()
         self.dr.switch_to_frame("id->iframe_organize_user")
         sleep(2)
-        tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"user-grid\"]/div[1]/table")
-        rows2=tables.find_elements_by_tag_name("tr")
+        cnt2 = int(self.dr.get_text("xpath->//*[@id=\"user-grid\"]/div[2]/div/div[1]/div[1]").strip("条")[1:])
         self.dr.switch_to_frame_out()
         sleep(3)
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"user","add_user.png"))
-        return  [len(rows1),len(rows2)]
+        return  [cnt1,cnt2]
 
     @BeautifulReport.add_test_img('user', 'del_user')
     def del_user(self,n):

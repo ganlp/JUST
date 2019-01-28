@@ -31,7 +31,8 @@ class ExtenPage(Page):
     @BeautifulReport.add_test_img('exten', 'delexten')
     def del_exten(self):
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/a")
-        sleep(1)
+        sleep(2)
+        self.dr.wait(3)
         self.dr.click("xpath->//*[@id=\"fpbx-menu-collapse\"]/ul/li[3]/ul/li[3]/a")
         tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"pjsip_generic\"]/div[1]/div[2]")
         rows1 = tables.find_elements_by_tag_name("tr")

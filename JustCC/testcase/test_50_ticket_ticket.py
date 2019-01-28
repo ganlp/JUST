@@ -79,6 +79,3 @@ class TestTicket(mytest.MyTest):
         l = ticket_page.del_ticket()
         self.assertEqual(l[0]-1,l[1])
         
-if __name__=='__main__':
-    test_Ticket=TestTicket()
-    test_Ticket.test_hanle_ticket()

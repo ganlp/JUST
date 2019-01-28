@@ -32,6 +32,3 @@ class CallInPage(Page):
         count=cursor.execute("select * from incoming where description='callinrule'")
         db.close()
         return count
-
-
-

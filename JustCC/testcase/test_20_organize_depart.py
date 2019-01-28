@@ -21,6 +21,3 @@ class TestDepart(mytest.MyTest):
         depart_page=departmentPage.DepartPage(self.dr)
         l=depart_page.del_depart()
         self.assertEqual(l[0]-1,l[1])
-
-if __name__=='__main__':
-    unittest.main()

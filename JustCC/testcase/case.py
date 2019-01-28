@@ -5,7 +5,7 @@ import sys
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
-#######################
+###############################################################
 
 from config import globalparam
 
@@ -26,7 +26,11 @@ menu={
     'callinrule':'呼入规则',
     'calloutrule':'呼出规则',
     'ticket':'工单管理',
-    'role':"角色管理"
+    'role':"角色管理",
+	'dimission':"离职库",
+    'manualoutcall':"人工外呼",
+    "classify":"电销分类",
+    "task":"项目管理"
 }
 
 class Case():

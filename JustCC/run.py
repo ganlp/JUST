@@ -7,8 +7,8 @@ from config import globalparam
 from public.common import sendmail_2
 from public.common import initialize
 from public.common import login
-from testcase import test_10_login_staticlogin,test_20_organize_depart,test_22_organize_user,test_30_call_toolbar,test_60_admin_trunk,test_61_admin_exten,test_62_admin_queue,test_40_customerMag_customer,\
-    test_63_admin_callinrule,test_64_admin_calloutrule,test_50_ticket_ticket,test_21_organize_role
+from testcase import test_00_login_staticlogin,test_20_organize_depart,test_22_organize_user,test_30_call_toolbar,test_10_admin_trunk,test_11_admin_exten,test_12_admin_queue,test_40_customerMag_customer,\
+    test_13_admin_callinrule,test_14_admin_calloutrule,test_50_ticket_ticket,test_21_organize_role,test_23_organize_dimission,test_60_manualoutcall_classify,test_61_manualoutcall_task
 import os
 from BeautifulReport import BeautifulReport
 

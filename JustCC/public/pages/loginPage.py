@@ -37,5 +37,3 @@ class LoginPage(Page):
         sleep(10)
         self.dr.click("xpath->/html/body/div[5]/div/table/tbody/tr[3]/td/div[2]/button[2]")
         sleep(5)
-
-

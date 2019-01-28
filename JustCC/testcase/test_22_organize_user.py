@@ -20,8 +20,8 @@ class TestUser(mytest.MyTest):
             self.dr.wait(5)
             sleep(3)
 
-    def test_user_del(self):#删除用户##
-        """删除用户"""
+    def test_user_del(self):#用户加入离职库##
+        """用户加入离职库"""
         self.login_with_cookie()
         user_page=userPage.UserPage(self.dr)
         l=user_page.del_user(3)

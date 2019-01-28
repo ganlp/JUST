@@ -38,6 +38,14 @@ def del_test_app_info(): #清理前台测试数据
     db.commit()
     db.close()
 
+    db = pymysql.connect(globalparam.db_standard["ip"], globalparam.db_standard["loginname"],
+                         globalparam.db_standard["password"], globalparam.db_stdout["basename"], charset='utf8')
+    cursor = db.cursor()
+    cursor.execute("delete from  stdout_task_category  where name like '测试%'")  #删除电销分类
+    db.commit()
+    db.close()
+
+
 def del_test_manage_info(): #清理后台数据
     db = pymysql.connect(globalparam.db_asterisk["ip"], globalparam.db_asterisk["loginname"],globalparam.db_asterisk["password"], globalparam.db_asterisk["basename"], charset='utf8')
     cursor = db.cursor()
