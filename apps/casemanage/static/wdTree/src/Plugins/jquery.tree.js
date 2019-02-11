@@ -279,7 +279,7 @@
             var et = e.target || e.srcElement;
             var item = getItem(path);
             if (et.tagName == "IMG") {
-                //+ if collapsed, expend it 
+                //+ if collapsed, expand it
                 if ($(et).hasClass("bbit-tree-elbow-plus") || $(et).hasClass("bbit-tree-elbow-end-plus")) {
                     var ul = $(this).next(); //"bbit-tree-node-ct"
                     if (ul.hasClass("bbit-tree-node-ct")) {
@@ -358,6 +358,36 @@
             if (img.length > 0) {
                 img.click();
             }
+        }
+         function expandall() {
+              var path="0"
+              var item=getItem(path)
+              var ul = $(this).next();
+              if (ul.hasClass("bbit-tree-node-ct")) {
+                ul.show();
+               }
+                else {
+                        var deep = path.split(".").length;
+                        if (item.complete) {
+                            item.ChildNodes != null && asnybuild(item.ChildNodes, deep, path, ul, item);
+                        }
+                        else {
+                            $(this).addClass("bbit-tree-node-loading");
+                            asnyloadc(item, true, function(data) {
+                                item.complete = true;
+                                item.ChildNodes = data;
+                                asnybuild(data, deep, path, ul, item);
+                            });
+                        }
+
+                    if ($(et).hasClass("bbit-tree-elbow-plus")) {
+                        $(et).swapClass("bbit-tree-elbow-plus", "bbit-tree-elbow-minus");
+                    }
+                    else {
+                        $(et).swapClass("bbit-tree-elbow-end-plus", "bbit-tree-elbow-end-minus");
+                    }
+                    $(this).swapClass("bbit-tree-node-collapsed", "bbit-tree-node-expanded");
+                }
         }
         function asnybuild(nodes, deep, path, ul, pnode) {
             var l = nodes.length;
@@ -500,6 +530,13 @@
             }
         };
         return me;
+    };
+
+     $.fn.expandallAllNodes = function() {
+        if (this[0].t) {
+            return this[0].t.expandall();
+        }
+        return null;
     };
     //get all checked nodes, and put them into array. no hierarchy
     $.fn.getCheckedNodes = function() {

@@ -99,11 +99,11 @@
                 "name": "角色管理",
                 "case": [
                     {
-                        "id": "test_user_add",
+                        "id": "test_role_add",
                         "name": "添加角色"
                     },
                     {
-                        "id": "test_user_modify",
+                        "id": "test_role_modify",
                         "name": "修改角色-开启号码隐藏且修改数据范围"
                     },
                     {
@@ -259,6 +259,22 @@
                     {
                         "id": "test_add_task",
                         "name": "添加项目"
+                    },
+                    {
+                        "id": "test_import_number",
+                        "name": "导入号码"
+                    },
+                    {
+                        "id": "test_task_unable",
+                        "name": "禁用项目"
+                    },
+                    {
+                        "id": "test_task_unable",
+                        "name": "启用项目"
+                    },
+                    {
+                        "id": "test_task_del",
+                        "name": "删除项目"
                     }
                 ]
             }

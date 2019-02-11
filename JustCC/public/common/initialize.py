@@ -42,6 +42,8 @@ def del_test_app_info(): #清理前台测试数据
                          globalparam.db_standard["password"], globalparam.db_stdout["basename"], charset='utf8')
     cursor = db.cursor()
     cursor.execute("delete from  stdout_task_category  where name like '测试%'")  #删除电销分类
+    cursor.execute("delete from stdout_object where object_name like '测试%'") #删除电销项目
+    
     db.commit()
     db.close()
 

@@ -74,10 +74,10 @@
     {
         "case": [
             {
-                "id": "test_user_add"
+                "id": "test_role_add"
             },
             {
-                "id": "test_user_modify"
+                "id": "test_role_modify"
             },
             {
                 "id": "test_role_del"
@@ -195,6 +195,18 @@
         "case": [
             {
                 "id": "test_add_task"
+            },
+            {
+                "id": "test_import_number"
+            },
+            {
+                "id": "test_task_unable"
+            },
+            {
+                "id": "test_task_unable"
+            },
+            {
+                "id": "test_task_del"
             }
         ],
         "filename": "test_61_manualoutcall_task",
