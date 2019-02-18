@@ -25,7 +25,7 @@ class TestUser(mytest.MyTest):
         self.login_with_cookie()
         user_page=userPage.UserPage(self.dr)
         l=user_page.del_user(3)
-        self.assertEqual(l[0]-1,l[1])
+        self.assertEqual(l[0]-3,l[1])
 
 if __name__=='__main__':
     unittest.main()

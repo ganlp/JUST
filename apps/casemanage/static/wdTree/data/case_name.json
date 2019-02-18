@@ -269,7 +269,7 @@
                         "name": "禁用项目"
                     },
                     {
-                        "id": "test_task_unable",
+                        "id": "test_task_enable",
                         "name": "启用项目"
                     },
                     {

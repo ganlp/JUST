@@ -15,6 +15,7 @@ class MyTest(unittest.TestCase):
     def setUp(self):
         self.logger = Log()
         self.logger.info('############################### START ###############################')
+        #self.dr = pyselenium.PySelenium(globalparam.browser,'127.0.0.1:8080')
         self.dr = pyselenium.PySelenium(globalparam.browser)
         self.dr.open(globalparam.server_addr)
         self.dr.wait(5)

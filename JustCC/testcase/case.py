@@ -36,6 +36,7 @@ menu={
 class Case():
     def get_case_name(self):
         file_list=os.listdir(globalparam.case_path)
+        file_list.sort()
         case_menu={}
         name_dict={}
         case_tree=[]

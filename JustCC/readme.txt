@@ -71,7 +71,7 @@ import PySelenium
 启动谷歌浏览器
 dr = PySelenium.PySelenium('chrome')
 启动远程浏览器比如使用grid施行分布式执行
-dr = PySelenium.PySelenium(RChrome','127.0.0.1:8080')
+dr = PySelenium.PySelenium('RChrome','127.0.0.1:8080')
 2、在地址栏输入网址：
 dr.open('http://www.baidu.com')
 3、窗口最大化

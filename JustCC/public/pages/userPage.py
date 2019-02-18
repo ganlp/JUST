@@ -56,6 +56,7 @@ class UserPage(Page):
         self.dr.wait(5)
         self.dr.switch_to_frame("id->iframe_organize_user")
         sleep(2)
+        cnt1 = int(self.dr.get_text("xpath->//*[@id=\"user-grid\"]/div[2]/div/div[1]/div[1]").strip("条")[1:])
         for i in range(n):
             tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"user-grid\"]/div[1]/table")
             rows1=tables.find_elements_by_tag_name("tr")
@@ -68,10 +69,9 @@ class UserPage(Page):
             self.dr.switch_to_frame("id->iframe_organize_user")
             self.dr.wait(20)
             sleep(3)
-        tables=self.dr.origin_driver.find_element_by_xpath("//*[@id=\"user-grid\"]/div[1]/table")
         self.dr.take_screenshot(os.path.join(globalparam.img_path,"user","del_user.png"))
-        rows2=tables.find_elements_by_tag_name("tr")
-        return  [len(rows1),len(rows2)]
+        cnt2= int(self.dr.get_text("xpath->//*[@id=\"user-grid\"]/div[2]/div/div[1]/div[1]").strip("条")[1:])
+        return  [cnt1,cnt2]
 
 
 
